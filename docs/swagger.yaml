@@ -1,0 +1,120 @@
+basePath: /api/v1
+definitions:
+  github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section:
+    properties:
+      basin_id:
+        description: Referência opcional à bacia (caso expanda para outras bacias
+          no futuro)
+        type: integer
+      content:
+        description: O texto longo
+        type: string
+      created_at:
+        type: string
+      id:
+        type: integer
+      level:
+        description: 1, 2, 3... (Nível hierárquico para o frontend indentar)
+        type: integer
+      number:
+        description: 'Ex: "1", "1.1", "3.4.1"'
+        type: string
+      title:
+        description: 'Ex: "Infraestrutura Hídrica"'
+        type: string
+      updated_at:
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact:
+    email: suporte@exemplo.com.br
+    name: Suporte Técnico
+  description: API para monitoramento, gestão e visualização dos Planos de Recursos
+    Hídricos (Curu, Salgado, etc).
+  termsOfService: http://swagger.io/terms/
+  title: Regiões Hidrográficas API
+  version: "1.0"
+paths:
+  /actions:
+    get:
+      description: Retorna lista de ações com diversos filtros dinâmicos (Eixo, Programa,
+        Ano, etc).
+      parameters:
+      - description: ID da Bacia
+        in: query
+        name: basin_id
+        type: integer
+      - description: 'Ano de vigência (ex: 2024)'
+        in: query
+        name: ano
+        type: string
+      - description: Filtro por nome do Eixo
+        in: query
+        name: eixo
+        type: string
+      - description: Filtro por nome do Programa
+        in: query
+        name: programa
+        type: string
+      - description: Filtro por Tipologia
+        in: query
+        name: tipologia
+        type: string
+      - description: Busca textual na descrição
+        in: query
+        name: search
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Listar Ações (Matriz/Planos)
+      tags:
+      - Actions
+  /actions/filters:
+    get:
+      description: Retorna listas únicas de Eixos, Programas e Tipologias para preencher
+        combos do frontend.
+      parameters:
+      - description: ID da Bacia
+        in: query
+        name: basin_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Opções de Filtro
+      tags:
+      - Actions
+  /content:
+    get:
+      description: Retorna os textos hierárquicos (1.1, 1.2...) para montar a página
+        de leitura
+      parameters:
+      - description: ID da Bacia
+        in: query
+        name: basin_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section'
+            type: array
+      summary: Textos do Plano
+      tags:
+      - Content
+swagger: "2.0"

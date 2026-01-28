@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  # Serviço do Banco de Dados
+  db:
+    image: postgres:13
+    container_name: regioes_db
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: regioes_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Serviço da API
+  api:
+    build: . # Lê o Dockerfile na raiz
+    container_name: regioes_api
+    restart: on-failure
+    depends_on:
+      - db # Espera o banco iniciar
+    ports:
+      - "8080:8080" # Porta Host:Porta Container
+    environment:
+      # Configurações para o Go conectar no container 'db'
+      - DB_HOST=db
+      - DB_USER=user
+      - DB_PASSWORD=password
+      - DB_NAME=regioes_db
+      - DB_PORT=5432
+      - SERVER_PORT=8080
+
+volumes:
+  postgres_data:

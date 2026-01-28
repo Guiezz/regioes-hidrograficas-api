@@ -1,0 +1,172 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "API para monitoramento, gestão e visualização dos Planos de Recursos Hídricos (Curu, Salgado, etc).",
+        "title": "Regiões Hidrográficas API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "Suporte Técnico",
+            "email": "suporte@exemplo.com.br"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
+    "paths": {
+        "/actions": {
+            "get": {
+                "description": "Retorna lista de ações com diversos filtros dinâmicos (Eixo, Programa, Ano, etc).",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Actions"
+                ],
+                "summary": "Listar Ações (Matriz/Planos)",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia",
+                        "name": "basin_id",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "Ano de vigência (ex: 2024)",
+                        "name": "ano",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "Filtro por nome do Eixo",
+                        "name": "eixo",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "Filtro por nome do Programa",
+                        "name": "programa",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "Filtro por Tipologia",
+                        "name": "tipologia",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "Busca textual na descrição",
+                        "name": "search",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": true
+                        }
+                    }
+                }
+            }
+        },
+        "/actions/filters": {
+            "get": {
+                "description": "Retorna listas únicas de Eixos, Programas e Tipologias para preencher combos do frontend.",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Actions"
+                ],
+                "summary": "Opções de Filtro",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": true
+                        }
+                    }
+                }
+            }
+        },
+        "/content": {
+            "get": {
+                "description": "Retorna os textos hierárquicos (1.1, 1.2...) para montar a página de leitura",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Content"
+                ],
+                "summary": "Textos do Plano",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section": {
+            "type": "object",
+            "properties": {
+                "basin_id": {
+                    "description": "Referência opcional à bacia (caso expanda para outras bacias no futuro)",
+                    "type": "integer"
+                },
+                "content": {
+                    "description": "O texto longo",
+                    "type": "string"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "level": {
+                    "description": "1, 2, 3... (Nível hierárquico para o frontend indentar)",
+                    "type": "integer"
+                },
+                "number": {
+                    "description": "Ex: \"1\", \"1.1\", \"3.4.1\"",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Ex: \"Infraestrutura Hídrica\"",
+                    "type": "string"
+                },
+                "updated_at": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

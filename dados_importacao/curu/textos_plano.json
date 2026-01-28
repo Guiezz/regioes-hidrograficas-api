@@ -1,0 +1,278 @@
+[
+  {
+    "number": "1",
+    "title": "Identificação",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "1.1",
+    "title": "Objetivo",
+    "content": "O plano do Curu identifica programas, ações, previsões de orçamentos e fontes de financiamento para a gestão das águas até o ano de 2050, servindo de documento de referência que orienta a gestão nesta região.",
+    "level": 2
+  },
+  {
+    "number": "1.2",
+    "title": "Caracterização",
+    "content": "Localização: Porção setentrional do Estado do Ceará, entre as latitudes 3°20’00’’S - 4°40’00’’S e longitudes 38°55’00’’W.\nÁrea: 8.621,83 Km².\nDomínios geológicos: Embasamento cristalino (94,2%) e Formações sedimentares (5,48%)\nClima: Seco, semiárido e quente\nTemperatura média: 26,2°C a 28,2°C\nUmidade média anual: 73,8\nInsolação anual: 2.640 horas\nEvaporação média anual: 1.482,40 mm\nPrecipitação média anual: Litoral 1.248 mm, Região central da região 759,7 mm",
+    "level": 2
+  },
+  {
+    "number": "1.3",
+    "title": "Resumo infraestrutura hídrica",
+    "content": "A RHC possui 13 açudes públicos gerenciados pela Cogerh, com capacidade de acumulação total de 1.028.800.000 m³, 1755 poços, 15 adutoras",
+    "level": 2
+  },
+  {
+    "number": "1.4",
+    "title": "Resumo identificação e desafios",
+    "content": "Alta variabilidade de deflúvios.\nProcessos de desertificação.",
+    "level": 2
+  },
+  {
+    "number": "2",
+    "title": "Infraestrutura Hídrica (Detalhamento)",
+    "content": "A RHC é composta por açudes, poços e sistemas adutores essenciais para a segurança hídrica da região.",
+    "level": 1
+  },
+  {
+    "number": "2.1",
+    "title": "Reservatórios e Açudes",
+    "content": "Possui 13 açudes públicos (capacidade de 1.028.800.000 m³) de características plurianuais geridos pela COGERH. Destes, 3 - Caxitoré, General Sampaio e Pentecoste - são de grande porte possuindo capacidade superior a 75 milhões de m³, a média açudagem possui 5 - Frios, Jerimum, Tejuçuoca, São Mateus e Souza - com capacidade entre 10 a 75 milhões de m³. Além disso, a região possui um reservatório em construção (27.300.000 m³) e dois planejados (capacidade de 27.200.000 m³ e 20.320.000 m³).",
+    "level": 2
+  },
+  {
+    "number": "2.2",
+    "title": "Sistemas adutores",
+    "content": "Possui 8 adutoras que totalizam 73,23 km do tipo Convencional construídas. Além disso, entre 2013 a 2017 foram implantadas 6 adutoras emergenciais, das quais 2 já foram desmobilizadas. Por fim, será implementado mais 763,85 km de adutoras através do Projeto Malha D’água.",
+    "level": 2
+  },
+  {
+    "number": "2.3",
+    "title": "Clima e Recursos Hídricos",
+    "content": "Clima Seco, semiárido e quente, Temperatura média de 26,2°C a 28,2°C, Precipitação média anual para o Litoral 1.248 mm e para Região central da região 759,7 mm, Umidade média anual de 73,8, Insolação anual de 2.640 horas e Evaporação média anual de 1.482,40 mm",
+    "level": 2
+  },
+  {
+    "number": "3",
+    "title": "Metodologia dos planos",
+    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, levantamento de dados secundários em diferentes etapas da elaboração do plano. Nesse sentido destaca-se as seguintes etapas do processo de elaboração dos plano:",
+    "level": 1
+  },
+  {
+    "number": "3.1",
+    "title": "Início da elaboração",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.1.1",
+    "title": "Questionário",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "level": 3
+  },
+  {
+    "number": "3.1.2",
+    "title": "Grupo focal",
+    "content": "Relatos das vivências, experiências práticas com técnicos dos Núcleos de Gestão e Operação da Gerência Regional, em que discorreram sobre trajetória, sistemas hídricos, arranjos institucionais, a alocação de água, as secas, entre outros temas.",
+    "level": 3
+  },
+  {
+    "number": "3.2",
+    "title": "Diagnóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.2.1",
+    "title": "Reunião de partida",
+    "content": "Apresentação de plano de trabalho, sínteses de questionário, conceito e importância do Plano de Recursos Hídricos, conscientização da relevância do processo participativo e formação da Câmara Técnica de Acompanhamento da Elaboração do Plano (CT).",
+    "level": 3
+  },
+  {
+    "number": "3.2.2",
+    "title": "Audiência Pública: Iniciando o Diálogo",
+    "content": "Apresentação e discussão do documento Iniciando o Diálogo elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas, Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e arranjo institucional.",
+    "level": 3
+  },
+  {
+    "number": "3.2.3",
+    "title": "Reunião de Aprovação do Diagnóstico",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "3.3",
+    "title": "Prognóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.3.1",
+    "title": "Oficina de Cenarização - Sementes do Futuro",
+    "content": "Etapa para elaboração do prognóstico, foi realizada a partir de questões norteadoras para levantar informações sobre 3 eixos, foram eles: Oferta hídrica, Demanda hídrica, Meio ambiente.",
+    "level": 3
+  },
+  {
+    "number": "3.3.2",
+    "title": "Reunião de Aprovação do Prognóstico",
+    "content": "Revisão e aprovação do Prognóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "3.4",
+    "title": "Plano de Ação",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.4.1",
+    "title": "I Oficina Programas e Ações",
+    "content": "Apresentação e discussão das propostas dos programas e ações para orientar a gestão da região até 2050. A base utilizada para produzir a matriz norteadora foi: o último PRHC, somado às ações nas etapas de diagnóstico e prognóstico. A matriz continha ações agrupadas em programas por sua vez distribuídas nos eixos temáticos do prognóstico.",
+    "level": 3
+  },
+  {
+    "number": "3.4.2",
+    "title": "II Oficina Programas e Ações",
+    "content": "Apresentação e validação das ações e utilizou-se a percepção dos diferentes atores presentes na oficina para priorizar as ações.",
+    "level": 3
+  },
+  {
+    "number": "3.4.3",
+    "title": "Reunião de aprovação do plano",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "4",
+    "title": "Demandas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "4.1",
+    "title": "Atual",
+    "content": "As demandas hídricas possuem três vertentes: demandas oriundas do cadastro de outorga vigente, Demandas calculadas pela ANA em seu Manual de Usos Consuntivos da Água e Demanda calcula com base nos dados do Censo Populacional (2010), Censo Agropecuário (2017), Mapeamento das áreas irrigadas da Funceme e Pesquisa Agropecuária Municipal (2019). Nesse sentido, a RHC possui as seguintes demandas:",
+    "level": 2
+  },
+  {
+    "number": "4.1.1",
+    "title": "Usos",
+    "content": "Abastecimento humano, Dessedentação animal e Irrigação - Total (10.334,64 L/s).",
+    "level": 3
+  },
+  {
+    "number": "4.1.2",
+    "title": "Distribuição",
+    "content": "1 - Demanda hídrica humana: 700 L/s\n2 - Demanda instalada da dessedentação animal: 138,98 L/s\nNota - Canindé contém a maior demanda (30,87 L/s) seguido por pentecoste (18,11 L/s), Irauçuba (14,50 L/s) e São Gonçalo do Amarante (10,57 L/s)\n3 - Demanda instalada da irrigação (para lavoura permanente e temporária): 9.495,66 L/s sendo 63% demandada pela lavoura permanente e 37% para lavoura temporária. Paraipaba destaca-se com maior demanda instalada (8.679,26 L/s ou 91,40%)",
+    "level": 3
+  },
+  {
+    "number": "4.2",
+    "title": "Futura",
+    "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, os cenários foram elaborados por meio de 3 oficinas que ocorreram de forma virtual, a primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará: demanda, oferta, meio ambiente, gerenciamento das águas e político-institucional, a segunda focou na definição das hipóteses de evolução dos parâmetros e relação de causa e efeito dessas hipóteses e a terceira foi marcada pelo levantamento das sementes de futuro (tendência e incertezas) da RHC.",
+    "level": 2
+  },
+  {
+    "number": "4.2.1",
+    "title": "Demanda humana futura",
+    "content": "Obtida pelo produto da população projetada, pelo consumo per capita seguida as três situações prognósticas.",
+    "level": 3
+  },
+  {
+    "number": "4.2.1.1",
+    "title": "Projeção Populacional",
+    "content": "Para a projeção populacional foi realizada por meio dos métodos: linear, geométrico, polinomial, logarítmico e potência, a partir de dados de população obtidos do IBGE dos censos 1970, 1980, 1991, 2000 e 2010. Com base nos dados a estimativa de crescimento populacional total, para RHC, foi de 661.273 habitantes em 2050 com uma taxa de crescimento média de 1,816%, sendo Irauçuba, Tejuçuoca e São Gonçalo do Amarante os municípios com maior taxa de crescimento.",
+    "level": 4
+  },
+  {
+    "number": "4.2.1.2",
+    "title": "Consumo per capita da população",
+    "content": "Foi adotado o consumo per capita atual (mesmo consumo preconizado no Projeto Malha d’água) da população para os cenário I e II e para o cenário III adotou-se uma redução de 10% da população urbana acima de 5000 habitantes.",
+    "level": 4
+  },
+  {
+    "number": "4.2.1.3",
+    "title": "Demanda humana futura (Resultado)",
+    "content": "Assim, estimou-se um valor de 821 L/s para os cenários I e II e 762 L/s para o cenário III na RHC. O município de Canindé expôs uma maior demanda em todos os cenários em virtude do tamanho populacional.",
+    "level": 4
+  },
+  {
+    "number": "4.2.2",
+    "title": "Demanda instalada futura da irrigação",
+    "content": "A demanda foi calculada por meio de equação utilizando dados disponíveis pela Funceme (2020). A equação considera a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. Para a situação de partida foi imposta uma redução de 35% (cenário II) e um aumento de 20% (Cenário III) para 2050. A eficiência de uso foi elevada gradativamente partindo de valores médios de 0,65 para  0,90 em 2050.\nAdotou-se o impacto positivo de aumento da eficiência de uso sobre a demanda hídrica futura da irrigação. Comparando o ano de 2050 com a situação de partida (6740 L/s) estimou-se redução de 28% (I) 53% (II) e 13% (III).",
+    "level": 3
+  },
+  {
+    "number": "5",
+    "title": "Ofertas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "5.1",
+    "title": "Atual",
+    "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
+    "level": 2
+  },
+  {
+    "number": "5.1.1",
+    "title": "Oferta hídrica superficial",
+    "content": "",
+    "level": 3
+  },
+  {
+    "number": "5.1.1.1",
+    "title": "Quantitativo",
+    "content": "Sua avaliação é realizada por meio de vazões afluentes e dos indicadores hidrológicos (precipitação média e escoamento superficial).\nPrecipitação média sobre a área de influência dos reservatórios variou de 745,3 mm a 893,9 mm e o coeficiente de escoamento, entendido como o rendimento hidrológico da bacia, variou entre 8% e 17% característico do semiárido cearense.",
+    "level": 4
+  },
+  {
+    "number": "5.1.1.2",
+    "title": "Qualitativo",
+    "content": "Os serviços de análises de qualidade incluem análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas das amostras de água. Essas informações são obtidas por meio de campo de sonda multiparâmetro com coletas realizadas a 0,3m da superfície da águas, realizadas em campanhas trimestrais nos açudes geridos pela COGERH.\nOcorreram 348 medições, dos quais o Salão e General Sampaio foram os maiores com 12%, seguidos pelos Frios e Caxitoré com 11%. Quanto à sua qualidade, a maioria apresentou estado mesotrófico sendo o Frios o que mais atingiu o estado hipereutrófico.",
+    "level": 4
+  },
+  {
+    "number": "5.1.2",
+    "title": "Oferta hídrica Subterrânea Atual",
+    "content": "",
+    "level": 3
+  },
+  {
+    "number": "5.1.2.1",
+    "title": "Quantitativo",
+    "content": "Realizado por meio da análise do banco de dados Sistema de Informações de Águas Subterrâneas (Siagas). Foram observados os seguintes aspectos: número de poços por tipo de uso e município, tipo de uso e vazão estabilizada. A região possui 1755 poços representando 5,52% do total de poços do estado, divididos pelos seguintes usos:\n- Abastecimento múltiplo: 480\n- Abastecimento doméstico: 363\n- Demais usos: 912\n\nOs municípios com maior número:\n- Canindé: 21%\n- Caridade: 10%\n- Pentecoste e Tejuçuoca: 9%\n\nVazões estabilizadas dos poços:\n- 0 a 5 m³/h: 714 poços\n- 5 a 10 m³/h: em segunda posição\n- 47,07% dos poços não possui especificação de vazão",
+    "level": 4
+  },
+  {
+    "number": "5.1.2.2",
+    "title": "Qualitativo",
+    "content": "Para a avaliação utilizou-se dados do portal da COGERH referente aos poços monitorados e implantados pela SOHIDRA. teve-se como parâmetro o STD (Sólidos Totais Dissolvidos). A região possui 253 poços com dados de qualidade.\nParâmetro STD:\n- 43% possuem águas doces\n- 49% possuem água ligeiramente salobras\n- 5% possuem água moderamente salobra\n\nMunicípios com melhor nível de água doce (STD < 1000 mg/L): Tejuçuoca, São Luís do Curu, Paraipaba, Itatira, Irauçuba.",
+    "level": 4
+  },
+  {
+    "number": "5.2",
+    "title": "Futura",
+    "content": "A oferta hídrica futura foi calculada pelo modelo SMAP, utilizando como base as precipitações e temperaturas dos modelos de mudança do clima. Para isso foram considerados oito modelos do CMIP6 na sua versão mais recente. Os oito modelos foram avaliados no cenário SSP2 com forçante radioativa de 4,5 W/m² (SSP2-45).\nAs variáveis de temperatura e precipitação desses modelos foram corrigidas para serem utilizadas no cálculo das vazões afluentes futuras. Essa correção foi necessária, pois as duas variáveis são fornecidas numa grade de escala global.\nEm geral os três modelos tendem a redução das vazões afluentes comparando esses resultados com a média observada. No caso do General Sampaio estimou-se uma redução de 41% no Can ESM5, 37% no FGOLS-g3 e 59% no MIROC6.",
+    "level": 2
+  },
+  {
+    "number": "6",
+    "title": "Balanço hídrico Atual e Futuro",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "6.1",
+    "title": "Atual",
+    "content": "Representado pela vazão regularizada com garantia de 90%, ou seja 9 de cada 10 anos é possível retirar a vazão de 9.245,65 L/s na RHC. Os reservatórios com os maiores percentuais (mais importantes da região) são:\nPentecoste: 42,5%\nGeneral Sampaio: 26,3%\nCaxitoré: 17,3%\nNo comparativo entre demanda instalada na região e a vazão regularizada observou-se um déficit de 1.088,64, quando calculada a demanda da irrigação com os dados do Censo Agropecuário (2017).",
+    "level": 2
+  },
+  {
+    "number": "6.2",
+    "title": "Futura",
+    "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90) que foi calculada com base nas vazões afluentes futuras dos modelos CanESM5, FGOLS-g3 e MIROC6. A utilização dos modelos impôs nos três cenários que a mudança do clima é possível de ocorrer em qualquer futuro e gerará efeitos sobre a severidade e duração dos eventos extremos.\nNa RHC notou-se uma redução da regularização futura em relação à atual de 47% (CanEMS5) 41% FGOLS-g5) e 9% (MIROC6). O modelo CanESM5 apresentou maior variabilidade anual das séries de vazões afluentes futuras, sendo um modelo de maior incerteza por isso representa o cenário II. O modelo MIROC6 proporcionou vazões mais próximas das vazões históricas sendo representativo do cenário III e o FGOLS-g3 tornou-se representativo do cenário I.\nCom isso observou-se que o maior saldo hídrico ocorreu no cenário III (futuro desejável) e que o cenário I teve déficit hídrico.",
+    "level": 2
+  }
+]
