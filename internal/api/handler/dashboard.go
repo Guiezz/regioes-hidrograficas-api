@@ -22,42 +22,38 @@ func NewDashboardHandler(db *gorm.DB) *DashboardHandler {
 // @Tags         Dashboard
 // @Produce      json
 // @Param        basin_id   query      int  false  "ID da Bacia (Padrão: 1)"
-// @Success      200  {object}  map[string]interface{}
+// @Success      200  {object}  map[string]float64
 // @Router       /dashboard/radar [get]
 func (h *DashboardHandler) GetRadarData(c *gin.Context) {
 	basinID := c.Query("basin_id")
 	if basinID == "" {
-		// Se não passar ID, tenta pegar o primeiro do banco ou erro
 		basinID = "1"
 	}
 
 	var stats []model.TypologyStats
 
-	// Busca as estatísticas mais recentes para a bacia
-	// Ordenamos por categoria para garantir que o gráfico sempre desenhe igual
-	result := h.db.Where("basin_id = ?", basinID).
-		Order("category ASC").
-		Find(&stats)
+	// Busca os dados da bacia
+	result := h.db.Where("basin_id = ?", basinID).Find(&stats)
 
 	if result.Error != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Erro ao buscar dados"})
 		return
 	}
 
-	// Retorna JSON otimizado para gráficos (Arrays de labels e valores)
-	var labels []string
-	var values []float64
+	// MUDANÇA AQUI:
+	// Criamos um mapa simples: Chave (Nome da Categoria) -> Valor (Potencial)
+	// Isso garante que cada tipologia seja única e o Frontend consiga mapear facilmente.
+	response := make(map[string]float64)
 
 	for _, s := range stats {
-		labels = append(labels, s.Category)
-		values = append(values, s.SumPotential) // Ou s.Percentage se preferir o gráfico em %
+		// Se houver duplicatas no banco, isso pega o último valor encontrado,
+		// garantindo que não tenhamos "Obra" duas vezes no gráfico.
+		response[s.Category] = s.SumPotential
 	}
 
-	c.JSON(http.StatusOK, gin.H{
-		"labels": labels, // Ex: ["OBRA", "ESTUDO"...]
-		"data":   values, // Ex: [20.0, 15.0...]
-		"raw":    stats,  // Manda os objetos completos caso o front queira detalhes
-	})
+	// O JSON padrão do Go ordena as chaves do mapa alfabeticamente (A-Z),
+	// o que é ótimo para manter o desenho do Radar consistente.
+	c.JSON(http.StatusOK, response)
 }
 
 // GetConsolidated godoc

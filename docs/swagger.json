@@ -125,7 +125,67 @@
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section"
+                                "$ref": "#/definitions/model.Section"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/dashboard/consolidated": {
+            "get": {
+                "description": "Retorna IEA Máximo, IEA Atual e Índice Global",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Dashboard"
+                ],
+                "summary": "Dados Consolidados (Cards)",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia (Padrão: 1)",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/model.ConsolidatedStats"
+                        }
+                    }
+                }
+            }
+        },
+        "/dashboard/radar": {
+            "get": {
+                "description": "Retorna soma dos pesos agrupados por tipologia (Obra, Estudo, etc)",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Dashboard"
+                ],
+                "summary": "Dados do Gráfico Radar",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia (Padrão: 1)",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "number",
+                                "format": "float64"
                             }
                         }
                     }
@@ -134,7 +194,40 @@
         }
     },
     "definitions": {
-        "github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section": {
+        "model.ConsolidatedStats": {
+            "type": "object",
+            "properties": {
+                "basin_id": {
+                    "description": "\u003c--- NOVO: Vincula à bacia (Salgado)",
+                    "type": "integer"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "iea_max": {
+                    "type": "number"
+                },
+                "iea_min": {
+                    "type": "number"
+                },
+                "indice_atual": {
+                    "type": "number"
+                },
+                "indice_global": {
+                    "type": "number"
+                },
+                "reference_month": {
+                    "type": "string"
+                },
+                "total_actions": {
+                    "type": "integer"
+                }
+            }
+        },
+        "model.Section": {
             "type": "object",
             "properties": {
                 "basin_id": {

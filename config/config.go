@@ -17,10 +17,10 @@ type Config struct {
 
 func LoadConfig() (config Config, err error) {
 	viper.SetDefault("DB_HOST", "localhost")
-	viper.SetDefault("DB_PORT", "5433") // Note que é a porta externa do Docker
-	viper.SetDefault("DB_USER", "admin")
-	viper.SetDefault("DB_PASSWORD", "password123")
-	viper.SetDefault("DB_NAME", "monitoramento_db")
+	viper.SetDefault("DB_PORT", "5432") // Note que é a porta externa do Docker
+	viper.SetDefault("DB_USER", "user")
+	viper.SetDefault("DB_PASSWORD", "password")
+	viper.SetDefault("DB_NAME", "regioes_db")
 	viper.SetDefault("SERVER_PORT", "8080")
 
 	viper.AutomaticEnv()

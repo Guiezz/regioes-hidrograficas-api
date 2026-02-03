@@ -1,6 +1,28 @@
 basePath: /api/v1
 definitions:
-  github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section:
+  model.ConsolidatedStats:
+    properties:
+      basin_id:
+        description: '<--- NOVO: Vincula à bacia (Salgado)'
+        type: integer
+      created_at:
+        type: string
+      id:
+        type: integer
+      iea_max:
+        type: number
+      iea_min:
+        type: number
+      indice_atual:
+        type: number
+      indice_global:
+        type: number
+      reference_month:
+        type: string
+      total_actions:
+        type: integer
+    type: object
+  model.Section:
     properties:
       basin_id:
         description: Referência opcional à bacia (caso expanda para outras bacias
@@ -112,9 +134,48 @@ paths:
           description: OK
           schema:
             items:
-              $ref: '#/definitions/github_com_guiezz_regioes-hidrograficas-api_internal_domain_model.Section'
+              $ref: '#/definitions/model.Section'
             type: array
       summary: Textos do Plano
       tags:
       - Content
+  /dashboard/consolidated:
+    get:
+      description: Retorna IEA Máximo, IEA Atual e Índice Global
+      parameters:
+      - description: 'ID da Bacia (Padrão: 1)'
+        in: query
+        name: basin_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ConsolidatedStats'
+      summary: Dados Consolidados (Cards)
+      tags:
+      - Dashboard
+  /dashboard/radar:
+    get:
+      description: Retorna soma dos pesos agrupados por tipologia (Obra, Estudo, etc)
+      parameters:
+      - description: 'ID da Bacia (Padrão: 1)'
+        in: query
+        name: basin_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              format: float64
+              type: number
+            type: object
+      summary: Dados do Gráfico Radar
+      tags:
+      - Dashboard
 swagger: "2.0"

@@ -105,19 +105,17 @@ func (h *ActionHandler) GetFilters(c *gin.Context) {
 		basinID = "1"
 	}
 
-	// Busca Eixos
-	var eixos []string
+	// CORREÇÃO: Inicializar como array vazio []string{} e não var nil
+	eixos := []string{}
 	h.db.Model(&model.Axis{}).Where("basin_id = ?", basinID).Pluck("name", &eixos)
 
-	// Busca Programas (via join)
-	var programas []string
+	programas := []string{}
 	h.db.Table("programas").
 		Joins("JOIN eixos ON eixos.id = programas.axis_id").
 		Where("eixos.basin_id = ?", basinID).
 		Pluck("programas.name", &programas)
 
-	// Busca Tipologias Únicas
-	var tipologias []string
+	tipologias := []string{}
 	// Precisamos fazer um join complexo para filtrar tipologias SÓ desta bacia
 	h.db.Table("acoes").
 		Joins("JOIN programas ON programas.id = acoes.program_id").
