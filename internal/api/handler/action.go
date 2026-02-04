@@ -83,11 +83,15 @@ func (h *ActionHandler) GetActions(c *gin.Context) {
 		return
 	}
 
-	// Retorna lista filtrada
+	for i := range actions {
+		if actions[i].Program.Axis.Name != "" {
+			actions[i].AxisName = actions[i].Program.Axis.Name
+		}
+	}
+
 	c.JSON(http.StatusOK, gin.H{
-		"count":   len(actions),
-		"filters": c.Request.URL.Query(),
-		"data":    actions,
+		"count": len(actions),
+		"data":  actions,
 	})
 }
 

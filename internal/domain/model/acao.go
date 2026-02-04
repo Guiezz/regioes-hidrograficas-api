@@ -6,12 +6,13 @@ type Action struct {
 	ID        uint    `json:"id" gorm:"primaryKey"`
 	ProgramID uint    `json:"program_id"`
 	Program   Program `json:"program" gorm:"foreignKey:ProgramID"`
+	AxisName  string  `json:"axis_name" gorm:"-"`
 
 	// Identificação
-	ReservatorioNome string `json:"reservatorio_nome"`            // Coluna A
-	Description      string `json:"description" gorm:"type:text"` // Coluna D
-	Typology         string `json:"typology"`                     // Coluna E
-	Source           string `json:"source"`                       // Coluna F
+	ReservatorioNome string `json:"reservatorio_nome"`
+	Description      string `json:"description" gorm:"type:text"`
+	Typology         string `json:"typology"`
+	Source           string `json:"source"`
 
 	// Financeiro
 	TotalBudget float64 `json:"total_budget"`
@@ -21,16 +22,15 @@ type Action struct {
 	StartYear int `json:"start_year"`
 	EndYear   int `json:"end_year"`
 
-	// Responsáveis (Opcional, mas bom ter)
+	// Responsáveis
 	ResponsavelPrincipal string `json:"responsavel_principal"`
 	OrgaosEnvolvidos     string `json:"orgaos_envolvidos"`
 
-	// --- NOVOS CAMPOS (O erro estava aqui: eles faltavam) ---
-	ExecutionPerc float64 `json:"execution_perc"` // Métrica (0.0 a 1.0)
-	PDPWeight     int     `json:"pdp_weight"`     // Peso Dificuldade (1-5)
-	IEA           float64 `json:"iea"`            // Índice Ajustado
+	// Métricas
+	ExecutionPerc float64 `json:"execution_perc"`
+	PDPWeight     int     `json:"pdp_weight"`
+	IEA           float64 `json:"iea"`
 
-	// Relacionamentos
 	Measurements []Measurement `json:"measurements" gorm:"foreignKey:ActionID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 
 	CreatedAt time.Time `json:"created_at"`

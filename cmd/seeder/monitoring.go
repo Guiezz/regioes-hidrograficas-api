@@ -55,6 +55,9 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 	var totalRealizadoGlobal float64 = 0.0
 	var countActionsGlobal int = 0
 
+	// Slice para armazenar as medições criadas e atualizá-las no final
+	var createdMeasurements []*model.Measurement
+
 	for i, row := range rows {
 		if i == 0 || len(row) < 8 {
 			continue
@@ -76,7 +79,7 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 		orcamentoVal, orcamentoUnit := cleanMoney(colOrcamento)
 		peso := utils.CalcularPeso(colAcao, colTipologia)
 
-		// Cálculos IEA
+		// Cálculos IEA (Absoluto)
 		ieaRealizado := float64(peso) * colMetrica
 		ieaPotencial := float64(peso) * 1.0
 
@@ -86,7 +89,7 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 		var prog model.Program
 		tx.FirstOrCreate(&prog, model.Program{Name: colPrograma, AxisID: eixo.ID})
 
-		// Salvar Ação (COM OS NOVOS CAMPOS PREENCHIDOS)
+		// Salvar Ação
 		var acao model.Action
 		err := tx.Where("description = ? AND program_id = ?", colAcao, prog.ID).First(&acao).Error
 
@@ -101,22 +104,19 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 				BudgetUnit:       orcamentoUnit,
 				StartYear:        startYear,
 				EndYear:          endYear,
-
-				// --- CAMPOS NOVOS ---
-				ExecutionPerc: colMetrica,
-				PDPWeight:     peso,
-				IEA:           ieaRealizado,
+				ExecutionPerc:    colMetrica,
+				PDPWeight:        peso,
+				IEA:              ieaRealizado,
 			}
 			tx.Create(&acao)
 		} else {
-			// Se já existe (num re-seed parcial), atualiza os valores
 			acao.ExecutionPerc = colMetrica
 			acao.PDPWeight = peso
 			acao.IEA = ieaRealizado
 			tx.Save(&acao)
 		}
 
-		// Acumuladores e Stats (mantidos iguais)
+		// Acumuladores e Stats
 		if endYear <= 2033 && endYear > 0 {
 			totalPotencialGlobal += ieaPotencial
 			totalRealizadoGlobal += ieaRealizado
@@ -130,7 +130,7 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 			}
 		}
 
-		// Medição (Histórico)
+		// Cria a Medição (Sem IEARelativo por enquanto)
 		m := &model.Measurement{
 			ActionID:       acao.ID,
 			ReferenceMonth: time.Now().Format("01/2006"),
@@ -140,6 +140,21 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 			MeasuredAt:     time.Now(),
 		}
 		tx.Create(m)
+
+		// Guarda na lista para update posterior
+		createdMeasurements = append(createdMeasurements, m)
+	}
+
+	// --- CORREÇÃO: Atualizar IEA Relativo ---
+	// Agora que temos o totalPotencialGlobal, podemos calcular a fração de cada ação
+	if totalPotencialGlobal > 0 {
+		fmt.Println("🔄 Calculando e atualizando IEA Relativo nas medições...")
+		for _, m := range createdMeasurements {
+			// IEA Relativo = (IEA da Ação / Total Potencial da Bacia)
+			// Isso representa o quanto essa ação contribui para o índice global (0 a 1)
+			m.IEARelativo = m.IEA / totalPotencialGlobal
+			tx.Save(m)
+		}
 	}
 
 	// Relatórios e Salvamento Global
@@ -174,8 +189,7 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 	fmt.Println("✅ Monitoramento importado com sucesso!")
 }
 
-// --- Helpers ---
-
+// --- Helpers --- (Mantenha os mesmos helpers abaixo: saveStat, normalizeTipologia, etc)
 func saveStat(tx *gorm.DB, basinID uint, cat string, stats *statsTemp, totalGlobal float64) {
 	perc := 0.0
 	if totalGlobal > 0 {
