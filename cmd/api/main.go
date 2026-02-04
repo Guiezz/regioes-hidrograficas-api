@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -24,6 +25,16 @@ import (
 // @BasePath        /api/v1
 
 func main() {
+
+	files, err := os.ReadDir("./assets")
+	if err != nil {
+		log.Println("❌ ERRO: O Go não conseguiu ler a pasta ./assets:", err)
+	} else {
+		log.Println("📂 CONTEÚDO DA PASTA ASSETS VISTO PELO GO:")
+		for _, file := range files {
+			log.Println("   📄 Encontrado:", file.Name())
+		}
+	}
 	// 1. Configuração
 	cfg, err := config.LoadConfig()
 	if err != nil {

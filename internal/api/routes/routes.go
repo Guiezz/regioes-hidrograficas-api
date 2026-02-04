@@ -20,9 +20,10 @@ func RegisterRoutes(r *gin.Engine, db *gorm.DB) {
 	// Rota da Documentação
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
+	r.Static("/assets", "./assets")
+
 	api := r.Group("/api/v1")
 	{
-		// ... (suas rotas iguais) ...
 		api.GET("/content", contentHandler.GetSections)
 		api.GET("/dashboard/radar", dashboardHandler.GetRadarData)
 		api.GET("/dashboard/consolidated", dashboardHandler.GetConsolidated)

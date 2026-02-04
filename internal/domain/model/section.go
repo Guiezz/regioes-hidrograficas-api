@@ -14,6 +14,8 @@ type Section struct {
 	Content string `json:"content" gorm:"type:text"` // O texto longo
 	Level   int    `json:"level"`                    // 1, 2, 3... (Nível hierárquico para o frontend indentar)
 
+	Image string `json:"image"`
+
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 }

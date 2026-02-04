@@ -30,6 +30,7 @@ COPY --from=builder /app/main .
 COPY --from=builder /app/seeder .
 COPY --from=builder /app/config ./config
 COPY --from=builder /app/dados_importacao ./dados_importacao
+COPY --from=builder /app/assets ./assets
 
 EXPOSE 8080
 CMD ["./main"]
