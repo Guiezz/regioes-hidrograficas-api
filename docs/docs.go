@@ -197,9 +197,127 @@ const docTemplate = `{
                     }
                 }
             }
+        },
+        "/financeiro/custos": {
+            "get": {
+                "description": "Retorna uma lista de custos, permitindo filtrar por bacia específica via ID.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Financeiro"
+                ],
+                "summary": "Listar custos de planejamento",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia Hidrográfica (ex: 1 para Curu)",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/model.Cost"
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Erro interno ao buscar dados",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/financeiro/matriz": {
+            "get": {
+                "description": "Retorna a matriz de ações filtrada por bacia. Útil para separar dados do Curu, Salgado, etc.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Financeiro"
+                ],
+                "summary": "Listar matriz de ações e prioridades",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "ID da Bacia Hidrográfica",
+                        "name": "basin_id",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/model.ActionMatrix"
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Erro interno ao buscar dados",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "definitions": {
+        "model.ActionMatrix": {
+            "type": "object",
+            "properties": {
+                "acoes_especificas": {
+                    "type": "string"
+                },
+                "basin_id": {
+                    "type": "integer"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "instituicoes_envolvidas": {
+                    "type": "string"
+                },
+                "prioridade": {
+                    "type": "string"
+                },
+                "programa": {
+                    "type": "string"
+                },
+                "solicitacoes_cbh": {
+                    "type": "string"
+                },
+                "tipo_matriz": {
+                    "type": "string"
+                }
+            }
+        },
         "model.ConsolidatedStats": {
             "type": "object",
             "properties": {
@@ -233,6 +351,48 @@ const docTemplate = `{
                 }
             }
         },
+        "model.Cost": {
+            "type": "object",
+            "properties": {
+                "basin_id": {
+                    "type": "integer"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "eixo": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "p2021_2025": {
+                    "type": "string"
+                },
+                "p2025_2030": {
+                    "type": "string"
+                },
+                "p2030_2035": {
+                    "type": "string"
+                },
+                "p2035_2040": {
+                    "type": "string"
+                },
+                "p2040_2045": {
+                    "type": "string"
+                },
+                "p2045_2050": {
+                    "type": "string"
+                },
+                "percentual": {
+                    "type": "number"
+                },
+                "valor_total": {
+                    "description": "Mantido como string para preservar o formato \"R$ ...\"",
+                    "type": "string"
+                }
+            }
+        },
         "model.Section": {
             "type": "object",
             "properties": {
@@ -249,6 +409,9 @@ const docTemplate = `{
                 },
                 "id": {
                     "type": "integer"
+                },
+                "image": {
+                    "type": "string"
                 },
                 "level": {
                     "description": "1, 2, 3... (Nível hierárquico para o frontend indentar)",

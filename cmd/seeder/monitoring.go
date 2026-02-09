@@ -64,8 +64,8 @@ func seedMonitoring(db *gorm.DB, basin model.Basin) {
 		}
 
 		// Leitura
-		colEixo := safeGet(row, 1)
-		colPrograma := safeGet(row, 2)
+		colEixo := safeGet(row, 0)
+		colPrograma := safeGet(row, 1)
 		colAcao := safeGet(row, 3)
 		colTipologia := safeGet(row, 4)
 		colFonte := safeGet(row, 5)

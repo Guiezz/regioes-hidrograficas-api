@@ -25,12 +25,14 @@ func main() {
 	err = database.Migrator().DropTable(
 		&model.TypologyStats{},
 		&model.ConsolidatedStats{},
-		&model.Measurement{}, // nome tabela: medicoes
-		&model.Action{},      // nome tabela: acoes
-		&model.Program{},     // nome tabela: programas
-		&model.Axis{},        // nome tabela: eixos
-		&model.Section{},     // nome tabela: sections (ou secoes se vc mudou)
-		&model.Basin{},       // nome tabela: bacias
+		&model.Measurement{},  // nome tabela: medicoes
+		&model.Action{},       // nome tabela: acoes
+		&model.Program{},      // nome tabela: programas
+		&model.Axis{},         // nome tabela: eixos
+		&model.Section{},      // nome tabela: sections (ou secoes se vc mudou)
+		&model.Basin{},        // nome tabela: bacias
+		&model.ActionMatrix{}, // matriz_acoes_prioridade
+		&model.Cost{},
 	)
 	if err != nil {
 		log.Printf("⚠️ (Info) Drop Table: %v", err)
@@ -47,6 +49,8 @@ func main() {
 		&model.Measurement{},
 		&model.ConsolidatedStats{},
 		&model.TypologyStats{},
+		&model.Cost{},
+		&model.ActionMatrix{},
 	)
 	if err != nil {
 		log.Fatalf("❌ Erro no AutoMigrate: %v", err)
@@ -60,4 +64,6 @@ func main() {
 	// 4. Executa os importadores
 	seedSections(database, bacia)
 	seedMonitoring(database, bacia)
+	seedPlanoFinanceiro(database, bacia)
+	fmt.Println("🚀 SEED COMPLETO!")
 }
