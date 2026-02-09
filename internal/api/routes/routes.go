@@ -13,6 +13,7 @@ import (
 
 func RegisterRoutes(r *gin.Engine, db *gorm.DB) {
 	// ... (criação dos handlers igual) ...
+	basinHandler := handler.NewBasinHandler(db)
 	dashboardHandler := handler.NewDashboardHandler(db)
 	contentHandler := handler.NewContentHandler(db)
 	actionHandler := handler.NewActionHandler(db)
@@ -25,6 +26,8 @@ func RegisterRoutes(r *gin.Engine, db *gorm.DB) {
 
 	api := r.Group("/api/v1")
 	{
+		api.GET("/basins", basinHandler.GetBasins)
+		api.GET("/basins/:id", basinHandler.GetBasinByID)
 		api.GET("/content", contentHandler.GetSections)
 		api.GET("/dashboard/radar", dashboardHandler.GetRadarData)
 		api.GET("/dashboard/consolidated", dashboardHandler.GetConsolidated)

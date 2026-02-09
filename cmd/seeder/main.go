@@ -3,13 +3,16 @@ package main
 import (
 	"fmt"
 	"log"
+	"path/filepath"
+	"strings"
 
 	"github.com/guiezz/regioes-hidrograficas-api/config"
 	"github.com/guiezz/regioes-hidrograficas-api/db"
 	"github.com/guiezz/regioes-hidrograficas-api/internal/domain/model"
 )
 
-var basePath = "dados_importacao/curu"
+// Lista de bacias para importar (o nome deve bater com a pasta em dados_importacao/)
+var targetBasins = []string{"Curu", "Salgado"}
 
 func main() {
 	cfg, err := config.LoadConfig()
@@ -19,19 +22,17 @@ func main() {
 	database := db.Init(cfg)
 
 	fmt.Println("💥 DESTRUINDO TABELAS ANTIGAS (LIMPEZA TOTAL)...")
-
-	// 1. Dropa tudo para garantir que não sobrem tabelas com nomes errados (ex: actions vs acoes)
-	// A ordem importa: apagar tabelas filhas (que têm FK) antes das pais
+	// Dropa tabelas para garantir integridade
 	err = database.Migrator().DropTable(
 		&model.TypologyStats{},
 		&model.ConsolidatedStats{},
-		&model.Measurement{},  // nome tabela: medicoes
-		&model.Action{},       // nome tabela: acoes
-		&model.Program{},      // nome tabela: programas
-		&model.Axis{},         // nome tabela: eixos
-		&model.Section{},      // nome tabela: sections (ou secoes se vc mudou)
-		&model.Basin{},        // nome tabela: bacias
-		&model.ActionMatrix{}, // matriz_acoes_prioridade
+		&model.Measurement{},
+		&model.Action{},
+		&model.Program{},
+		&model.Axis{},
+		&model.Section{},
+		&model.Basin{},
+		&model.ActionMatrix{},
 		&model.Cost{},
 	)
 	if err != nil {
@@ -39,7 +40,6 @@ func main() {
 	}
 
 	fmt.Println("🏗️ Recriando Schema do Banco...")
-	// 2. Recria as tabelas com os nomes forçados nas Models
 	err = database.AutoMigrate(
 		&model.Section{},
 		&model.Basin{},
@@ -56,14 +56,29 @@ func main() {
 		log.Fatalf("❌ Erro no AutoMigrate: %v", err)
 	}
 
-	// 3. Garante a Bacia Curu (ID 1)
-	var bacia model.Basin
-	database.FirstOrCreate(&bacia, model.Basin{Name: "Curu"})
-	log.Printf("🌊 Bacia Principal: %s (ID: %d)", bacia.Name, bacia.ID)
+	// Loop para processar cada bacia
+	for _, basinName := range targetBasins {
+		fmt.Printf("\n========================================\n")
+		fmt.Printf("🌊 PROCESSANDO BACIA: %s\n", strings.ToUpper(basinName))
+		fmt.Printf("========================================\n")
 
-	// 4. Executa os importadores
-	seedSections(database, bacia)
-	seedMonitoring(database, bacia)
-	seedPlanoFinanceiro(database, bacia)
-	fmt.Println("🚀 SEED COMPLETO!")
+		// 1. Cria ou Garante a Bacia no Banco
+		var bacia model.Basin
+		// FirstOrCreate busca pelo nome, se não achar, cria.
+		if err := database.FirstOrCreate(&bacia, model.Basin{Name: basinName}).Error; err != nil {
+			log.Printf("❌ Erro ao criar bacia %s: %v", basinName, err)
+			continue
+		}
+
+		// Define o caminho da pasta: ex: dados_importacao/curu ou dados_importacao/salgado
+		// Importante: As pastas devem estar em minúsculo no sistema de arquivos
+		folderPath := filepath.Join("dados_importacao", strings.ToLower(basinName))
+
+		// 2. Executa os importadores passando o caminho específico
+		seedSections(database, bacia, folderPath)
+		seedMonitoring(database, bacia, folderPath)
+		seedPlanoFinanceiro(database, bacia, folderPath)
+	}
+
+	fmt.Println("\n🚀 SEED COMPLETO PARA TODAS AS BACIAS!")
 }

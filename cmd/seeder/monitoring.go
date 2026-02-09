@@ -27,12 +27,13 @@ type statsTemp struct {
 	SumPotential float64
 }
 
-func seedMonitoring(db *gorm.DB, basin model.Basin) {
-	fmt.Printf("📊 Iniciando importação de Monitoramento para %s (ID %d)...\n", basin.Name, basin.ID)
+func seedMonitoring(db *gorm.DB, basin model.Basin, folderPath string) {
 
-	excelPath := findFirstExcel(basePath)
+	fmt.Printf("📊 [Monitoramento] Buscando Excel em: %s\n", folderPath)
+
+	excelPath := findFirstExcel(folderPath)
 	if excelPath == "" {
-		log.Println("⚠️ Nenhum arquivo Excel encontrado.")
+		log.Printf("⚠️ Nenhum arquivo Excel (.xlsx) encontrado em %s.", folderPath)
 		return
 	}
 

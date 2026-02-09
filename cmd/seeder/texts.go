@@ -12,30 +12,36 @@ import (
 	"gorm.io/gorm"
 )
 
-// Agora recebe "basin" como argumento
-func seedSections(db *gorm.DB, basin model.Basin) {
-	fmt.Println("📖 [Textos] Iniciando importação...")
+// Agora recebe folderPath para saber onde buscar o arquivo
+func seedSections(db *gorm.DB, basin model.Basin, folderPath string) {
+	fmt.Printf("📖 [Textos] Importando para %s...\n", basin.Name)
 
-	fullPath := filepath.Join("dados_importacao/Salgado", "textos_plano.json") // Ajuste se mudou a pasta
+	fullPath := filepath.Join(folderPath, "textos_plano.json")
 
 	if _, err := os.Stat(fullPath); os.IsNotExist(err) {
-		// Tenta na pasta do Curu se não achar no Salgado
-		fullPath = filepath.Join("dados_importacao/curu", "textos_plano.json")
-		if _, err := os.Stat(fullPath); os.IsNotExist(err) {
-			log.Printf("⚠️ Arquivo de textos não encontrado.")
-			return
-		}
+		log.Printf("⚠️ Arquivo de textos não encontrado em: %s", fullPath)
+		return
 	}
 
-	fileContent, _ := ioutil.ReadFile(fullPath)
-	var sections []model.Section
-	json.Unmarshal(fileContent, &sections)
+	fileContent, err := ioutil.ReadFile(fullPath)
+	if err != nil {
+		log.Printf("❌ Erro ao ler arquivo: %v", err)
+		return
+	}
 
+	var sections []model.Section
+	if err := json.Unmarshal(fileContent, &sections); err != nil {
+		log.Printf("❌ Erro no JSON de textos: %v", err)
+		return
+	}
+
+	count := 0
 	for _, s := range sections {
 		// Vincula à bacia correta
 		s.BasinID = &basin.ID
 
 		var exists model.Section
+		// Verifica duplicidade baseada no número E na bacia
 		if err := db.Where("number = ? AND basin_id = ?", s.Number, basin.ID).First(&exists).Error; err == nil {
 			exists.Title = s.Title
 			exists.Content = s.Content
@@ -43,7 +49,8 @@ func seedSections(db *gorm.DB, basin model.Basin) {
 			db.Save(&exists)
 		} else {
 			db.Create(&s)
+			count++
 		}
 	}
-	fmt.Printf("✅ [Textos] Sucesso! %d seções vinculadas à bacia %s (ID %d).\n", len(sections), basin.Name, basin.ID)
+	fmt.Printf("✅ [Textos] %d seções novas importadas para bacia %s.\n", count, basin.Name)
 }

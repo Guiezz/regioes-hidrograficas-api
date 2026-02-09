@@ -18,74 +18,82 @@ func NewActionHandler(db *gorm.DB) *ActionHandler {
 
 // GetActions godoc
 // @Summary      Listar Ações (Matriz/Planos)
-// @Description  Retorna lista de ações com diversos filtros dinâmicos (Eixo, Programa, Ano, etc).
+// @Description  Retorna lista de ações com filtros ajustados para a estrutura atual do banco.
 // @Tags         Actions
 // @Produce      json
 // @Param        basin_id   query   int     false  "ID da Bacia"
-// @Param        ano        query   string  false  "Ano de vigência (ex: 2024)"
 // @Param        eixo       query   string  false  "Filtro por nome do Eixo"
-// @Param        programa   query   string  false  "Filtro por nome do Programa"
 // @Param        tipologia  query   string  false  "Filtro por Tipologia"
-// @Param        search     query   string  false  "Busca textual na descrição"
 // @Success      200        {object} map[string]interface{}
 // @Router       /actions [get]
 func (h *ActionHandler) GetActions(c *gin.Context) {
 	basinID := c.Query("basin_id")
 
-	// Filtros opcionais vindos do frontend
+	// Filtros
 	filterEixo := c.Query("eixo")
 	filterPrograma := c.Query("programa")
 	filterTypology := c.Query("tipologia")
-	filterAno := c.Query("ano") // Filtra se a ação está vigente neste ano
-	search := c.Query("search") // Busca textual
+	filterAno := c.Query("ano")
+	search := c.Query("search")
 
-	// Prepara a Query base carregando os relacionamentos necessários
-	// Preload carrega os dados das tabelas filhas (Measurements, Program, Axis)
+	// Query Base
 	query := h.db.Model(&model.Action{}).
-		Preload("Program.Axis"). // Carrega Programa e Eixo
-		Preload("Measurements")  // Carrega o histórico de medições
+		Select("acoes.*"). // Garante que a struct Action seja a principal
+		Preload("Program.Axis").
+		Preload("Measurements")
 
-	// 1. Filtro Obrigatório de Bacia (via join com Program e Axis se necessário,
-	// mas como salvamos ReservatorioNome na Ação, podemos usar ele ou o basin_id das tabelas pai)
-	// Como seu modelo Action não tem basin_id direto, filtramos pelo nome ou join.
-	// O jeito mais seguro no seu modelo atual é via JOINs:
+	// JOINS
 	query = query.Joins("JOIN programas ON programas.id = acoes.program_id").
 		Joins("JOIN eixos ON eixos.id = programas.axis_id").
 		Joins("JOIN bacias ON bacias.id = eixos.basin_id")
 
+	// 1. Filtro de Bacia
 	if basinID != "" {
 		query = query.Where("bacias.id = ?", basinID)
 	}
 
 	// 2. Filtros Dinâmicos
-	if filterEixo != "" {
-		query = query.Where("eixos.name ILIKE ?", "%"+filterEixo+"%")
+
+	// CORREÇÃO CRÍTICA:
+	// O filtro de EIXO deve olhar para a tabela PROGRAMAS, pois é lá que "Demanda Hídrica" está salvo.
+	if filterEixo != "" && filterEixo != "todos" {
+		query = query.Where("programas.name ILIKE ?", "%"+filterEixo+"%")
 	}
-	if filterPrograma != "" {
+
+	// O filtro de PROGRAMA também olha para PROGRAMAS (ou seria redundante, mas mantemos para compatibilidade)
+	if filterPrograma != "" && filterPrograma != "todos" {
 		query = query.Where("programas.name ILIKE ?", "%"+filterPrograma+"%")
 	}
-	if filterTypology != "" {
+
+	if filterTypology != "" && filterTypology != "todos" {
 		query = query.Where("acoes.typology ILIKE ?", "%"+filterTypology+"%")
 	}
 	if search != "" {
 		query = query.Where("acoes.description ILIKE ?", "%"+search+"%")
 	}
 	if filterAno != "" {
-		// Filtra ações ativas naquele ano (Start <= Ano <= End)
 		query = query.Where("acoes.start_year <= ? AND acoes.end_year >= ?", filterAno, filterAno)
 	}
 
 	var actions []model.Action
-	result := query.Find(&actions)
-
-	if result.Error != nil {
+	if err := query.Order("programas.name ASC, acoes.id ASC").Find(&actions).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Erro ao buscar ações"})
 		return
 	}
 
+	// --- CORREÇÃO DE MAPEAMENTO (POPULATE) ---
+	// Aqui sobrescrevemos o AxisName para o Frontend receber o dado correto
 	for i := range actions {
-		if actions[i].Program.Axis.Name != "" {
-			actions[i].AxisName = actions[i].Program.Axis.Name
+		// Cenário Atual:
+		// Program.Name = "DEMANDA HÍDRICA" (O que queremos exibir como Eixo)
+		// Axis.Name    = "Curu" (Nome da Bacia, não queremos exibir isso no card de Eixo)
+
+		if actions[i].Program.Name != "" {
+			// Joga o nome do Programa para o campo AxisName
+			actions[i].AxisName = actions[i].Program.Name
+		} else {
+			// Fallback
+			actions[i].AxisName = "Geral"
 		}
 	}
 
@@ -97,7 +105,7 @@ func (h *ActionHandler) GetActions(c *gin.Context) {
 
 // GetFilters godoc
 // @Summary      Opções de Filtro
-// @Description  Retorna listas únicas de Eixos, Programas e Tipologias para preencher combos do frontend.
+// @Description  Retorna listas corrigidas onde 'eixos' busca dados da tabela 'programas'.
 // @Tags         Actions
 // @Produce      json
 // @Param        basin_id   query   int     false  "ID da Bacia"
@@ -109,23 +117,29 @@ func (h *ActionHandler) GetFilters(c *gin.Context) {
 		basinID = "1"
 	}
 
-	// CORREÇÃO: Inicializar como array vazio []string{} e não var nil
+	// 1. Busca EIXOS (Corrigido: Busca na tabela 'programas')
+	// Isso vai retornar ["DEMANDA HÍDRICA", "OFERTA HÍDRICA", ...]
 	eixos := []string{}
-	h.db.Model(&model.Axis{}).Where("basin_id = ?", basinID).Pluck("name", &eixos)
-
-	programas := []string{}
 	h.db.Table("programas").
 		Joins("JOIN eixos ON eixos.id = programas.axis_id").
 		Where("eixos.basin_id = ?", basinID).
-		Pluck("programas.name", &programas)
+		Distinct("programas.name").
+		Order("programas.name ASC").
+		Pluck("programas.name", &eixos)
 
+	// 2. Busca PROGRAMAS
+	// Como os níveis estão deslocados, o "Programa" é igual ao Eixo neste contexto.
+	// Mantemos a mesma lista para o filtro não ficar vazio.
+	programas := eixos
+
+	// 3. Busca TIPOLOGIAS (Normal)
 	tipologias := []string{}
-	// Precisamos fazer um join complexo para filtrar tipologias SÓ desta bacia
 	h.db.Table("acoes").
 		Joins("JOIN programas ON programas.id = acoes.program_id").
 		Joins("JOIN eixos ON eixos.id = programas.axis_id").
 		Where("eixos.basin_id = ?", basinID).
 		Distinct("typology").
+		Order("typology ASC").
 		Pluck("typology", &tipologias)
 
 	c.JSON(http.StatusOK, gin.H{

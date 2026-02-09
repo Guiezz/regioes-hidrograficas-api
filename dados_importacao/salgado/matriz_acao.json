@@ -1,0 +1,730 @@
+[
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Programa de Gestão da Demanda Humana",
+        "Ações específicas": "Realizar  estudos  sobre  impactos  na  demanda  hídrica  referentes  a instalação e operação de novos hotéis e loteamentos e na RH do Salgado",
+        "Programa": "Programa de Gestão da Demanda Humana",
+        "Instituições envolvidas": "SRH, COGERH, Universidades e Prefeituras",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Programa de Gestão da Demanda Humana",
+        "Ações específicas": "Realizar um estudo para atualização dos dados de demanda populacional e hídrica da RH Salgado.",
+        "Programa": "Programa de Gestão da Demanda Humana",
+        "Instituições envolvidas": "SRH, COGERH, Universidades e Prefeituras",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Ações específicas": "Implementar e ampliar manejos de irrigação que propiciem uma maior eficiência no uso da água para as culturas",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "Prefeituras, FUNCEME, Funcap, IFCE, UFC, EMATERCE, DNOCS",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Ações específicas": "Realizar atualização cadastral de usuários/irrigantes",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Ações específicas": "Monitoramento e fiscalizar de irrigantes",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "COGERH, SRH, Prefeituras",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Ações específicas": "Capacitação de irrigantes sobre manejo hídrico nos métodos de irrigação com maior eficiência",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "Universidades e IFCE, EMATERCE, SDA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Ambiental",
+        "Ações específicas": "Estudo sobre a vazão ecológica das fontes",
+        "Programa": "Gestão da Demanda Ambiental",
+        "Instituições envolvidas": "COGERH, UNIVERSIDADES, ICMBIO, ANA, FUNCAP, CNPq",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Ambiental",
+        "Ações específicas": "Realizar estudo para viabilização do abastecimento humano a partir do levantamento das comunidades de todos os municípios da RH Salgado",
+        "Programa": "Gestão da Demanda Ambiental",
+        "Instituições envolvidas": "COGERH, UNIVERSIDADES, FUNCAP, CNPq",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Urbana",
+        "Ações específicas": "Redução das perdas de água tratada, decorrentes de furto, desperdícios ou defeito na distribuição, com a implantação e ampliação dos Distritos de Medição e Controle (DMC), de forma progressiva, iniciando nos municípios de maiores volumes operacional e alcançando os demais municípios.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "SAAE’s, CAGECE e SISAR",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Urbana",
+        "Ações específicas": "Redução  das  perdas  em  trânsito  do  sistema  de  água  bruta  para  a manutenção adequada dos sistemas de adução.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "COGERH e SOHIDRA.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Aquícola",
+        "Ações específicas": "Criar  um  sistema  de  informação  com  banco  de  dados  de  pesca  e aquicultura",
+        "Programa": "Gestão da Demanda Aquícola",
+        "Instituições envolvidas": "Governo Federal, Governo do estado, Prefeituras, COGERH.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Aquícola",
+        "Ações específicas": "Realizar estudos sobre a capacidade de suporte dos reservatórios",
+        "Programa": "Gestão da Demanda Aquícola",
+        "Instituições envolvidas": "Governo Federal, SRH, COGERH",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica da RH do Salgado",
+        "Solicitacao": "Gestão da Demanda Aquícola",
+        "Ações específicas": "Regulamentar a criação de peixes nos açudes.",
+        "Programa": "Gestão da Demanda Aquícola",
+        "Instituições envolvidas": "COGERH, SEMACE, CAGECE, SISAR, SAAE, SDA, SRH.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "PISF – Construção do Ramal do Salgado",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "Governo Federal",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Projeto Malha d'água - Sistema Adutor Cariri Oriental - CAC Trecho\nI (Porteiras, Jardim, Brejo Santo, Milagres, Abaiara, Mauriti, Barro, Jati e Penaforte).",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, COGERH, CAGECE, CBH,\nCONERH, Governo do Estado.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Projeto Malha d'água - Sistema Adutor CRAJUBAR - CAC Trecho I (Crato, Juazeiro do Norte, Barbalha, Missão Velha e Caririaçu).",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, COGERH, CAGECE, CBH,\nCONERH, Governo do Estado.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Projeto Malha d'água - Sistema Adutor Orós - Centro Sul - Açude\nOrós  (Orós,  Icó,  Cedro,  Granjeiro,  Várzea  Alegre  e  Farias  Brito. Integrando Iguatu).",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, COGERH, CAGECE, CBH,\nCONERH, Governo do Estado.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Projeto Malha d'água - Sistema Adutor Salgado - Centro Sul -\nRamal do Salgado (Aurora, Lavras da Mangabeira, Ipaumirim,\nBaixio e Umari. Integrando Várzea Alegre, Granjeiro e Farias Brito).",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, COGERH, CAGECE, CBH, CONERH, Governo do Estado.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Estudo  mais  acurado  sobre  as  perdas  em  trânsito  na  RH  do Salgado.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "Universidades, IFES, Funcap, CNPq, Funceme, CPRM, Cogerh, SRH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Construção de nova adutora do PISF para o Açude Quixabinha.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "COGERH, SOHIDRA, SRH.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Construção da Barragem Berê no município de Jardim.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH e SOHIDRA",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Estação Elevatória para transferência de água do Rio Carás para o Açude Manoel Balbino.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH e SOHIDRA",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Construção  da  Barragem  Riacho  do  Meio  no  município  de Granjeiro.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH e SOHIDRA",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Superficial",
+        "Ações específicas": "Transposição da água do Riacho do Meio para o Açude Junco, na localidade Canabrava dos Ferreiras.",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH e SOHIDRA",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Subterrânea",
+        "Ações específicas": "Realizar   estudo   para   avaliar   a   real   disponibilidade   hídrica subterrânea na Bacia sedimentar do Araripe.",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "SRH, COGERH, SEMACE, Universidades, IFES, CPRM",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Incremento da Oferta Hídrica Subterrânea",
+        "Ações específicas": "Construir poços para abastecimento urbano de Granjeiro, Barro, Dom Quintino, Ponta da Serra, Jardim e Umburanas.",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "SRH, COGERH, SOHIDRA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Implementar  programa  de  reuso  da  água  junto  à  usuários industriais e de serviços",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "Fecomércio, SESI, Governo do Estado, CAGECE, UFC, IFCE, UEVA.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Programa de Estudos e Projetos: Projeto piloto de reuso de águas de  irrigação  na  Bacia  do  Salgado  com  o  uso  das  técnicas  de tratamento de esgotos. Há uma recomendação que também seja estudado o reúso de águas em piscicultura com a criação de peixes nas lagoas de estabilização.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SRH, COGERH, SEMACE, Universidades, IFES.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Elaborar de políticas públicas que incentivem o reuso da água.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SRH, Universidades, IFES, Cáritas, SDA, ASA\n(Articulação do Semiárido), SENAR, SCT-CE,\nCAGECE, Secretaria das Cidades, CBH,\nAssembléia Legislativa.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Expandir a implantação de sistemas de reuso de águas cinzas e negras em comunidades rurais.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "ASA, Cáritas, CBH, Secretaria das Cidades, SISAR, Prefeituras, SDA.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Implementar técnicas de reuso de água na indústria.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "FIEC, Governo do Estado, CAGECE,\nUniversidades, IFES.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Implementar técnicas de reuso de água na irrigação.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "EMBRAPA, Governo do Estado, CAGECE,\nUniversidades, IFES",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Aumento de Oferta Hídrica por meio da construção de barragens subterrâneas.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SRH, SOHIDRA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Aumento   de   Oferta   Hídrica   por   meio   da   construção   de barraginhas.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SRH, SOHIDRA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Construção de cisternas visando atender a população rural difusa, com  implementação  de  políticas  públicas  que  garantam  a continuidade do abastecimento.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "Governo Estadual, Governo Federal, Cáritas",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica da RH do Salgado",
+        "Solicitacao": "Diversificação da Oferta Hídrica",
+        "Ações específicas": "Sistema  de  Abastecimento  na  Comunidade  Santa  Vitória,  no município de Granjeiro, a fim de universalizar o acesso à água.",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SRH, CAGECE",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Banco de informações\ndo Plano de Rh do Salgado",
+        "Ações específicas": "Desenvolvimento do banco de dados e sistemas de informação para\ndisponibilização de informações sobre os sistemas hídricos, demandas, usuários e outras informações geradas nos planos de recursos hídricos",
+        "Programa": "Banco de informações\ndo Plano de Rh do Salgado",
+        "Instituições envolvidas": "COGERH, UFC",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Fortalecimento e aprimoramento da alocação negociada de\nágua",
+        "Ações específicas": "Retomada e regularização das comissões gestoras com atividades paralisadas - açudes e fontes",
+        "Programa": "Fortalecimento e aprimoramento da alocação negociada de\nágua",
+        "Instituições envolvidas": "COGERH, CBH",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Fortalecimento e aprimoramento da alocação negociada de\nágua",
+        "Ações específicas": "Criação de Comissões Gestoras - açudes e fontes",
+        "Programa": "Fortalecimento e aprimoramento da alocação negociada de\nágua",
+        "Instituições envolvidas": "COGERH, CBH",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Planejamento de secas",
+        "Ações específicas": "Elaboração de plano de secas de cidades, Hidrossistemas e Região\nHidrográfica",
+        "Programa": "Planejamento de secas",
+        "Instituições envolvidas": "SRH, COGERH, UFC",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Programa para fiscalização e cadastramento de usuários clandestinos\n(poços e demais corpos hídricos)",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "SRH, COGERH",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Fortalecer o monitoramento e a fiscalização de usos dos rios e riachos em áreas urbanas",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH, SRH e secretarias\nmunicipais de meio ambiente, infraestrutura, urbanismo e afins",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Realizar estudos para o enquadramento da água subterrânea da bacia\nsedimentar do Araripe",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH, SRH, instituições de\nensino superior e pesquisa.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Campanha de conscientização para a importância da regularização da\noutorga em poços na Bacia Sedimentar do Araripe",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "SRH, COGERH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Articular parâmetros e normatizações das ações de perfuração de poços e captação de águas em fontes",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "CONDEMAS, COEMA, CONERH,\nCâmaras municipais, COGERH, SRH e secretarias municipais de\nmeio ambiente ou afins e autarquias de meio ambiente.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Ampliação/Atualização do cadastro de usuários",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "SRH, COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Instalação de sistema de macromedição de vazão nos municípios da\nbacia do Salgado, definida por áreas prioritárias",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Intensificar campanhas de acesso à outorga visando a universalização\ndas outorgas na RH do Salgado",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "SRH, COGERH, CBH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Cadastramento de poços na Bacia Sedimentar do Araripe",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Projeto de cadastramento de usuários e medição de vazões de fontes\nnaturais da Chapada",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Aplicação dos instrumentos de gestão nas fontes, açudes monitorados\ne poços do Cariri, visando à eficácia do uso dos aquíferos e reservatórios da região",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de aprimoramento dos instrumentos de gestão",
+        "Ações específicas": "Fiscalização integrada com órgãos municipais para coibir a perfuração indiscriminada de poços.",
+        "Programa": "Programa de aprimoramento dos instrumentos de gestão",
+        "Instituições envolvidas": "COGERH, SRH e secretarias de meio ambiente, infraestrutura,\nurbanismo e afins.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de fomento a\ninovação tecnológica",
+        "Ações específicas": "Fomentar tecnologias inovadoras na área de recursos hídricos e afins.",
+        "Programa": "Programa de fomento a\ninovação tecnológica",
+        "Instituições envolvidas": "CBH, COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de gestão de\nconflitos",
+        "Ações específicas": "Capacitação para o aperfeiçoamento das técnicas de mediação de\nconflitos",
+        "Programa": "Programa de gestão de\nconflitos",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "Programa de\nsegurança de barragens",
+        "Ações específicas": "Elaborar um plano de contingência para as barragens na RH do Salgado.",
+        "Programa": "Programa de\nsegurança de barragens",
+        "Instituições envolvidas": "SRH, COGERH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Implantação de coleta seletiva de resíduos e\nreciclagem",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "Prefeituras Municipais, Consórcios e CDL e\ncooperativas/ Associações e federação das indústrias.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Programa de monitoramento - Realizar o diagnóstico e análises qualitativas das águas para todos os reservatórios gerenciados pela COGERH (bacteriológica, pesticidas, físico-química padrão e\nresumida, demanda e teor de oxigênio dissolvido, eutrofização).",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "COGERH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Tamponamento de poços abandonados",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SRH, COGERH, CAGECE, SISAR, CPRM, SOHIDRA.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Ordenação das atividades nas margens dos açudes da RHS - agrotóxicos, pecuária, açudes Olho d'água e Lima Campos e Manoel Balbino",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SEMACE, Secretarias municipais de meio ambiente e agricultura, SRH, COGERH, Promotoria de Justiça, Universidades, Sindicatos dos Trabalhadores Rurais e\nPolicia Ambiental e DNOCS.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Elaborar um Diagnóstico de uso das áreas do\nentorno nos açudes para subsidiar uma ação de programa de monitoramento.",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SRH, COGERH, SEMACE",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Implantação e ampliação do Esgotamento Sanitário.",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "CAGECE, SISAR, SAAE, ARCE.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Elaboração e atualização dos Planos Municipais de\nSaneamento Básico e implantação de consórcio de Gestão Integrada de Resíduos Sólidos",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "CAGECE, SAAE, SISAR, prefeituras municipais",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Programa para fiscalização do cumprimento da legislação para o uso de agrotóxicos na RH do\nSalgado, notadamente nas margens dos açudes",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SEMACE, Secretarias municipais de meio ambiente e agricultura, Polícia Ambiental.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Ordenação das atividades nas margens dos açudes da RHS - agrotóxicos, pecuária, postos de lavagem - Açude São Domingos II",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SEMACE, Secretarias municipais de meio ambiente e agricultura, SRH, COGERH, Promotoria de Justiça,\nUniversidades, Sindicatos dos Trabalhadores Rurais e Polícia Ambiental.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Gestão da qualidade da água dos mananciais",
+        "Ações específicas": "Ordenação das atividades nas margens dos açudes da RHS - agrotóxicos e recreação - Açude Rosário",
+        "Programa": "Gestão da qualidade da água dos mananciais",
+        "Instituições envolvidas": "SEMACE, Secretarias municipais de meio ambiente e agricultura, SRH, COGERH, Promotoria de Justiça, Universidades, Sindicatos dos Trabalhadores Rurais e\nPolicia Ambiental.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de comunicação e educação ambiental",
+        "Ações específicas": "Campanhas educativas nos meios de comunicação\nincentivando a preservação dos recursos naturais.",
+        "Programa": "Programa de comunicação e educação ambiental",
+        "Instituições envolvidas": "SRH, COGERH, CBH, Universidades, Sociedade Civil,\niniciativa privada.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de comunicação e educação ambiental",
+        "Ações específicas": "Capacitação dos membros do Comitê e Comissões Gestoras para o uso racional e conservação das\náguas",
+        "Programa": "Programa de comunicação e educação ambiental",
+        "Instituições envolvidas": "COGERH, Universidades, CETRA.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de comunicação e educação ambiental",
+        "Ações específicas": "Elaborar e implantar um programa integrado de educação ambiental",
+        "Programa": "Programa de comunicação e educação ambiental",
+        "Instituições envolvidas": "ICMBio, Prefeituras Municipais, UNIVERSIDADES,\nSEMACE, SEMA, SEDUC, Sindicato dos trabalhadores, Sociedade Civil, ONGS.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Revitalização do Trecho do Riacho São Miguel",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "COGERH, SRH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Regulamentar o rastreamento de perfuratrizes de\npoços profundos.",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "CBH, Coner, SRH, Assembléia legislativa.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Elaboração de inventários ambientais dos açudes\n(Açudes que faltam IVA)",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "COGERH, Defesa Civil, CREA, Universidades.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Revitalização do Trecho do Riacho dos Porcos\n(Barragem Porcos - Brejo Santo até a Barragem Rosário - Milagres)",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "COGERH, SRH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Revitalização do Perímetro Icó-Lima Campos",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "COGERH, SRH",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Programa de Recuperação da Mata Ciliar e de Áreas Degradadas",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "SEMA, Universidades e Intituições de Pesquisa,\nSindicatos e associações, EMATERCE, IDACE, ASA, SFB, Prefeituras.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de conservação ambiental",
+        "Ações específicas": "Fortalecimento do Ecoturismo e turismo rural/ Ambiental.",
+        "Programa": "Programa de conservação ambiental",
+        "Instituições envolvidas": "Governo estadual Prefeituras Municpais (secreatarias de turismo), SEBRAE, BNB, Universidade, ONGS e\nAssociações.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de mitigação dos impactos do setor\nprodutivo sobre os recursos hídricos",
+        "Ações específicas": "Elaborar avaliação ambiental estratégica da extração\nde minérios sobre os recursos hídricos da RH do Salgado",
+        "Programa": "Programa de mitigação dos impactos do setor\nprodutivo sobre os recursos hídricos",
+        "Instituições envolvidas": "SEMACE, Prefeituras Municipais, universidades, ANM, IBAMA.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Programa de mitigação dos impactos do setor\nprodutivo sobre os recursos hídricos",
+        "Ações específicas": "Programa de Conservação do Solo e Manejo Sustentável da Caatinga",
+        "Programa": "Programa de mitigação dos impactos do setor\nprodutivo sobre os recursos hídricos",
+        "Instituições envolvidas": "SEMA, Universidades e Intituições de Pesquisa, Sindicatos e associações, EMATERCE, IDACE, ASA, SFB.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Identificação, preservação e recuperação das nascentes e olhos d´água/ matas ciliares/encostas.",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SEMA, SEMACE, ICMBio, COGERH, CBH, Secretarias\nMunicipais, Universidades e sindicatos.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Ampliação do programa Produtor de Água (ANA)",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SEMA, SEMACE, ICMBio, COGERH, CBH, ANA,\nUniversidades.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Estudo do impacto do uso de agrotóxico na RH do Salgado",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SEMA, SEMACE, COGERH, CBH, Universidades e Instituições de Ensino e Pesquisa.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Construção de viveiros comunitários e ações de reflorestamentos",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "Governo estadual, Prefeituras Municpais (secreatarias de meio ambiente),ICMBio, Universidades, EMATERCE,\nEmbrapa e intituições de Pesquisa",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Normatização do uso das fontes",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SRH, COGERH, ICMbio, Policia Ambiental,SEMACE,\nCONER.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Fiscalização do uso das fontes",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SRH, COGERH, ICMbio, Policia Ambiental,SEMACE,\nCONER.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo Aspectos Ambientais",
+        "Solicitacao": "Proteção ambiental dos mananciais",
+        "Ações específicas": "Ampliação da fiscalização para coibir o\ndesmatamento das nascentes e construções nas margens dos corpos hídricos",
+        "Programa": "Proteção ambiental dos mananciais",
+        "Instituições envolvidas": "SRH, COGERH, prefeituras municipais, Policia Ambiental e Semace, ICMbio.",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Criação de uma câmara técnica permanente no CBH para discussão de\nprojetos de lei (PL) e outras legislações pertinentes.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "CBH, Câmara Técnica do Plano de Recursos Hídricos",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Articular, através da COGERH, a fiscalização conjunta e com qualidade dos\nmananciais pelos órgãos públicos.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, SEMACE",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Ampliar ou criar, onde necessário, o corpo técnico das entidades que\natuam  com  recursos  hídricos  e  meio  ambiente  -  principalmente fiscalização.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, FUNCEME, SEMACE",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Capacitação  das  instituições  municipais  envolvidas  na  execução  das\nações previstas no Plano de Recursos Hídricos da Bacia do Salgado.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, CBH, Câmara Técnica do\nPlano de Recursos Hídricos",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Divulgação do Plano de Recursos Hídricos junto a formadores de opinião\nna região e nas mídias sociais",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, CBH, Câmara Técnica do\nPlano de Recursos Hídricos",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Fortalecimento da fiscalização de uso e ocupação dos solos próximos às\nmargens de rios e riachos urbanos",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, SEMACE",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "Fortalecimento do SIGERH",
+        "Ações específicas": "Ampliação e fortalecimento da capacidade de fiscalização dos múltiplos\nusos da água e mananciais.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, SEMACE",
+        "Prioridade": "Média"
+    }
+]
