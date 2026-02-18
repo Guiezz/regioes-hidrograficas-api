@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"os"
+	"time"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -49,11 +50,15 @@ func main() {
 
 	// 4. Configurar CORS (Para o Frontend acessar)
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"*"}, // Em produção, mude para o domínio do front
-		AllowMethods:     []string{"GET", "POST", "OPTIONS"},
+		AllowOrigins: []string{
+			"http://localhost:3000",
+			"https://api-hidrografica.onrender.com",
+			"https://regioes-hidrograficas-front.vercel.app",
+		}, AllowMethods: []string{"GET", "POST", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
+		MaxAge:           12 * time.Hour,
 	}))
 
 	// 5. Registrar Rotas
