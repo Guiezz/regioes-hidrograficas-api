@@ -1,0 +1,490 @@
+[
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Identificação de usuários/irrigantes da RHSC",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "COGERH, SRH, CBH, EMATERCE, Comissões Gestoras, DNOCS e Associações de Moradores.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Monitoramento e fiscalização sistemática de usuários/irrigantes",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "ANA, COGERH, SRH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Desenvolvimento de estudo que avalie as culturas adequadas à variabilidade climática e a rentabilidade do uso delas",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "EMATERCE, EMBRAPA, Universidades públicas e privadas, SEDET, SDA, FUNCEME, Beckman Sementes.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Implementação de técnicas para o plantio de culturas com menor consumo de água na irrigação",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "SEDET, Instituto Agropolos, EMATERCE, SDA, Secretarias municipais de agricultura, Universidades, Codevasf,",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Ampliação de sistemas de irrigação que propiciem a maior eficiência de aplicação da água",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "SEDET, Instituto Agropolos, EMATERCE, SDA, Secretarias municipais de agricultura, Universidades, Codevasf.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Capacitação de irrigantes sobre manejo de culturas com menor consumo de água, maior valor agregado e métodos de irrigação de maior eficiência",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "SEDET, Instituto Agropolos, EMATERCE, Secretarias municipais de agricultura, Codevasf, Universidades, CBH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Realização de trabalho de regularização de outorga",
+        "Programa": "Ampliação da Eficiência da Irrigação na produção agrícola",
+        "Instituições envolvidas": "COGERH e SRH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Mudança de tecnologia adequada ao reuso industrial",
+        "Programa": "Melhoria da Eficiência do Uso da Água na Indústria",
+        "Instituições envolvidas": "CAGECE, FIEC, SISAR, SAAE, SEMA, SRH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Redução sistemática das perdas de água tratada, decorrentes de furto, desperdícios ou defeito na distribuição.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "CAGECE, SISAR, SAAE, Universidades, Prefeituras Municipais, SEDUC e SRH",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação/ampliação dos Distritos de Medição e Controle (DMC), de forma progressiva, iniciando nos municípios de maiores volumes operacionais e alcançando os demais municípios.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "Universidades, CAGECE, SAAE, SISAR",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Redução das perdas em trânsito do sistema de água bruta para a manutenção adequada dos sistemas de adução.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "COGERH, SRH, CAGECE, SOHIDRA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Realização de estudos para fomentar as eco construções urbanas, focado no sistema de reuso de água e drenagem urbana sustentável.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "Prefeituras municipais, universidades, CAGECE",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de demanda hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Criação e implementação de instrumentos legais e administrativos para viabilizar a construção sustentável de novas edificações e de construções verdes.",
+        "Programa": "Gestão da Demanda Urbana",
+        "Instituições envolvidas": "Prefeituras e Câmaras Municipais",
+        "Prioridade": "Baixa"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Construção do lago de Fronteiras",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "DNOCS, SRH, SOHIDRA.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Construção do Sistema Adutor Fronteiras do Projeto Malha D'Água",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, COGERH, SEMACE, CAGECE, SAAE Ipaporanga",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração de estudo de viabilidade e projeto para a construção de adutora para o atendimento de usuários a jusante do Jaburu II",
+        "Programa": "Incremento da Oferta Hídrica Superficial",
+        "Instituições envolvidas": "SRH, SOHIDRA, SDA, Secretaria das Cidades, COGERH.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Estudo de viabilidade para a construção de barragens subterrâneas",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "Universidades, SRH, SOHIDRA, Secretaria das Cidades.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Mapeamento e identificação de locais para perfuração de poços na RHSC",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "SOHIDRA, Universidades, Defesa Civil Estadual, CPRM, COGERH.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Mapear, fiscalizar e outorgar os poços existentes",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "SOHIDRA, COGERH, SRH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Viabilidade de recuperação dos poços que foram identificados como inativos e obstruídos",
+        "Programa": "Incremento da Oferta Hídrica Subterrânea",
+        "Instituições envolvidas": "SOHIDRA, COGERH, CAGECE, Prefeituras municipais.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração de modelo institucional e legal que incentive o reuso da água",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "Universidades, Secretaria das Cidades (CAGECE), SISAR, SAAE, Câmaras municipais, SDA, Secretarias municipais de meio ambiente.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração de modelo institucional e legal que incentive a captação de água de chuva",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "Universidades, Secretaria das Cidades (CAGECE), SISAR, SAAE, Câmaras municipais, SDA, Secretarias municipais de meio ambiente e de agricultura, Cáritas, Fundação Dom Helder Câmara.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração de guia sobre manejo e métodos de armazenamento de águas pluviais",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "SDA, ASA, FUNASA, Cáritas, SENAR, EMATERCE, Sindicatos dos trabalhadores e trabalhadoras rurais.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Identificação e expansão de programas de reuso de águas cinzas e negras em comunidades rurais",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "Instituto Bem Viver, Cáritas, EMATERCE, Associação Caatinga, Secretarias municipais de meio ambiente e de agricultura.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de oferta hídrica",
+        "Solicitacao": "",
+        "Ações específicas": "Incentivo econômicos e não econômicos para usuários industriais e setores do serviço implementarem programa de reuso da água",
+        "Programa": "Diversificação da Oferta Hídrica",
+        "Instituições envolvidas": "FIEC, Prefeituras municipais.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Desenvolvimento do Banco de dados e sistemas de informação para disponibilização de informações sobre os sistemas hídricos, demandas, usuários e outras informações geradas nos planos de recursos hídricos",
+        "Programa": "Banco de Informações da Gestão da Águas",
+        "Instituições envolvidas": "Universidades, CBHSC, COGERH, Funcap, ANA e SIGERH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Ampliação/Atualização do cadastro de usuários",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "Secretarias municipais de agricultura e de meio ambiente, Defesas civis municipais, CAGECE, SISAR, SAAE, COGERH, SRH, Secretaria das Cidades, Associações de usuários dos açudes, SIGERH, CBHSC, Comissões gestoras, Colônias de pescadores, Sociedade civil organizada.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "",
+        "Prioridade": ""
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração de estudo para definição da capacidade de pagamento dos setores usuários",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "Universidades, COGERH, CBHSC.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Aprimoramento do sistema de cobrança pelo uso da água com vistas a equidade e eficiência de uso",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "Universidades, COGERH, SRH, CBHSC, CONERH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Fortalecimento e aprimoramento do sistema de outorga de uso de recursos hídricos",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "COGERH, SRH, CBHSC, CONERH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Avaliação dos custos de investimento e de operação, administração e manutenção (OAM) em infraestrutura hídrica",
+        "Programa": "Programa de Aprimoramento dos Instrumentos de Gestão",
+        "Instituições envolvidas": "COGERH, SOHIDRA",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Divulgação anual dos resultados da alocação negociada de água",
+        "Programa": "Fortalecimento e aprimoramento da alocação negociada de água",
+        "Instituições envolvidas": "CBHSC, COGERH, Comissões Gestoras.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Incorporação de novas técnicas, conceitos e parâmetros para embasar e fortalecer o processo decisório da alocação negociada de águas",
+        "Programa": "Fortalecimento e aprimoramento da alocação negociada de água",
+        "Instituições envolvidas": "COGERH, SISAR, CAGECE, CBHSC, Comissões gestoras, SAAE, Universidades.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Ações integradas entre CBHSI e Comitê da Bacia do Parnaíba",
+        "Programa": "Fortalecimento e aprimoramento da alocação negociada de água",
+        "Instituições envolvidas": "ANA, CBH Parnaíba, CBHSC, CBHSI, COGERH, CONERH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Aperfeiçoamento das técnicas de mediação de conflitos através de capacitações",
+        "Programa": "Programa de Gestão de Conflitos",
+        "Instituições envolvidas": "COGERH, CBHSC, Comissões gestoras, ANA, Universidades, Fórum Cearense de CBHs, CBH Parnaíba, CNRH.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Promoção de ações de pactuação, valorizando a prevenção e a mediação de conflitos pelo uso da água.",
+        "Programa": "Programa de Gestão de Conflitos",
+        "Instituições envolvidas": "COGERH, CBHSC, Comissões gestoras, ANA, CBH Parnaíba, CNRH.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Realização de estudos adicionais sobre reservas hídricas subterrâneas, bem como estudos hidrogeológicos e hidroquímicos",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "CPRM, SOHIDRA, COGERH, Universidades.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Mapeamento, fiscalização e outorga de poços profundos e barramentos particulares",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "CPRM, SOHIDRA, COGERH, Universidades, SRH, SEMACE, Secretaria das Cidades, SEMA.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação de coleta seletiva de resíduos sólidos (lixo) nos municípios da RHSC e no entorno dos corpos hídricos.",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "Secretarias municipais de meio ambiente, Prefeituras municipais, Associações e cooperativas de catadores.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Construção de ETEs nos municípios pertencentes à RHSC",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "CAGECE, SISAR, SAAEs, Prefeituras municipais.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Elaboração e atualização dos Planos Municipais e Intermunicipais de Saneamento Básico",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "CAGECE, Prefeituras municipais, Secretarias municipais de meio ambiente, Consórcios de Gestão Integrada de Resíduos Sólidos.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação de consórcio de Gestão Integrada de Resíduos Sólidos",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "Prefeituras municipais e SEMA.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Ampliação da distribuição de água tratada na zona rural e urbana",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "CAGECE, SAAEs, SISAR, Prefeituras municipais, Exército.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação de sistemas alternativos individuais de esgotamento sanitário na zona rural",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "SISAR, Prefeituras municipais, FUNASA, Cáritas, Associação Caatinga, Universidades.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação de sistemas de drenagem urbana",
+        "Programa": "Gestão da Qualidade da Água dos Mananciais",
+        "Instituições envolvidas": "Prefeituras municipais e Secretaria das Cidades.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Diagnóstico, Recuperação e Monitoramento das nascentes na RHSC",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "CBHSC, CBH Parnaíba, ANA, SEMA, Secretarias municipais de meio ambiente, SEMACE.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Ampliação da fiscalização para coibir o desmatamento das nascentes",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "MPCE, SEMACE, IBAMA, BPMA, Órgãos municipais de fiscalização.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Identificação, fiscalização, monitoramento e reflorestamento de APP's",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "MPCE, SEMACE, IBAMA, BPMA, Órgãos municipais de fiscalização.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Implementação de programa de incentivo a práticas agroecológicas e orgânicas",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "EMATERCE, Secretarias municipais de agricultura, SDA, ONGs.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Estudo do impacto do uso de agrotóxicos na RHSC para conscientização do não uso de agrotóxicos na Bacia Hidrográfica",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "EMATERCE, Secretarias municipais de agricultura, SDA, ONGs, Universidades, Cursos técnicos na região.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Fortalecimento do Turismo e do Ecoturismo",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "SETUR, SEDET, SEMA, Associação Caatinga.",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Realização do zoneamento ambiental para a RHSC",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "Prefeituras municipais, SEMA, Universidades, CBHSC e CBH Parnaíba.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo de gerenciamento das águas",
+        "Solicitacao": "",
+        "Ações específicas": "Construção e ampliação de viveiros comunitários",
+        "Programa": "Proteção Ambiental dos Mananciais",
+        "Instituições envolvidas": "Secretarias municipais de meio ambiente, Associação Caatinga, SEMA, EMATERCE.",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Capacitação dos membros do comitê para o uso e conhecimento dos sistemas de informação de recursos hídricos.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH e ANA",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Integração entre os órgãos quanto à elaboração de estudos, planos e outras atividades a serem realizadas pelo Sistema de Gestão de Recursos Hídricos.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, FUNCEME, SOHIDRA, SEMACE",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Promoção de capacitação para representantes dos municípios para a execução de ações de fiscalização, monitoramento e segurança de barragem.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, Comissões Gestoras, Prefeituras Municipais",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Capacitação das instituições municipais sobre o Plano de Recursos Hídricos da Bacia da RHSC",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH, SRH, CBH, Secretarias municipais de agricultura, de meio ambiente e de educação",
+        "Prioridade": "Média"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Divulgação do Plano de Recursos Hídricos junto a formadores de opinião na região e através dos meios de comunicações sociais",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "CBH, Comissões Gestoras, Prefeituras Municipais, COGERH, SRH, Universidades",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Ampliação e fortalecimento da capacidade de fiscalização dos múltiplos usos da água e mananciais.",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "CBH, COGERH, SRH, Secretarias municipais de meio ambiente",
+        "Prioridade": "Alta"
+    },
+    {
+        "Matriz": "Matriz de ações e programas do eixo político-institucional",
+        "Solicitacao": "",
+        "Ações específicas": "Implantação e estruturação da GR na RHSC",
+        "Programa": "Fortalecimento do SIGERH",
+        "Instituições envolvidas": "COGERH e CBH",
+        "Prioridade": "Média"
+    }
+]

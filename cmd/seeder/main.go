@@ -12,7 +12,14 @@ import (
 )
 
 // Lista de bacias para importar (o nome deve bater com a pasta em dados_importacao/)
-var targetBasins = []string{"Curu", "Salgado"}
+var targetBasins = []string{
+	"Curu",
+	"Salgado",
+	"Litoral",
+	"Coreau",
+	"Ibiapaba",
+	"Crateus",
+}
 
 func main() {
 	cfg, err := config.LoadConfig()
