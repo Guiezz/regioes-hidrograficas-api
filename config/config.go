@@ -20,8 +20,10 @@ func LoadConfig() (config Config, err error) {
 	// 1. Diz ao Viper para procurar um arquivo chamado ".env"
 	viper.SetConfigFile(".env")
 
-	// 2. Tenta ler o arquivo (se não existir, não tem problema, segue o baile)
 	viper.ReadInConfig()
+
+	viper.BindEnv("DATABASE_URL") // <--- Adicione isso
+	viper.BindEnv("PORT")         // <--- Adicione isso
 
 	// 3. Define defaults (caso não tenha no .env nem nas variáveis do sistema)
 	viper.SetDefault("DB_HOST", "localhost")
