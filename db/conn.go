@@ -10,8 +10,18 @@ import (
 )
 
 func Init(cfg config.Config) *gorm.DB {
-	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=America/Fortaleza",
-		cfg.DBHost, cfg.DBUser, cfg.DBPassword, cfg.DBName, cfg.DBPort)
+	var dsn string
+
+	// Lógica de Seleção:
+	// Se tivermos a URL completa (Neon/Produção), usamos ela.
+	// Caso contrário, montamos manualmente (Local/Docker Compose).
+	if cfg.DatabaseURL != "" {
+		dsn = cfg.DatabaseURL
+	} else {
+		// Note: Em local usamos sslmode=disable
+		dsn = fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=America/Fortaleza",
+			cfg.DBHost, cfg.DBUser, cfg.DBPassword, cfg.DBName, cfg.DBPort)
+	}
 
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
@@ -23,6 +33,7 @@ func Init(cfg config.Config) *gorm.DB {
 		log.Fatalf("❌ Falha ao obter instância SQL: %v", err)
 	}
 
+	// Teste de conexão
 	err = sqlDB.Ping()
 	if err != nil {
 		log.Fatalf("❌ Banco de dados não responde ao Ping: %v", err)
