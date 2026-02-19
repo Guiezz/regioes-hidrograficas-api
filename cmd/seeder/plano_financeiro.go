@@ -51,7 +51,10 @@ func importarCustosJSON(db *gorm.DB, basinID uint, folderPath string) {
 			ValorTotal: item.ValorTotal,
 			Percentual: item.Percentual,
 			P2021_2025: item.P2021_2025,
-			// ... (mapear os outros campos igual) ...
+			P2025_2030: item.P2025_2030, // Adicionado
+			P2030_2035: item.P2030_2035, // Adicionado
+			P2035_2040: item.P2035_2040, // Adicionado
+			P2040_2045: item.P2040_2045, // Adicionado
 			P2045_2050: item.P2045_2050,
 		}
 		db.Where("eixo = ? AND basin_id = ?", c.Eixo, basinID).FirstOrCreate(&c)
