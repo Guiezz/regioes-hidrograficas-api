@@ -40,7 +40,10 @@ func main() {
 		&model.Section{},
 		&model.Basin{},
 		&model.ActionMatrix{},
-		&model.Cost{},
+		&model.ResumoGeral{},   // Novo
+		&model.EixoAcao{},      // Substitui o antigo model.Cost
+		&model.PeriodoAcao{},   // Novo
+		&model.CustoVariavel{}, // Novo
 	)
 	if err != nil {
 		log.Printf("⚠️ (Info) Drop Table: %v", err)
@@ -56,8 +59,11 @@ func main() {
 		&model.Measurement{},
 		&model.ConsolidatedStats{},
 		&model.TypologyStats{},
-		&model.Cost{},
 		&model.ActionMatrix{},
+		&model.ResumoGeral{},   // Novo
+		&model.EixoAcao{},      // Substitui o antigo model.Cost
+		&model.PeriodoAcao{},   // Novo
+		&model.CustoVariavel{}, // Novo
 	)
 	if err != nil {
 		log.Fatalf("❌ Erro no AutoMigrate: %v", err)

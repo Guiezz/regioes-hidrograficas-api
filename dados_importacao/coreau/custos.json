@@ -1,68 +1,237 @@
-[
-  {
-    "Eixo": "Demanda hídrica",
-    "Percentual": 0.1002,
-    "Valor Total": "R$ 10.961.503,02",
-    "2021-2025": "R$ 2.175.500,00",
-    "2025-2030": "R$ 2.618.000,00",
-    "2030-2035": "R$ 3.334.667,42",
-    "2035-2040": "R$ 1.166.667,42",
-    "2040-2045": "R$ 1.166.667,42",
-    "2045-2050": "R$ 500.000,76"
+{
+  "resumoGeral": {
+    "valorTotalPrevisto": 1381382378.94,
+    "percentual": 1.0
   },
-  {
-    "Eixo": "Político Institucional",
-    "Valor Total": "R$ 3.568,67",
-    "Percentual": 0.0,
-    "2021-2025": "R$ 30,52",
-    "2025-2030": "R$ 1.174,30",
-    "2030-2035": "R$ 1.174,30",
-    "2035-2040": "R$ 1.166,67",
-    "2040-2045": "R$ 11,45",
-    "2045-2050": "R$ 11,45"
-  },
-  {
-    "Eixo": "Oferta Hídrica",
-    "Valor Total": "R$ 80.541.401,70",
-    "Percentual": 0.7364,
-    "2021-2025": "R$ 722.439,28",
-    "2025-2030": "R$ 4.926.589,38",
-    "2030-2035": "R$ 24.377.066,53",
-    "2035-2040": "R$ 23.859.978,02",
-    "2040-2045": "R$ 13.432.661,99",
-    "2045-2050": "R$ 13.222.666,51"
-  },
-  {
-    "Eixo": "Gerenciamento das águas",
-    "Valor Total": "R$ 1.878.206,77",
-    "Percentual": 0.0172,
-    "2021-2025": "R$ 468.578,15",
-    "2025-2030": "R$ 770.079,62",
-    "2030-2035": "R$ 426.571,03",
-    "2035-2040": "R$ 150.000,00",
-    "2040-2045": "R$ 62.977,97",
-    "2045-2050": "R$ -"
-  },
-  {
-    "Eixo": "Meio Ambiente",
-    "Valor Total": "R$ 15.982.163,17",
-    "Percentual": 0.1461,
-    "2021-2025": "R$ 2.418.244,01",
-    "2025-2030": "R$ 5.818.095,91",
-    "2030-2035": "R$ 4.008.411,46",
-    "2035-2040": "R$ 3.431.033,60",
-    "2040-2045": "R$ 153.185,28",
-    "2045-2050": "R$ 153.192,91"
-  },
-  {
-    "Eixo": "TOTAL GERAL",
-    "Valor Total": "R$ 109.366.843,33",
-    "Percentual": 1.0,
-    "2021-2025": "R$ 5.784.791,96",
-    "2025-2030": "R$ 14.133.939,21",
-    "2030-2035": "R$ 32.147.890,73",
-    "2035-2040": "R$ 28.608.845,71",
-    "2040-2045": "R$ 14.815.504,11",
-    "2045-2050": "R$ 13.875.871,62"
-  }
-]
+  "planoAcao": [
+    {
+      "eixo": "OFERTA HÍDRICA",
+      "valorTotalProjetado": 1332407330.02,
+      "percentual": 0.9645,
+      "periodos": [
+        { "intervalo": "2021 - 2025", "custoFixo": 0.0, "custosVariaveis": [] },
+        {
+          "intervalo": "2025 - 2030",
+          "custoFixo": 32186307.8,
+          "custosVariaveis": [
+            { "descricao": "Barragem", "valorUnitario": 4404.71 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2035",
+          "custoFixo": 159365418.83,
+          "custosVariaveis": [
+            { "descricao": "Barragem", "valorUnitario": 47040.92 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2040",
+          "custoFixo": 380295201.13,
+          "custosVariaveis": [
+            { "descricao": "Barragem", "valorUnitario": 4404.71 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2045",
+          "custoFixo": 380280201.13,
+          "custosVariaveis": []
+        },
+        {
+          "intervalo": "2045 - 2050",
+          "custoFixo": 380280201.13,
+          "custosVariaveis": []
+        }
+      ]
+    },
+    {
+      "eixo": "DEMANDA HÍDRICA",
+      "valorTotalProjetado": 42558419.49,
+      "percentual": 0.0308,
+      "periodos": [
+        {
+          "intervalo": "2021 - 2025",
+          "custoFixo": 2309629.53,
+          "custosVariaveis": [
+            {
+              "descricao": "Estudo de viabilidade (Unidade)",
+              "valorUnitario": 2882787.81
+            }
+          ]
+        },
+        {
+          "intervalo": "2025 - 2030",
+          "custoFixo": 20347164.0,
+          "custosVariaveis": [
+            {
+              "descricao": "Estudo de viabilidade (Unidade)",
+              "valorUnitario": 2882787.81
+            }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2035",
+          "custoFixo": 16059125.96,
+          "custosVariaveis": [
+            {
+              "descricao": "Implementação de sistemas (Unidade)",
+              "valorUnitario": 10082883.3
+            },
+            { "descricao": "ha", "valorUnitario": 6500.0 },
+            { "descricao": "mês", "valorUnitario": 7239.19 },
+            { "descricao": "curso", "valorUnitario": 6543.46 },
+            { "descricao": "m de rede", "valorUnitario": 3.02 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2040",
+          "custoFixo": 842500.0,
+          "custosVariaveis": [
+            { "descricao": "ha", "valorUnitario": 6500.0 },
+            { "descricao": "mês", "valorUnitario": 7239.19 },
+            { "descricao": "curso", "valorUnitario": 6543.46 },
+            { "descricao": "m de rede", "valorUnitario": 3.02 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2045",
+          "custoFixo": 1500000.0,
+          "custosVariaveis": [
+            { "descricao": "m de rede", "valorUnitario": 3.02 },
+            { "descricao": "mês", "valorUnitario": 7239.19 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2050",
+          "custoFixo": 1500000.0,
+          "custosVariaveis": [
+            { "descricao": "m de rede", "valorUnitario": 3.02 },
+            { "descricao": "mês", "valorUnitario": 7239.19 }
+          ]
+        }
+      ]
+    },
+    {
+      "eixo": "MEIO AMBIENTE",
+      "valorTotalProjetado": 5428695.52,
+      "percentual": 0.0039,
+      "periodos": [
+        {
+          "intervalo": "2021 - 2025",
+          "custoFixo": 437500.0,
+          "custosVariaveis": [
+            { "descricao": "mês", "valorUnitario": 7239.19 },
+            { "descricao": "ligação", "valorUnitario": 4309.69 },
+            {
+              "descricao": "habitante/domicílio para ETEs",
+              "valorUnitario": 3.3
+            },
+            { "descricao": "S/ha", "valorUnitario": 16377.0 }
+          ]
+        },
+        {
+          "intervalo": "2025 - 2030",
+          "custoFixo": 1060287.0,
+          "custosVariaveis": [
+            { "descricao": "ligação", "valorUnitario": 4309.69 },
+            {
+              "descricao": "habitante/domicílio para ETEs",
+              "valorUnitario": 3.3
+            },
+            { "descricao": "plano", "valorUnitario": 700000.0 },
+            { "descricao": "mês", "valorUnitario": 7239.19 },
+            { "descricao": "Barragem", "valorUnitario": 92430.65 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "curso", "valorUnitario": 6543.46 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2035",
+          "custoFixo": 3520908.52,
+          "custosVariaveis": [
+            { "descricao": "ligação", "valorUnitario": 4309.69 },
+            {
+              "descricao": "habitante/domicílio para ETEs",
+              "valorUnitario": 3.3
+            },
+            { "descricao": "plano", "valorUnitario": 700000.0 },
+            { "descricao": "mês", "valorUnitario": 7239.19 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2040",
+          "custoFixo": 410000.0,
+          "custosVariaveis": []
+        },
+        { "intervalo": "2040 - 2045", "custoFixo": 0.0, "custosVariaveis": [] },
+        { "intervalo": "2045 - 2050", "custoFixo": 0.0, "custosVariaveis": [] }
+      ]
+    },
+    {
+      "eixo": "GERENCIAMENTO DAS ÁGUAS",
+      "valorTotalProjetado": 987933.91,
+      "percentual": 0.0007,
+      "periodos": [
+        {
+          "intervalo": "2021 - 2025",
+          "custoFixo": 194466.96,
+          "custosVariaveis": []
+        },
+        {
+          "intervalo": "2025 - 2030",
+          "custoFixo": 319466.96,
+          "custosVariaveis": [
+            { "descricao": "pessoa", "valorUnitario": 6543.46 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2035",
+          "custoFixo": 126000.0,
+          "custosVariaveis": []
+        },
+        {
+          "intervalo": "2035 - 2040",
+          "custoFixo": 348000.0,
+          "custosVariaveis": []
+        },
+        { "intervalo": "2040 - 2045", "custoFixo": 0.0, "custosVariaveis": [] },
+        { "intervalo": "2045 - 2050", "custoFixo": 0.0, "custosVariaveis": [] }
+      ]
+    },
+    {
+      "eixo": "POLÍTICO-INSTITUCIONAL",
+      "valorTotalProjetado": 0.0,
+      "percentual": 0.0,
+      "periodos": [
+        {
+          "intervalo": "2021 - 2025",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "curso", "valorUnitario": 6543.46 }
+          ]
+        },
+        {
+          "intervalo": "2025 - 2030",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "curso", "valorUnitario": 6543.46 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2035",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "mês", "valorUnitario": 7239.19 },
+            { "descricao": "curso", "valorUnitario": 6543.46 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2040",
+          "custoFixo": 0.0,
+          "custosVariaveis": [{ "descricao": "mês", "valorUnitario": 7239.19 }]
+        },
+        { "intervalo": "2040 - 2045", "custoFixo": 0.0, "custosVariaveis": [] },
+        { "intervalo": "2045 - 2050", "custoFixo": 0.0, "custosVariaveis": [] }
+      ]
+    }
+  ]
+}

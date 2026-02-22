@@ -9,11 +9,11 @@ import (
 
 	"github.com/guiezz/regioes-hidrograficas-api/internal/domain/model"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func seedPlanoFinanceiro(db *gorm.DB, basin model.Basin, folderPath string) {
 	fmt.Printf("📈 [Financeiro] Importando custos e matriz para: %s\n", basin.Name)
-
 	importarCustosJSON(db, basin.ID, folderPath)
 	importarMatrizJSON(db, basin.ID, folderPath)
 }
@@ -26,40 +26,37 @@ func importarCustosJSON(db *gorm.DB, basinID uint, folderPath string) {
 		return
 	}
 
-	type CostJSON struct {
-		Eixo       string  `json:"Eixo"`
-		ValorTotal string  `json:"Valor Total"`
-		Percentual float64 `json:"Percentual"`
-		P2021_2025 string  `json:"2021-2025"`
-		P2025_2030 string  `json:"2025-2030"`
-		P2030_2035 string  `json:"2030-2035"`
-		P2035_2040 string  `json:"2035-2040"`
-		P2040_2045 string  `json:"2040-2045"`
-		P2045_2050 string  `json:"2045-2050"`
-	}
-
-	var rawData []CostJSON
+	var rawData model.PlanoAcaoResponse
 	if err := json.Unmarshal(fileContent, &rawData); err != nil {
 		log.Printf("❌ Erro JSON custos: %v", err)
 		return
 	}
 
-	for _, item := range rawData {
-		c := model.Cost{
-			BasinID:    basinID,
-			Eixo:       item.Eixo,
-			ValorTotal: item.ValorTotal,
-			Percentual: item.Percentual,
-			P2021_2025: item.P2021_2025,
-			P2025_2030: item.P2025_2030, // Adicionado
-			P2030_2035: item.P2030_2035, // Adicionado
-			P2035_2040: item.P2035_2040, // Adicionado
-			P2040_2045: item.P2040_2045, // Adicionado
-			P2045_2050: item.P2045_2050,
+	// 1. Salvar o Resumo Geral (Upsert baseado no BasinID)
+	resumo := rawData.ResumoGeral
+	resumo.BasinID = basinID
+	db.Clauses(clause.OnConflict{
+		Columns:   []clause.Column{{Name: "basin_id"}},
+		DoUpdates: clause.AssignmentColumns([]string{"valor_total_previsto", "percentual"}),
+	}).Create(&resumo)
+
+	// 2. Processar Eixos
+	for _, eixoJson := range rawData.PlanoAcao {
+		eixo := model.EixoAcao{
+			BasinID:             basinID,
+			Eixo:                eixoJson.Eixo,
+			ValorTotalProjetado: eixoJson.ValorTotalProjetado,
+			Percentual:          eixoJson.Percentual,
+			Periodos:            eixoJson.Periodos,
 		}
-		db.Where("eixo = ? AND basin_id = ?", c.Eixo, basinID).FirstOrCreate(&c)
+
+		// Importante: habilitar FullSaveAssociations para salvar Periodos e CustosVariaveis
+		err := db.Session(&gorm.Session{FullSaveAssociations: true}).Create(&eixo).Error
+		if err != nil {
+			log.Printf("❌ Erro ao salvar eixo %s: %v", eixo.Eixo, err)
+		}
 	}
-	fmt.Printf("✅ [Financeiro] %d custos processados.\n", len(rawData))
+	fmt.Printf("✅ [Financeiro] Eixos e custos variáveis processados.\n")
 }
 
 func importarMatrizJSON(db *gorm.DB, basinID uint, folderPath string) {
@@ -72,7 +69,7 @@ func importarMatrizJSON(db *gorm.DB, basinID uint, folderPath string) {
 
 	type MatrizJSON struct {
 		Matriz           string `json:"Matriz"`
-		Solicitacao      string `json:"Solicitacao"` // Atenção ao acento no JSON se houver
+		Solicitacao      string `json:"Solicitacao"`
 		AcoesEspecificas string `json:"Ações específicas"`
 		Programa         string `json:"Programa"`
 		Instituicoes     string `json:"Instituições envolvidas"`
