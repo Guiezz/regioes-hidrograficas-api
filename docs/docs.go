@@ -21,7 +21,7 @@ const docTemplate = `{
     "paths": {
         "/actions": {
             "get": {
-                "description": "Retorna lista de ações com diversos filtros dinâmicos (Eixo, Programa, Ano, etc).",
+                "description": "Retorna lista de ações com filtros ajustados para a estrutura atual do banco.",
                 "produces": [
                     "application/json"
                 ],
@@ -38,32 +38,14 @@ const docTemplate = `{
                     },
                     {
                         "type": "string",
-                        "description": "Ano de vigência (ex: 2024)",
-                        "name": "ano",
-                        "in": "query"
-                    },
-                    {
-                        "type": "string",
                         "description": "Filtro por nome do Eixo",
                         "name": "eixo",
                         "in": "query"
                     },
                     {
                         "type": "string",
-                        "description": "Filtro por nome do Programa",
-                        "name": "programa",
-                        "in": "query"
-                    },
-                    {
-                        "type": "string",
                         "description": "Filtro por Tipologia",
                         "name": "tipologia",
-                        "in": "query"
-                    },
-                    {
-                        "type": "string",
-                        "description": "Busca textual na descrição",
-                        "name": "search",
                         "in": "query"
                     }
                 ],
@@ -80,7 +62,7 @@ const docTemplate = `{
         },
         "/actions/filters": {
             "get": {
-                "description": "Retorna listas únicas de Eixos, Programas e Tipologias para preencher combos do frontend.",
+                "description": "Retorna listas corrigidas onde 'eixos' busca dados da tabela 'programas'.",
                 "produces": [
                     "application/json"
                 ],
@@ -200,7 +182,7 @@ const docTemplate = `{
         },
         "/financeiro/custos": {
             "get": {
-                "description": "Retorna uma lista de custos, permitindo filtrar por bacia específica via ID.",
+                "description": "Retorna o resumo geral e os custos por eixo de uma bacia específica via ID.",
                 "consumes": [
                     "application/json"
                 ],
@@ -214,7 +196,7 @@ const docTemplate = `{
                 "parameters": [
                     {
                         "type": "integer",
-                        "description": "ID da Bacia Hidrográfica (ex: 1 para Curu)",
+                        "description": "ID da Bacia Hidrográfica",
                         "name": "basin_id",
                         "in": "query"
                     }
@@ -223,10 +205,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "type": "array",
-                            "items": {
-                                "$ref": "#/definitions/model.Cost"
-                            }
+                            "$ref": "#/definitions/model.PlanoAcaoResponse"
                         }
                     },
                     "500": {
@@ -243,7 +222,7 @@ const docTemplate = `{
         },
         "/financeiro/matriz": {
             "get": {
-                "description": "Retorna a matriz de ações filtrada por bacia. Útil para separar dados do Curu, Salgado, etc.",
+                "description": "Retorna a matriz de ações filtrada por bacia.",
                 "consumes": [
                     "application/json"
                 ],
@@ -351,45 +330,89 @@ const docTemplate = `{
                 }
             }
         },
-        "model.Cost": {
+        "model.CustoVariavel": {
             "type": "object",
             "properties": {
-                "basin_id": {
-                    "type": "integer"
-                },
-                "created_at": {
-                    "type": "string"
-                },
-                "eixo": {
+                "descricao": {
                     "type": "string"
                 },
                 "id": {
                     "type": "integer"
                 },
-                "p2021_2025": {
+                "valorUnitario": {
+                    "type": "number"
+                }
+            }
+        },
+        "model.EixoAcao": {
+            "type": "object",
+            "properties": {
+                "eixo": {
+                    "description": "Nome da coluna no banco",
                     "type": "string"
                 },
-                "p2025_2030": {
-                    "type": "string"
-                },
-                "p2030_2035": {
-                    "type": "string"
-                },
-                "p2035_2040": {
-                    "type": "string"
-                },
-                "p2040_2045": {
-                    "type": "string"
-                },
-                "p2045_2050": {
-                    "type": "string"
+                "id": {
+                    "type": "integer"
                 },
                 "percentual": {
                     "type": "number"
                 },
-                "valor_total": {
-                    "description": "Mantido como string para preservar o formato \"R$ ...\"",
+                "periodos": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/model.PeriodoAcao"
+                    }
+                },
+                "valorTotalProjetado": {
+                    "type": "number"
+                }
+            }
+        },
+        "model.PeriodoAcao": {
+            "type": "object",
+            "properties": {
+                "custoFixo": {
+                    "type": "number"
+                },
+                "custosVariaveis": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/model.CustoVariavel"
+                    }
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "intervalo": {
                     "type": "string"
+                }
+            }
+        },
+        "model.PlanoAcaoResponse": {
+            "type": "object",
+            "properties": {
+                "planoAcao": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/model.EixoAcao"
+                    }
+                },
+                "resumoGeral": {
+                    "$ref": "#/definitions/model.ResumoGeral"
+                }
+            }
+        },
+        "model.ResumoGeral": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "percentual": {
+                    "type": "number"
+                },
+                "valorTotalPrevisto": {
+                    "type": "number"
                 }
             }
         },

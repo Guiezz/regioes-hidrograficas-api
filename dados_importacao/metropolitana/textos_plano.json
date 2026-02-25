@@ -1,0 +1,338 @@
+[
+  {
+    "number": "1",
+    "title": "Identificação",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "1.1",
+    "title": "Objetivo",
+    "content": "O Plano de Recursos Hídricos da Região Hidrográfica das Bacias Metropolitanas tem como objetivo orientar a gestão integrada e sustentável das águas até o ano de 2050. O documento consolida diretrizes, programas e ações voltadas ao uso racional dos recursos hídricos, contemplando previsões orçamentárias e a identificação de fontes de financiamento. Dessa forma, o plano se estabelece como um instrumento de referência para o planejamento, a tomada de decisão e a implementação de políticas públicas, visando garantir a segurança hídrica e o atendimento aos múltiplos usos da água na região.",
+    "level": 2
+  },
+  {
+    "number": "1.2",
+    "title": "Caracterização",
+    "content": "A Região Hidrográfica das Bacias Metropolitanas localiza-se na porção nordeste do Estado do Ceará, compreendida entre as latitudes 3°27'15''S e 4°58'00''S e as longitudes 37°47'10''W e 39°26'28''W, abrangendo uma área aproximada de 15.009,06 km². A região apresenta domínios hidrogeológicos diversificados, compostos por aluviões, dunas e paleodunas, formação Barreiras e embasamento cristalino. Do ponto de vista climático, a região insere-se em clima tropical de savana e semiárido quente, com temperatura média anual de 26,7°C. A umidade relativa do ar varia significativamente, oscilando entre 67,5% e 92,0%. A insolação anual atinge cerca de 3.010,30 horas, o que contribui para elevadas taxas de evaporação, que alcançam uma média anual de 2.459,3 mm. A precipitação apresenta acentuada variabilidade espacial, com valores médios de 1.526,8 mm na região litorânea, reduzindo-se para 778,8 mm na porção do sertão.",
+    "level": 2
+  },
+  {
+    "number": "1.3",
+    "title": "Resumo da infraestrutura hídrica",
+    "content": "A Região Hidrográfica das Bacias Metropolitanas dispõe de uma infraestrutura hídrica composta por 23 açudes públicos de características plurianuais sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 1.459.836.188 m³. Complementam esse sistema 52 adutoras convencionais, canais de integração e poços cadastrados, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
+    "level": 2
+  },
+  {
+    "number": "1.4",
+    "title": "Identificação de problemas e desafios",
+    "content": "A Região Hidrográfica das Bacias Metropolitanas enfrenta desafios estruturais críticos, marcados por um déficit hídrico significativo. Essa condição impõe uma forte dependência de transferências hídricas de outras regiões para garantir o abastecimento e mitigar a vulnerabilidade do sistema frente às demandas crescentes. Além disso, destaca-se a escassez de dados relacionados ao monitoramento quantitativo e qualitativo das águas subterrâneas, o que impõe desafios adicionais ao planejamento e à gestão integrada dos recursos hídricos regionais.",
+    "level": 2
+  },
+  {
+    "number": "2",
+    "title": "Metodologia dos planos",
+    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
+    "level": 1
+  },
+  {
+    "number": "2.1",
+    "title": "Início da elaboração",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.1.1",
+    "title": "Questionário",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "level": 3
+  },
+  {
+    "number": "2.1.2",
+    "title": "Grupo focal",
+    "content": "Relatos das vivências e experiências práticas com técnicos dos Núcleos de Gestão e Operação da Gerência Regional, em que discorreram sobre trajetória, sistemas hídricos, arranjos institucionais, a alocação de água, as secas, entre outros temas.",
+    "level": 3
+  },
+  {
+    "number": "2.2",
+    "title": "Diagnóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.2.1",
+    "title": "Reunião de partida",
+    "content": "Apresentação de plano de trabalho, sínteses da análise dos questionários, conceito e importância do Plano de Recursos Hídricos, conscientização da relevância do processo participativo e formação da Câmara Técnica de Acompanhamento da Elaboração do Plano (CT).",
+    "level": 3
+  },
+  {
+    "number": "2.2.2",
+    "title": "Audiência Pública: Iniciando o Diálogo",
+    "content": "Apresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais.",
+    "level": 3
+  },
+  {
+    "number": "2.2.3",
+    "title": "Entrevistas Semiestruturadas",
+    "content": "Realizadas simultaneamente com diferentes atores da região sobre aspectos futuros, em especial sobre as demandas hídricas e as questões ambientais. Essas entrevistas fomentaram a etapa de prognóstico.",
+    "level": 3
+  },
+  {
+    "number": "2.2.4",
+    "title": "Reunião de Aprovação do Diagnóstico",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "2.3",
+    "title": "Prognóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.3.1",
+    "title": "Oficina de Cenarização - Sementes do Futuro",
+    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Aspectos ambientais.",
+    "level": 3
+  },
+  {
+    "number": "2.3.2",
+    "title": "Reunião de Aprovação do Prognóstico",
+    "content": "Revisão e aprovação do Prognóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "2.4",
+    "title": "Plano de Ação",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.4.1",
+    "title": "Etapa preparatória",
+    "content": "Etapa anterior às oficinas, em que se consolidaram informações sobre as ações verbalizadas durante o processo de elaboração do plano e as sistematizou em uma planilha dividida em 5 eixos (oferta hídrica, demanda hídrica, aspectos ambientais, gerenciamento das águas e político-institucional), denominada Matriz de Programas e Ações, encaminhada ao CBH para validação dos eixos.",
+    "level": 3
+  },
+  {
+    "number": "2.4.2",
+    "title": "Oficina 01",
+    "content": "A dinâmica ocorreu em dois momentos: plenária e grupos de trabalho. Na plenária foi apresentada a metodologia e, posteriormente, os participantes foram divididos em três grupos: GT 1 - Demanda e oferta hídrica, GT 2 - Gerenciamento da água e aspectos político-institucionais e GT 3 - Aspectos ambientais. Os participantes puderam alterar, excluir e incluir ações e instituições envolvidas na Matriz.",
+    "level": 3
+  },
+  {
+    "number": "2.4.3",
+    "title": "Priorização Programas e Ações",
+    "content": "Após a validação da Matriz, foi aplicado o IUT, metodologia adaptada do método GUT, que se refere ao impacto espacial, urgência e tendência. Para isso foi enviado um formulário Google aos membros do CBH e demais participantes da Oficina 01, que responderam indicando duas classificações (impacto e urgência) para cada ação contida no formulário, em função de sua percepção e vivência na região.",
+    "level": 3
+  },
+  {
+    "number": "2.4.4",
+    "title": "Oficina 02",
+    "content": "Após a priorização, foi realizada a segunda oficina, na qual foram apresentados e validados os resultados da priorização. Nela foram acrescentadas três ações, duas priorizações foram alteradas e foram validadas as demais prioridades apresentadas pela equipe.",
+    "level": 3
+  },
+  {
+    "number": "2.4.5",
+    "title": "Reunião de aprovação do plano",
+    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "level": 3
+  },
+  {
+    "number": "3",
+    "title": "Infraestrutura hídrica",
+    "content": "A RHBM é composta por açudes, poços, sistemas adutores e eixos de transferências essenciais para a segurança hídrica da região.",
+    "level": 1
+  },
+  {
+    "number": "3.1",
+    "title": "Reservatórios e Açudes",
+    "content": "A Região Hidrográfica das Bacias Metropolitanas possui 5 açudes públicos de grande porte (capacidade superior a 75 milhões de m³) com características plurianuais, gerenciados pela COGERH, que juntos acumulam 1.060.610.928 m³. Além disso, a região conta com 11 reservatórios de médio porte (capacidade entre 10 e 75 milhões de m³), acumulando 354.592.561 m³, e 7 açudes de pequeno porte (capacidade inferior a 10 milhões de m³). Somadas, essas estruturas totalizam uma capacidade de armazenamento de 1.459.836.188 m³. Destaca-se ainda a existência de 7 reservatórios planejados: Maranguape I e II (em Maranguape), Anil e Ceará (em Caucaia), Alvorada (em Itapiúna), Candeia (em Baturité) e Feijão (em Morada Nova).",
+    "level": 2
+  },
+  {
+    "number": "3.2",
+    "title": "Sistemas adutores",
+    "content": "A infraestrutura de condução de água da região possui 52 adutoras convencionais, complementadas por eixos estratégicos de integração: o Canal do Trabalhador, o Eixão das Águas e o Canal Sítios Novos-Pecém. Está planejada a implementação de uma rede de abastecimento de água para os núcleos urbanos através do Projeto Malha D'Água, concebida como alternativa para suprir as fragilidades e atender às demandas do atual sistema.",
+    "level": 2
+  },
+  {
+    "number": "3.3",
+    "title": "Clima e Recursos Hídricos",
+    "content": "O clima da região é caracterizado como tropical de savana e semiárido quente. A temperatura média anual é de 26,7°C, com precipitação média anual oscilando entre 778,8 mm e 1.526,8 mm. A umidade relativa média anual varia significativamente, situando-se entre 67,5% e 92,0%. A insolação anual atinge cerca de 3.010,30 horas, influenciando as taxas de evaporação, que registram expressiva média anual de 2.459,3 mm.",
+    "level": 2
+  },
+  {
+    "number": "3.4",
+    "title": "Desafios Ambientais",
+    "content": "Não há dados informados sobre os desafios ambientais específicos para esta região hidrográfica no presente levantamento.",
+    "level": 2
+  },
+  {
+    "number": "3.5",
+    "title": "Áreas protegidas",
+    "content": "Não há dados informados sobre as unidades de conservação e áreas protegidas para esta região hidrográfica no presente levantamento.",
+    "level": 2
+  },
+  {
+    "number": "3.6",
+    "title": "Aspectos socioeconômicos",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.6.1",
+    "title": "Demografia",
+    "content": "Foram analisados 28 municípios, seguindo critérios referentes à sua área territorial dentro da Região Hidrográfica. Observa-se que, além do expressivo crescimento populacional, houve intenso aumento da taxa de urbanização. Desde a década de 1970, verifica-se forte tendência de concentração do contingente populacional nas áreas urbanas, passando de 62,4% da população total da região em 1970 para 89,9% em 2010.",
+    "level": 3
+  },
+  {
+    "number": "3.6.2",
+    "title": "Econômico",
+    "content": "Fortaleza (Capital) apresenta a maior participação no PIB estadual, com 34,04%, embora venha perdendo participação ao longo do tempo, caracterizando um processo de desconcentração da renda gerada no Estado. Maracanaú destaca-se como segundo município com maior participação, sendo um dos poucos cearenses que possuem a Indústria de Transformação entre as atividades mais importantes para a formação do PIB. Caucaia ocupa o terceiro lugar, seguida por São Gonçalo do Amarante na sexta posição, onde a produção de energia se consolida como a atividade de maior valor adicionado, impulsionada pelas termelétricas Pecém I e II. A maioria dos municípios da região tem a maior parte de sua economia vinculada ao setor de serviços.",
+    "level": 3
+  },
+  {
+    "number": "3.6.3",
+    "title": "Social",
+    "content": "A região possui três cidades com IDHM inferior a 0,599 (Ibaretama, Choró e Ocara), configurando Baixo Desenvolvimento. A maioria dos municípios apresenta IDHM entre 0,600 e 0,699, sendo classificados com Médio Desenvolvimento. Como exceções positivas, destacam-se Fortaleza e Eusébio, com IDHM superior a 0,699, indicando Alto Desenvolvimento.",
+    "level": 3
+  },
+  {
+    "number": "4",
+    "title": "Demandas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "4.1",
+    "title": "Atual",
+    "content": "A estimativa das demandas hídricas da Região Hidrográfica das Bacias Metropolitanas fundamenta-se em três vertentes principais: as demandas oriundas do cadastro de outorga vigente; as demandas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água; e a demanda calculada com base em dados secundários, incluindo o Censo Populacional (2010), o Censo Agropecuário (2017), o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal (2019).",
+    "level": 2
+  },
+  {
+    "number": "4.1.1",
+    "title": "Usos e Distribuição",
+    "content": "A partir da integração dessas bases, a região possui uma demanda hídrica total instalada expressiva, da ordem de 20.781,91 L/s. A distribuição evidencia o abastecimento humano como o uso preponderante, consumindo 10.914,03 L/s. O setor industrial representa a segunda maior demanda específica, com 3.711,42 L/s. A irrigação (lavouras permanentes e temporárias) totaliza uma demanda instalada de 1.619,10 L/s, enquanto a dessedentação animal corresponde a 282,24 L/s. A categoria de demais usos, de forma agregada, demanda 4.225,12 L/s.",
+    "level": 3
+  },
+  {
+    "number": "4.2",
+    "title": "Futura",
+    "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas temáticas. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará (demanda, oferta, meio ambiente, gerenciamento das águas e político-institucional); a segunda concentrou-se na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; e a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) inerentes à região.",
+    "level": 2
+  },
+  {
+    "number": "4.2.1",
+    "title": "Demanda humana futura",
+    "content": "A demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.",
+    "level": 3
+  },
+  {
+    "number": "4.2.1.1",
+    "title": "Projeção Populacional",
+    "content": "A projeção populacional foi realizada por meio dos métodos linear, geométrico, polinomial, logarítmico e potência, a partir de dados populacionais obtidos dos censos do IBGE de 1970, 1980, 1991, 2000 e 2010. Com base nesses modelos, a taxa média de crescimento da população da região metropolitana, projetada para um horizonte de 30 anos, é de 0,76%.",
+    "level": 4
+  },
+  {
+    "number": "4.2.1.2",
+    "title": "Consumo per capita da população",
+    "content": "Para o Cenário I, adotou-se a manutenção do mesmo consumo per capita atual. Para o Cenário II, considerou-se um aumento de 10% no consumo, enquanto o Cenário III previu uma diminuição de 10%. Essa variação depende da aplicação de medidas que modifiquem o comportamento do consumidor, conforme detalhado nas diretrizes do prognóstico. Estipulou-se que essas alterações no padrão de consumo comecem a surtir efeito a partir do ano de 2025.",
+    "level": 4
+  },
+  {
+    "number": "4.2.1.3",
+    "title": "Demanda humana futura (Resultado)",
+    "content": "Estimou-se para o horizonte de 2050 uma demanda total de abastecimento humano de 8.716,92 L/s no Cenário I, 9.543,75 L/s no Cenário II e 7.890,09 L/s no Cenário III.",
+    "level": 4
+  },
+  {
+    "number": "4.2.2",
+    "title": "Demanda instalada futura da irrigação e pecuária",
+    "content": "Com base nas informações coletadas na oficina \"Sementes do Futuro\" e em entrevistas junto a usuários de água do setor agropecuário e membros do CBH-RMF, não foram identificadas intenções expressivas para a criação de novos rebanhos ou expansão de novas áreas irrigadas. Assim, estimou-se para os três cenários a manutenção dos mesmos valores de demanda da situação de partida: 1.619,10 L/s para a irrigação e 282,24 L/s para a pecuária. Em conjunto, esses usos representam cerca de 9% da demanda total da região.",
+    "level": 3
+  },
+  {
+    "number": "4.2.3",
+    "title": "Demanda instalada futura da Indústria",
+    "content": "As projeções para as demandas industriais foram obtidas majoritariamente a partir do Workshop \"Sementes do Futuro\" e de entrevistas com usuários industriais, representantes da FIEC, da Prefeitura de Maracanaú e membros do CBH-RMF. Durante a formulação dos cenários prospectivos, previu-se um crescimento da atividade nos Cenários I e III, resultando em um incremento de 1.400 L/s na demanda atual. O Cenário II adotou uma perspectiva de estabilidade, resultando na manutenção da demanda industrial do cenário de partida (3.711,42 L/s).",
+    "level": 3
+  },
+  {
+    "number": "5",
+    "title": "Ofertas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "5.1",
+    "title": "Atual",
+    "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
+    "level": 2
+  },
+  {
+    "number": "5.1.1",
+    "title": "Oferta hídrica superficial",
+    "content": "",
+    "level": 3
+  },
+  {
+    "number": "5.1.1.1",
+    "title": "Quantitativo",
+    "content": "A avaliação quantitativa é realizada por meio de vazões afluentes e de indicadores hidrológicos. Os reservatórios Aracoiaba e Catucinzenta apresentam as melhores eficiências da região, regularizando, respectivamente, 56% e 47% de suas vazões afluentes anuais. Em contrapartida, os reservatórios Riachão e Pompeu Sobrinho figuram como os mais ineficientes, perdendo por evaporação, respectivamente, 63% e 58% de suas vazões afluentes anuais.",
+    "level": 4
+  },
+  {
+    "number": "5.1.1.2",
+    "title": "Qualitativo",
+    "content": "A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas, obtidas em campo por meio de sonda multiparâmetro com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes geridos pela COGERH. Foram realizadas 975 medições na região, evidenciando um cenário de alerta: cerca de 81% das análises classificaram os reservatórios em condições Eutróficas (56%) ou Hipereutróficas (25%). Os reservatórios Amanary, Aracoiaba, Batente, Castro, Catucinzenta, Cauhipe, Cocó, Gavião, Macacos, Malcozinhado, Maranguapinho, Pacoti, Pesqueiro, Pompeu Sobrinho, Riachão e Sítios Novos apresentaram essas condições críticas em mais de 85% das medições. Por outro lado, apenas os reservatórios Amarelas, Germinal e Tijuquinha registraram condições favoráveis (Oligotrófica ou Mesotrófica) em mais de 50% dos monitoramentos.",
+    "level": 4
+  },
+  {
+    "number": "5.1.2",
+    "title": "Oferta hídrica Subterrânea Atual",
+    "content": "",
+    "level": 3
+  },
+  {
+    "number": "5.1.2.1",
+    "title": "Quantitativo",
+    "content": "No atual levantamento, não há dados disponíveis referentes à avaliação quantitativa consolidada das águas subterrâneas para a Região Hidrográfica das Bacias Metropolitanas. Consequentemente, não constam informações detalhadas sobre a totalidade de usos, o quantitativo de poços por municípios ou o valor total da oferta de água subterrânea em m³/s.",
+    "level": 4
+  },
+  {
+    "number": "5.1.2.2",
+    "title": "Qualitativo",
+    "content": "A região baseia-se em estudos pontuais localizados em áreas estratégicas, englobando a avaliação hidrogeológica quali-quantitativa do campo de Dunas Pecém/Paracuru, o monitoramento de poços de observação na bacia, a caracterização da APA da Serra de Baturité e o monitoramento da bateria de poços do sistema aquífero Dunas/Barreiras (São Gonçalo do Amarante – Complexo Industrial e Portuário do Pecém). Nos 649 poços tubulares cadastrados na região de Baturité com medição de STD, constatou-se que 508 (78%) foram classificados como água doce, 135 (21%) como águas salobras e apenas 6 (cerca de 1%) como águas salinas. Ressalta-se que a captação subterrânea raramente utiliza os aquíferos aluviais, com exceção de algumas comunidades ribeirinhas. Nos grandes centros urbanos, como Fortaleza e Maracanaú, as águas subterrâneas encontram-se significativamente comprometidas devido à poluição por esgotos domésticos e industriais, resultando em uso muito limitado para o consumo humano.",
+    "level": 4
+  },
+  {
+    "number": "5.2",
+    "title": "Futura",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "5.2.1",
+    "title": "Metodologia e Projeções",
+    "content": "A oferta hídrica futura foi estimada pelo modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura de oito modelos globais do CMIP6 (versão mais recente), avaliados sob o cenário SSP2 com forçante radiativa de 4,5 W/m² (SSP2-4.5). A variabilidade anual foi representada pelo coeficiente de variação (CV) das séries de vazões afluentes futuras. Como o CV característico da região no clima presente gira em torno de 1,0, selecionaram-se os modelos que apresentaram CV entre 0,6 e 1,6, por serem os mais consistentes com as características do Semiárido Brasileiro. Foram definidos os modelos MRI-ESM2-0, FGOALS-g3 e MIROC6. A projeção considerou também a inserção de novos reservatórios planejados, os eixos de transferência e a diversificação da matriz hídrica por meio de planta de dessalinização e reúso de efluentes. As águas subterrâneas não foram contabilizadas no balanço futuro devido à falta de dados quantitativos. Estimou-se uma oferta hídrica de 17,14 m³/s para o Cenário I (MRI-ESM2-0), 12,51 m³/s para o Cenário II (FGOALS-g3) e 17,38 m³/s para o Cenário III (MIROC6).",
+    "level": 3
+  },
+  {
+    "number": "6",
+    "title": "Balanço hídrico Atual e Futuro",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "6.1",
+    "title": "Atual",
+    "content": "A demanda hídrica da região foi estimada em 20,78 m³/s (20.781,91 L/s), sendo 53% para abastecimento humano, 18% para uso industrial, 8% para irrigação, 1% para dessedentação animal e 21% para demais usos. A oferta hídrica, representada pela vazão regularizada com garantia de 90% (ou seja, em 9 de cada 10 anos), foi estimada em 11,32 m³/s. Não existem muitos estudos sobre disponibilidade hídrica subterrânea da RHBM, por isso não se considerou essa oferta. Às ofertas superficiais somam-se as vazões transferidas da RH do Médio Jaguaribe (açudes Orós e Castanhão), estimadas em 10 m³/s, totalizando uma oferta hídrica de 21,32 m³/s. Observa-se que a importação das águas da Bacia do Rio Jaguaribe é de fundamental importância para o atendimento da RHBM. Sem essa importação, a situação da região seria de déficit.",
+    "level": 2
+  },
+  {
+    "number": "6.2",
+    "title": "Futura",
+    "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos MRI-ESM2-0, FGOALS-g3 e MIROC6. A utilização dos modelos climáticos nos três cenários prospectivos impõe que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Observa-se que todos os cenários prospectivos indicam déficit no balanço hídrico da RHBM, independentemente do aumento da oferta devido à usina de dessalinização e reúso para uso industrial, o que indica que as transferências do Médio Jaguaribe ou PISF são essenciais para a RHBM. Os déficits sem considerar a vazão dos eixos de transferência são: Cenário I -3,46 m³/s, Cenário II -7,73 m³/s e Cenário III -2,73 m³/s.",
+    "level": 2
+  }
+]

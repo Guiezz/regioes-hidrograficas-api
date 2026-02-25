@@ -43,33 +43,61 @@ definitions:
       total_actions:
         type: integer
     type: object
-  model.Cost:
+  model.CustoVariavel:
     properties:
-      basin_id:
-        type: integer
-      created_at:
-        type: string
-      eixo:
+      descricao:
         type: string
       id:
         type: integer
-      p2021_2025:
+      valorUnitario:
+        type: number
+    type: object
+  model.EixoAcao:
+    properties:
+      eixo:
+        description: Nome da coluna no banco
         type: string
-      p2025_2030:
-        type: string
-      p2030_2035:
-        type: string
-      p2035_2040:
-        type: string
-      p2040_2045:
-        type: string
-      p2045_2050:
-        type: string
+      id:
+        type: integer
       percentual:
         type: number
-      valor_total:
-        description: Mantido como string para preservar o formato "R$ ..."
+      periodos:
+        items:
+          $ref: '#/definitions/model.PeriodoAcao'
+        type: array
+      valorTotalProjetado:
+        type: number
+    type: object
+  model.PeriodoAcao:
+    properties:
+      custoFixo:
+        type: number
+      custosVariaveis:
+        items:
+          $ref: '#/definitions/model.CustoVariavel'
+        type: array
+      id:
+        type: integer
+      intervalo:
         type: string
+    type: object
+  model.PlanoAcaoResponse:
+    properties:
+      planoAcao:
+        items:
+          $ref: '#/definitions/model.EixoAcao'
+        type: array
+      resumoGeral:
+        $ref: '#/definitions/model.ResumoGeral'
+    type: object
+  model.ResumoGeral:
+    properties:
+      id:
+        type: integer
+      percentual:
+        type: number
+      valorTotalPrevisto:
+        type: number
     type: object
   model.Section:
     properties:
@@ -111,32 +139,20 @@ info:
 paths:
   /actions:
     get:
-      description: Retorna lista de ações com diversos filtros dinâmicos (Eixo, Programa,
-        Ano, etc).
+      description: Retorna lista de ações com filtros ajustados para a estrutura atual
+        do banco.
       parameters:
       - description: ID da Bacia
         in: query
         name: basin_id
         type: integer
-      - description: 'Ano de vigência (ex: 2024)'
-        in: query
-        name: ano
-        type: string
       - description: Filtro por nome do Eixo
         in: query
         name: eixo
         type: string
-      - description: Filtro por nome do Programa
-        in: query
-        name: programa
-        type: string
       - description: Filtro por Tipologia
         in: query
         name: tipologia
-        type: string
-      - description: Busca textual na descrição
-        in: query
-        name: search
         type: string
       produces:
       - application/json
@@ -151,8 +167,7 @@ paths:
       - Actions
   /actions/filters:
     get:
-      description: Retorna listas únicas de Eixos, Programas e Tipologias para preencher
-        combos do frontend.
+      description: Retorna listas corrigidas onde 'eixos' busca dados da tabela 'programas'.
       parameters:
       - description: ID da Bacia
         in: query
@@ -233,10 +248,10 @@ paths:
     get:
       consumes:
       - application/json
-      description: Retorna uma lista de custos, permitindo filtrar por bacia específica
+      description: Retorna o resumo geral e os custos por eixo de uma bacia específica
         via ID.
       parameters:
-      - description: 'ID da Bacia Hidrográfica (ex: 1 para Curu)'
+      - description: ID da Bacia Hidrográfica
         in: query
         name: basin_id
         type: integer
@@ -246,9 +261,7 @@ paths:
         "200":
           description: OK
           schema:
-            items:
-              $ref: '#/definitions/model.Cost'
-            type: array
+            $ref: '#/definitions/model.PlanoAcaoResponse'
         "500":
           description: Erro interno ao buscar dados
           schema:
@@ -262,8 +275,7 @@ paths:
     get:
       consumes:
       - application/json
-      description: Retorna a matriz de ações filtrada por bacia. Útil para separar
-        dados do Curu, Salgado, etc.
+      description: Retorna a matriz de ações filtrada por bacia.
       parameters:
       - description: ID da Bacia Hidrográfica
         in: query

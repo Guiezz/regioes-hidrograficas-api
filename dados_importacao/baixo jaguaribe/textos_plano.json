@@ -1,0 +1,296 @@
+[
+  {
+    "number": "1",
+    "title": "Identificação",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "1.1",
+    "title": "Objetivo",
+    "content": "O Plano de Recursos Hídricos da Região Hidrográfica do Baixo Jaguaribe tem como objetivo orientar a gestão integrada e sustentável das águas até o ano de 2050. O documento consolida diretrizes, programas e ações voltadas ao uso racional dos recursos hídricos, contemplando previsões orçamentárias e a identificação de fontes de financiamento. Dessa forma, o plano se estabelece como um instrumento de referência para o planejamento, a tomada de decisão e a implementação de políticas públicas, visando garantir a segurança hídrica e o atendimento aos múltiplos usos da água na região.",
+    "level": 2
+  },
+  {
+    "number": "1.2",
+    "title": "Caracterização",
+    "content": "A Região Hidrográfica do Baixo Jaguaribe localiza-se na porção nordeste do Estado do Ceará, abrangendo uma área aproximada de 7.216,35 km². A região apresenta domínios geológicos diversificados, compostos por depósitos sedimentares cenozoicos, pela bacia sedimentar cretácea do Apodi, e por escudos e maciços antigos. Do ponto de vista climático, insere-se em clima tropical de savana e semiárido quente, com temperatura média anual de 26,0ºC e evaporação média anual de 2.091,0 mm. A precipitação apresenta variabilidade espacial, com valores médios de 801,29 mm no alto curso, elevando-se para 896,69 mm em seu baixo curso.",
+    "level": 2
+  },
+  {
+    "number": "1.3",
+    "title": "Resumo da infraestrutura hídrica",
+    "content": "A região dispõe de uma infraestrutura hídrica composta por apenas 1 açude público de médio porte (Santo Antônio de Russas) sob gestão da COGERH, com capacidade de 25.050.000,00 m³. Complementam esse sistema 15 adutoras convencionais e aproximadamente 7.142 poços cadastrados, fundamentais para o abastecimento humano e atividades produtivas.",
+    "level": 2
+  },
+  {
+    "number": "1.4",
+    "title": "Identificação de problemas e desafios",
+    "content": "A região enfrenta desafios críticos marcados pelo uso abusivo de agrotóxicos e fertilizantes, resultando na contaminação do solo e águas subterrâneas. Destacam-se o desmatamento de áreas sensíveis, ocupação urbana desordenada e a escassez de dados de monitoramento quantitativo e qualitativo das águas subterrâneas, o que dificulta a gestão integrada.",
+    "level": 2
+  },
+  {
+    "number": "2",
+    "title": "Metodologia dos planos",
+    "content": "A elaboração do plano utilizou metodologia participativa, incluindo formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários.",
+    "level": 1
+  },
+  {
+    "number": "2.1",
+    "title": "Início da elaboração",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.1.1",
+    "title": "Questionário",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre usos, problemas hídricos, conflitos e aspectos gerenciais.",
+    "level": 3
+  },
+  {
+    "number": "2.1.2",
+    "title": "Grupo focal",
+    "content": "Relatos de experiências práticas com técnicos da Gerência Regional sobre sistemas hídricos, alocação de água e secas.",
+    "level": 3
+  },
+  {
+    "number": "2.2",
+    "title": "Diagnóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.2.1",
+    "title": "Reunião de partida",
+    "content": "Apresentação do plano de trabalho, síntese dos questionários e formação da Câmara Técnica de Acompanhamento (CT).",
+    "level": 3
+  },
+  {
+    "number": "2.2.2",
+    "title": "Audiência Pública - Iniciando o Diálogo",
+    "content": "Discussão de documento baseado em dados secundários, com grupos temáticos divididos entre oferta/demanda hídrica e questões ambientais.",
+    "level": 3
+  },
+  {
+    "number": "2.2.3",
+    "title": "Entrevistas Semiestruturadas",
+    "content": "Realizadas com diversos atores sobre aspectos futuros de demandas hídricas e ambientais para fomentar o prognóstico.",
+    "level": 3
+  },
+  {
+    "number": "2.2.4",
+    "title": "Reunião de Aprovação do Diagnóstico",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH, CT e posterior discussão no CSBH.",
+    "level": 3
+  },
+  {
+    "number": "2.3",
+    "title": "Prognóstico",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.3.1",
+    "title": "Oficina de Cenarização 1",
+    "content": "Definição de variáveis-chave distribuídas em cinco eixos: demanda, oferta, meio ambiente, gerenciamento e político-institucional.",
+    "level": 3
+  },
+  {
+    "number": "2.3.2",
+    "title": "Oficina de Cenarização 2",
+    "content": "Definição de hipóteses de evolução dos parâmetros e criação de futuros possíveis e plausíveis.",
+    "level": 3
+  },
+  {
+    "number": "2.3.3",
+    "title": "Oficina de Cenarização 3 - Sementes do Futuro",
+    "content": "Levantamento de fatos e informações para construção dos cenários futuros de demanda, oferta e balanço hídrico.",
+    "level": 3
+  },
+  {
+    "number": "2.4",
+    "title": "Plano de Ação",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "2.4.1",
+    "title": "Etapa preparatória",
+    "content": "Revisão do plano de 2000 e sistematização de ações em uma Matriz de Programas e Ações dividida em 5 eixos.",
+    "level": 3
+  },
+  {
+    "number": "2.4.2",
+    "title": "I Workshop",
+    "content": "Ocorrido na Chapada do Apodi e no Vale do Jaguaribe, onde participantes validaram, excluíram ou incluíram ações na matriz.",
+    "level": 3
+  },
+  {
+    "number": "2.4.3",
+    "title": "Priorização Programas e Ações",
+    "content": "Aplicação da metodologia IUT (Impacto, Urgência e Tendência) via formulário para classificar as ações validadas.",
+    "level": 3
+  },
+  {
+    "number": "3",
+    "title": "Infraestrutura Hídrica",
+    "content": "Composta por um açude monitorado, poços e sistemas adutores essenciais para a segurança hídrica local.",
+    "level": 1
+  },
+  {
+    "number": "3.1",
+    "title": "Reservatórios e Açudes",
+    "content": "A região possui apenas o açude Santo Antônio de Russas, de médio porte, com capacidade de acumulação de 25.050.000,00 m³.",
+    "level": 2
+  },
+  {
+    "number": "3.2",
+    "title": "Sistemas adutores",
+    "content": "Conta com 15 adutoras convencionais e o projeto estratégico Malha D’água, que contempla o Sistema Adutor Baixo Jaguaribe-Litoral Leste.",
+    "level": 2
+  },
+  {
+    "number": "3.3",
+    "title": "Clima e Recursos Hídricos",
+    "content": "Clima Tropical de savana e Semiárido quente, com temperatura média de 26,0ºC e insolação de 3.031,0 horas.",
+    "level": 2
+  },
+  {
+    "number": "3.4",
+    "title": "Desafios Ambientais",
+    "content": "Impactos severos de degradação do solo, mineração clandestina, carcinicultura e poluição por efluentes. O uso abusivo de agrotóxicos é um ponto crítico que contamina águas superficiais e subterrâneas.",
+    "level": 2
+  },
+  {
+    "number": "3.5",
+    "title": "Áreas protegidas",
+    "content": "Abriga 5 Unidades de Conservação: APA Canoa Quebrada, APA Berçário da Vida Marinha, APA Lagoa de Saco do Barro e duas RPPNs (Ilha Encantada e Fazenda Belém).",
+    "level": 2
+  },
+  {
+    "number": "3.6",
+    "title": "Aspectos socioeconômicos",
+    "content": "",
+    "level": 2
+  },
+  {
+    "number": "3.6.1",
+    "title": "Demografia",
+    "content": "Transição demográfica com aumento da urbanização, passando de 26,92% em 1970 para 59,33% em 2010.",
+    "level": 3
+  },
+  {
+    "number": "3.6.2",
+    "title": "Econômico",
+    "content": "Aracati (energia), Limoeiro do Norte (PIB per capita), Morada Nova e Russas são os destaques. Morada Nova lidera o ganho de participação no VAB da Agropecuária.",
+    "level": 3
+  },
+  {
+    "number": "3.6.3",
+    "title": "Social",
+    "content": "Todos os municípios possuem Médio Desenvolvimento (IDHM 0,600 a 0,699). A base social apoia-se na indústria de transformação, carcinicultura e agricultura.",
+    "level": 3
+  },
+  {
+    "number": "4",
+    "title": "Demandas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "4.1",
+    "title": "Atual",
+    "content": "Demanda total instalada de 16.707,34 L/s, baseada em outorgas, dados da ANA e censos agropecuários/populacionais.",
+    "level": 2
+  },
+  {
+    "number": "4.1.1",
+    "title": "Usos e Distribuição",
+    "content": "Uso preponderante na irrigação (10.963,04 L/s), seguido pela aquicultura (5.194,31 L/s), abastecimento humano (429,158 L/s) e pecuária (120,83 L/s).",
+    "level": 3
+  },
+  {
+    "number": "4.2",
+    "title": "Futura",
+    "content": "Prognóstico baseado em três cenários prospectivos (I, II e III) definidos em oficinas temáticas.",
+    "level": 2
+  },
+  {
+    "number": "4.2.1",
+    "title": "Demanda humana futura",
+    "content": "Estimada para 2050 em 664,36 L/s (Cenário I), 717,72 L/s (Cenário II) e 611,00 L/s (Cenário III), baseada em taxa de crescimento populacional de 0,97% ao ano.",
+    "level": 3
+  },
+  {
+    "number": "4.2.2",
+    "title": "Demanda instalada futura da irrigação",
+    "content": "Cenários I e III preveem elevação de 5% (com melhora na eficiência), enquanto o Cenário II prevê redução de 35% devido à severidade das secas.",
+    "level": 3
+  },
+  {
+    "number": "4.2.3",
+    "title": "Demanda instalada futura da pecuária",
+    "content": "Estimada em 145,00 L/s para os Cenários I e III, e 78,54 L/s para o Cenário II (redução de 35%).",
+    "level": 3
+  },
+  {
+    "number": "4.2.4",
+    "title": "Demanda instalada futura da aquicultura",
+    "content": "Projeções de 8.322,8 L/s (Cenário I), 3.257,6 L/s (Cenário II) e 14.409,00 L/s (Cenário III - futuro desejado).",
+    "level": 3
+  },
+  {
+    "number": "5",
+    "title": "Ofertas hídricas, atual e futura",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "5.1",
+    "title": "Atual",
+    "content": "Avaliação quantitativa e qualitativa de águas superficiais e subterrâneas.",
+    "level": 2
+  },
+  {
+    "number": "5.1.1",
+    "title": "Oferta hídrica superficial",
+    "content": "O açude Santo Antônio de Russas possui vazão afluente de 50,50 hm³/ano, com apenas 15,55% desse volume sendo efetivamente regularizado.",
+    "level": 3
+  },
+  {
+    "number": "5.1.1.2",
+    "title": "Qualitativo",
+    "content": "Predominância de condições críticas: 34 registros de estado eutrófico e 4 hipereutróficos em 48 medições realizadas.",
+    "level": 4
+  },
+  {
+    "number": "5.1.2",
+    "title": "Oferta hídrica Subterrânea Atual",
+    "content": "Destaque para o Aluvião do Rio Jaguaribe com 5.856 poços e produção de 276 milhões de m³/ano, atendendo principalmente carcinicultura e irrigação.",
+    "level": 3
+  },
+  {
+    "number": "5.2",
+    "title": "Futura",
+    "content": "Modelagem realizada via SMAP com modelos climáticos CMIP6 (FGOALS-g3, MRI-ESM2-0 e MIROC6) sob cenário de emissões SSP2-4.5.",
+    "level": 2
+  },
+  {
+    "number": "6",
+    "title": "Balanço hídrico Atual e Futuro",
+    "content": "",
+    "level": 1
+  },
+  {
+    "number": "6.1",
+    "title": "Atual",
+    "content": "A oferta total (própria + transferência do Médio Jaguaribe) é de 13.269,95 L/s. Frente à demanda instalada de 16.707,34 L/s, a região apresenta déficit hídrico.",
+    "level": 2
+  },
+  {
+    "number": "6.2",
+    "title": "Futura",
+    "content": "O Cenário II (escassez) apresenta o menor saldo negativo devido à redução forçada das áreas produtivas de irrigação e aquicultura. Todos os cenários consideram os impactos das mudanças climáticas na severidade de secas.",
+    "level": 2
+  }
+]
