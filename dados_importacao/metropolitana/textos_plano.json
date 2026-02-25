@@ -15,7 +15,8 @@
     "number": "1.2",
     "title": "Caracterização",
     "content": "A Região Hidrográfica das Bacias Metropolitanas localiza-se na porção nordeste do Estado do Ceará, compreendida entre as latitudes 3°27'15''S e 4°58'00''S e as longitudes 37°47'10''W e 39°26'28''W, abrangendo uma área aproximada de 15.009,06 km². A região apresenta domínios hidrogeológicos diversificados, compostos por aluviões, dunas e paleodunas, formação Barreiras e embasamento cristalino. Do ponto de vista climático, a região insere-se em clima tropical de savana e semiárido quente, com temperatura média anual de 26,7°C. A umidade relativa do ar varia significativamente, oscilando entre 67,5% e 92,0%. A insolação anual atinge cerca de 3.010,30 horas, o que contribui para elevadas taxas de evaporação, que alcançam uma média anual de 2.459,3 mm. A precipitação apresenta acentuada variabilidade espacial, com valores médios de 1.526,8 mm na região litorânea, reduzindo-se para 778,8 mm na porção do sertão.",
-    "level": 2
+    "level": 2,
+    "image": "mapa_metropolitana.png"
   },
   {
     "number": "1.3",
