@@ -13,6 +13,7 @@ import (
 
 // Lista de bacias para importar (o nome deve bater com a pasta em dados_importacao/)
 var targetBasins = []string{
+	"Alto Jaguaribe",
 	"Baixo Jaguaribe",
 	"Banabuiú",
 	"Crateús",
@@ -20,6 +21,7 @@ var targetBasins = []string{
 	"Curu",
 	"Ibiapaba",
 	"Litoral",
+	"Médio Jaguaribe",
 	"Metropolitana",
 	"Salgado",
 }

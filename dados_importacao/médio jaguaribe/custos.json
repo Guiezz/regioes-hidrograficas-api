@@ -1,0 +1,321 @@
+{
+  "resumoGeral": {
+    "valorTotalPrevisto": 1328821750.58,
+    "percentual": 1.0
+  },
+  "planoAcao": [
+    {
+      "eixo": "OFERTA HÍDRICA",
+      "valorTotalProjetado": 1306424435.38,
+      "percentual": 0.9831,
+      "periodos": [
+        {
+          "intervalo": "2024 - 2029",
+          "custoFixo": 732652551.74,
+          "custosVariaveis": [
+            { "descricao": "habitante", "valorUnitario": 347.56 },
+            { "descricao": "Plano", "valorUnitario": 100000.0 },
+            { "descricao": "poço", "valorUnitario": 915.16 },
+            { "descricao": "cisterna", "valorUnitario": 4418.7 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2034",
+          "custoFixo": 459346342.97,
+          "custosVariaveis": [
+            { "descricao": "habitante", "valorUnitario": 347.56 },
+            { "descricao": "Plano", "valorUnitario": 100000.0 },
+            { "descricao": "poço", "valorUnitario": 915.16 },
+            { "descricao": "cisterna", "valorUnitario": 4418.7 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2039",
+          "custoFixo": 113992207.33,
+          "custosVariaveis": [
+            { "descricao": "poço", "valorUnitario": 915.16 },
+            { "descricao": "cisterna", "valorUnitario": 4418.7 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2044",
+          "custoFixo": 433333.33,
+          "custosVariaveis": [
+            { "descricao": "poço", "valorUnitario": 34500.0 },
+            { "descricao": "cisterna", "valorUnitario": 4418.7 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2049",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "poço", "valorUnitario": 34500.0 },
+            { "descricao": "cisterna", "valorUnitario": 4418.7 }
+          ]
+        },
+        {
+          "intervalo": "2050 - 2054",
+          "custoFixo": 0.0,
+          "custosVariaveis": []
+        }
+      ]
+    },
+    {
+      "eixo": "DEMANDA HÍDRICA",
+      "valorTotalProjetado": 21666807.6,
+      "percentual": 0.0163,
+      "periodos": [
+        {
+          "intervalo": "2024 - 2029",
+          "custoFixo": 6657417.93,
+          "custosVariaveis": [
+            { "descricao": "habitante", "valorUnitario": 1235.77 },
+            { "descricao": "hectare", "valorUnitario": 6500.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2034",
+          "custoFixo": 7281567.93,
+          "custosVariaveis": [
+            { "descricao": "habitante", "valorUnitario": 1235.77 },
+            { "descricao": "hectare", "valorUnitario": 6500.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "km de rede", "valorUnitario": 491.24 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2039",
+          "custoFixo": 7281567.93,
+          "custosVariaveis": [
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "km de rede", "valorUnitario": 491.24 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2044",
+          "custoFixo": 148751.27,
+          "custosVariaveis": [
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "km de rede", "valorUnitario": 491.24 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2049",
+          "custoFixo": 148751.27,
+          "custosVariaveis": [
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2050 - 2054",
+          "custoFixo": 148751.27,
+          "custosVariaveis": [
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "eixo": "MEIO AMBIENTE",
+      "valorTotalProjetado": 235000.0,
+      "percentual": 0.0002,
+      "periodos": [
+        {
+          "intervalo": "2024 - 2029",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "Estudo", "valorUnitario": 100000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "habitante", "valorUnitario": 2709.19 },
+            { "descricao": "Ha", "valorUnitario": 50000.0 },
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "viveiro", "valorUnitario": 53300.48 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2034",
+          "custoFixo": 100000.0,
+          "custosVariaveis": [
+            { "descricao": "Estudo", "valorUnitario": 100000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "und", "valorUnitario": 5000.0 },
+            { "descricao": "habitante", "valorUnitario": 2709.19 },
+            { "descricao": "Ha", "valorUnitario": 20000.0 },
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "região", "valorUnitario": 250000.0 },
+            { "descricao": "viveiro", "valorUnitario": 53300.48 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2039",
+          "custoFixo": 135000.0,
+          "custosVariaveis": [
+            { "descricao": "und", "valorUnitario": 5000.0 },
+            { "descricao": "habitante", "valorUnitario": 2709.19 },
+            { "descricao": "Ha", "valorUnitario": 20000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "região", "valorUnitario": 250000.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2044",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "habitante", "valorUnitario": 2709.19 },
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "Ha", "valorUnitario": 20000.0 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2049",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2050 - 2054",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "Camapanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "eixo": "GERENCIAMENTO DAS ÁGUAS",
+      "valorTotalProjetado": 490507.6,
+      "percentual": 0.0004,
+      "periodos": [
+        {
+          "intervalo": "2024 - 2029",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "Plano", "valorUnitario": 200000.0 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2034",
+          "custoFixo": 24000.0,
+          "custosVariaveis": [
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "Plano", "valorUnitario": 200000.0 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2039",
+          "custoFixo": 24000.0,
+          "custosVariaveis": [
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 },
+            { "descricao": "Plano", "valorUnitario": 200000.0 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2044",
+          "custoFixo": 147502.53,
+          "custosVariaveis": [
+            { "descricao": "und", "valorUnitario": 325.83 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2049",
+          "custoFixo": 147502.53,
+          "custosVariaveis": [
+            { "descricao": "und", "valorUnitario": 325.83 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 }
+          ]
+        },
+        {
+          "intervalo": "2050 - 2054",
+          "custoFixo": 147502.53,
+          "custosVariaveis": [
+            { "descricao": "und", "valorUnitario": 325.83 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "pessoa", "valorUnitario": 6667.23 }
+          ]
+        }
+      ]
+    },
+    {
+      "eixo": "POLÍTICO-INSTITUCIONAL",
+      "valorTotalProjetado": 5000.0,
+      "percentual": 0.0,
+      "periodos": [
+        {
+          "intervalo": "2024 - 2029",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2030 - 2034",
+          "custoFixo": 5000.0,
+          "custosVariaveis": [
+            { "descricao": "evento", "valorUnitario": 500.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2035 - 2039",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "evento", "valorUnitario": 500.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2040 - 2044",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "evento", "valorUnitario": 500.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2045 - 2049",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "evento", "valorUnitario": 500.0 },
+            { "descricao": "campanha", "valorUnitario": 30000.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        },
+        {
+          "intervalo": "2050 - 2054",
+          "custoFixo": 0.0,
+          "custosVariaveis": [
+            { "descricao": "evento", "valorUnitario": 500.0 },
+            { "descricao": "Fiscal", "valorUnitario": 5000.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}
