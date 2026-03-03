@@ -15,7 +15,8 @@
     "number": "1.2",
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Salgado, integrante da Bacia do Rio Jaguaribe, localiza-se na porção sudeste do Estado do Ceará, compreendida entre as latitudes 6°16'49''S e 7°51'29''S e as longitudes 38°31'03''W e 39°41'46''W, abrangendo uma área aproximada de 12.739 km². A região apresenta domínios geológicos distintos, compostos pelo Embasamento Cristalino e pela Bacia Sedimentar do Araripe. Do ponto de vista climático, a região insere-se em clima semiárido, seco e quente, com temperatura média anual de 26°C. A umidade relativa média anual é da ordem de 65,6%, enquanto a insolação anual atinge cerca de 2.927,4 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 2.244,4 mm — sendo que 68% deste total ocorre no período seco, entre julho e dezembro. A precipitação média anual varia entre 800 mm e 1.200 mm.",
-    "level": 2
+    "level": 2,
+    "image": "mapa_salgado.png"
   },
   {
     "number": "1.3",
