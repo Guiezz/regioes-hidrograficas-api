@@ -33,14 +33,17 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas, levantamento de dados secundários em diferentes etapas da elaboração do plano.",
-    "level": 1
+    "level": 1,
+    "image": "assets/reservatorios/banabuiu/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/banabuiu/inicio_elaboracao/inicio_elaboracao.png"
   },
+
   {
     "number": "2.1.1",
     "title": "Questionário",
@@ -57,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/banabuiu/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -87,7 +91,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/banabuiu/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -105,7 +110,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/banabuiu/plano_acao/plano_acao.png"
   },
   {
     "number": "2.4.1",

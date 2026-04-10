@@ -15,7 +15,8 @@
     "number": "1.2",
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Baixo Jaguaribe localiza-se na porção nordeste do Estado do Ceará, abrangendo uma área aproximada de 7.216,35 km². A região apresenta domínios geológicos diversificados, compostos por depósitos sedimentares cenozoicos, pela bacia sedimentar cretácea do Apodi, e por escudos e maciços antigos. Do ponto de vista climático, insere-se em clima tropical de savana e semiárido quente, com temperatura média anual de 26,0ºC e evaporação média anual de 2.091,0 mm. A precipitação apresenta variabilidade espacial, com valores médios de 801,29 mm no alto curso, elevando-se para 896,69 mm em seu baixo curso.",
-    "level": 2
+    "level": 2,
+    "image": "assets/mapa_baixo_jaguaribe.png"
   },
   {
     "number": "1.3",
@@ -33,13 +34,15 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano utilizou metodologia participativa, incluindo formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários.",
-    "level": 1
+    "level": 1,
+    "image": "assets/reservatorios/baixo_jaguaribe/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/baixo_jaguaribe/inicio_elaboracao/elaboracao.png"
   },
   {
     "number": "2.1.1",
@@ -57,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/baixo_jaguaribe/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -87,7 +91,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/baixo_jaguaribe/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -111,7 +116,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/baixo_jaguaribe/plano_acao/plano_acao.jpeg"
   },
   {
     "number": "2.4.1",
