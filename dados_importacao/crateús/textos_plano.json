@@ -16,7 +16,7 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica dos Sertões de Crateús localiza-se na porção ocidental do Estado do Ceará, compreendida entre as latitudes 4°36'44''S e 6°07'40''S e as longitudes 40°00'00''W e 41°09'16''W, abrangendo uma área aproximada de 2.600 km². A região apresenta domínios hidrogeológicos distintos, compostos pela Bacia Sedimentar do Maranhão-Piauí e pelo escudo cristalino Pré-Cambriano. Do ponto de vista climático, a região insere-se em clima semiárido quente e tropical de savana, com temperatura média anual de 27,4°C. A umidade relativa média anual é da ordem de 59,5%, enquanto a insolação anual atinge cerca de 2.669 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 3.552 mm. A precipitação apresenta variabilidade espacial significativa, com médias anuais oscilando entre 600 mm na porção sul e 1.300 mm nas proximidades da Serra Grande.",
     "level": 2,
-    "image": "mapa_crateus.png"
+    "image": "/assets/mapa_crateus.png"
   },
   {
     "number": "1.3",
@@ -34,13 +34,15 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/crateus/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/inicio_elaboracao/elaboracao.png"
   },
   {
     "number": "2.1.1",
@@ -58,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -88,7 +91,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -106,7 +110,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/plano_acao/plano_acao.png"
   },
   {
     "number": "2.4.1",

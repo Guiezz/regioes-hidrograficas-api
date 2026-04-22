@@ -16,7 +16,7 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Coreaú localiza-se na porção norte-ocidental do Estado do Ceará, compreendida entre as latitudes 3°56'49''S e 2°46'54''S e as longitudes 41°25'21''W e 40°11'50''W, abrangendo uma área aproximada de 10.627,71 km². A região apresenta domínios hidrogeológicos diversificados, compostos por coberturas sedimentares, depósitos aluvionares e rochas cristalinas. Do ponto de vista climático, a região insere-se majoritariamente em clima tropical de savana com inverno seco, transicionando para semiárido quente na porção sul. A temperatura média anual é de 27,3°C, com umidade relativa média da ordem de 81,4%. A insolação anual varia conforme a zona, registrando cerca de 2.815 horas na extensão litorânea e 2.707 horas na área semiárida, refletindo-se nas taxas de evaporação, que alcançam médias de 1.864,5 mm no litoral e 2.344,7 mm no interior. A precipitação apresenta variabilidade espacial, oscilando entre 1.300 mm nas proximidades das Serras da Ibiapaba e Meruoca e 1.100 mm em direção à costa.",
     "level": 2,
-    "image": "mapa_coreau.png"
+    "image": "/assets/mapa_coreau.png"
   },
   {
     "number": "1.3",
@@ -34,13 +34,15 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
-    "level": 1
+    "level": 1,
+    "image": "assets/reservatorios/coreau/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/coreau/inicio_elaboracao/elaboracao.png"
   },
   {
     "number": "2.1.1",
@@ -58,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/coreau/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -88,7 +91,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/coreau/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -106,7 +110,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "assets/reservatorios/coreau/plano_acao/plano_acao.png"
   },
   {
     "number": "2.4.1",

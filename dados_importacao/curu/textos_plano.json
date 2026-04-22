@@ -16,7 +16,7 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Curu localiza-se na porção setentrional do Estado do Ceará, compreendida entre as latitudes 3°20’00’’S e 4°40’00’’S e a longitude 38°55’00’’W, abrangendo uma área aproximada de 8.621,83 km². A região apresenta predominância do embasamento cristalino, que ocupa cerca de 94,2% do território, enquanto as formações sedimentares correspondem a aproximadamente 5,48%, influenciando diretamente a disponibilidade hídrica subterrânea e superficial. Do ponto de vista climático, a região insere-se majoritariamente em clima seco a semiárido, quente, com temperaturas médias anuais variando entre 26,2°C e 28,2°C. A umidade relativa média anual é da ordem de 73,8%, enquanto a insolação anual atinge cerca de 2.640 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 1.482,40 mm. A precipitação apresenta elevada variabilidade espacial, com valores médios anuais de aproximadamente 1.248 mm na faixa litorânea, reduzindo-se para cerca de 759,7 mm na porção central da região, característica típica das bacias inseridas no semiárido cearense.",
     "level": 2,
-    "image": "mapa_curu.png"
+    "image": "/assets/mapa_crateus.png"
   },
   {
     "number": "1.3",
@@ -34,13 +34,15 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, levantamento de dados secundários em diferentes etapas da elaboração do plano. Nesse sentido destaca-se as seguintes etapas do processo de elaboração dos plano:",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/curu/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/inicio_elaboracao/inicio_elaboracao.png"
   },
   {
     "number": "2.1.1",
@@ -58,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -82,7 +85,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -100,7 +104,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/plano_acao/plano_acao.png"
   },
   {
     "number": "2.4.1",
