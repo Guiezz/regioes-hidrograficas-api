@@ -16,7 +16,7 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Litoral localiza-se na porção noroeste do Estado do Ceará, limitando-se pela latitude 4°10'55''S e compreendida entre as longitudes 40°12'30''W e 39°07'55''W, abrangendo uma área aproximada de 8.571,90 km². A região apresenta domínios hidrogeológicos diversificados, compostos por rochas cristalinas, coberturas sedimentares e depósitos aluvionares. Do ponto de vista climático, a região insere-se em clima semiárido quente e tropical de savana, com temperatura média anual de 27,3°C. A umidade relativa média anual é da ordem de 81,4%. A insolação anual varia espacialmente, registrando cerca de 2.815 horas na faixa litorânea e 2.707 horas na porção semiárida, influenciando as taxas de evaporação, que oscilam entre 1.864,55 mm no litoral e 2.344,7 mm no interior. A precipitação apresenta variabilidade significativa, com médias anuais de 600 mm ao sul da região, elevando-se para 1.100 mm na faixa litorânea, abrangendo os municípios de Itapipoca, Trairi, Amontada e Itarema.",
     "level": 2,
-    "image": "mapa_litoral.png"
+    "image": "/assets/mapa_litoral.png"
   },
   {
     "number": "1.3",
@@ -34,13 +34,15 @@
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/litoral/metodologia/metodologia.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/inicio_elaboracao/elaboracao.png"
   },
   {
     "number": "2.1.1",
@@ -58,7 +60,8 @@
     "number": "2.2",
     "title": "Diagnóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/diagnostico/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -88,7 +91,8 @@
     "number": "2.3",
     "title": "Prognóstico",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/prognostico/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -106,7 +110,8 @@
     "number": "2.4",
     "title": "Plano de Ação",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/plano_acao/plano_acao.png"
   },
   {
     "number": "2.4.1",
