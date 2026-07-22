@@ -1,0 +1,28 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"3","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 100.200.000 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"2.597","unit":"","label":"Poços Cadastrados","sublabel":"Abastecimento difuso na região","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"15","unit":"","label":"Adutoras Convencionais","sublabel":"167,32 km de extensão","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"2","unit":"","label":"ETAs em Operação","sublabel":"+ 8 ETEs tratando efluentes","icon":"building","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"2","unit":"","label":"Novas Barragens","sublabel":"Curimã e outra em estudo pelo PDRH","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"1","unit":"","label":"Malha d'Água","sublabel":"Sistema Adutor Litoral Norte","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"43,77","unit":"hm³/ano","label":"Vazão Afluente (Gameleira)","sublabel":"16,82% regularizado · 55,18% evaporado","icon":"water","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"176","unit":"","label":"Medições de Qualidade","sublabel":"40% mesotrófico · 30% eutrófico","icon":"test-tube","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"54","unit":"%","label":"Poços com Água Doce","sublabel":"43% ligeiramente salobras","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-54","unit":"%","label":"Redução Q90 Gameleira","sublabel":"Pior modelo (MIROC6) · Cenário otimista próximo do atual","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"624,47","unit":"L/s","label":"Demanda Outorgada","sublabel":"Humano 141,72 · Irrigação 184,75 · Piscicultura 127,51","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"184,75","unit":"L/s","label":"Irrigação","sublabel":"Maior consumo outorgado","icon":"sprout","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":3,"value":"141,72","unit":"L/s","label":"Abastecimento Humano","sublabel":"Principal uso para a população","icon":"users","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"178","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 20,6% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"153","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de perdas e consumo consciente","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"4.675","unit":"L/s","label":"Oferta Hídrica Total","sublabel":"1.379 L/s superficial + 3.296 L/s subterrânea","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"Superávit","unit":"","label":"Situação Atual","sublabel":"Demanda inferior à oferta total","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Superávit","unit":"","label":"Cenário III (desejável)","sublabel":"Eficiência hídrica e redução de perdas","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"Variável","unit":"","label":"Cenários I e II","sublabel":"Dependem dos modelos climáticos adotados","icon":"trending-down","severity":"warning"}
+]

@@ -1,0 +1,26 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"1","unit":"","label":"Açude Monitorado","sublabel":"Santo Antônio de Russas · 25.050.000 m³","icon":"dam","severity":"warning"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"5.856","unit":"","label":"Poços Instalados","sublabel":"Abastecimento estratégico por aquíferos","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"15","unit":"","label":"Adutoras Convencionais","sublabel":"154,20 km de extensão total","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"13.000","unit":"L/s","label":"Transferência do Castanhão","sublabel":"Eixão das Águas + Canal do Trabalhador","icon":"water","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"1","unit":"","label":"Malha d'Água","sublabel":"Sistema Adutor Baixo Jaguaribe-Litoral Leste","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"50,50","unit":"hm³/ano","label":"Vazão Afluente (Santo Antônio)","sublabel":"15,55% regularizado · 31,93% evaporado","icon":"water","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"48","unit":"","label":"Medições de Qualidade","sublabel":"71% eutrófico · 19% oligotrófico","icon":"test-tube","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"59","unit":"%","label":"Poços com STD acima do limite","sublabel":"Aquífero aluvionar com alta vulnerabilidade","icon":"alert-triangle","severity":"critical"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"340,88","unit":"L/s","label":"Cenário II (FGOALS-g3)","sublabel":"Alta variabilidade · Cheias e secas extremas","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":2,"value":"290,75","unit":"L/s","label":"Cenário III (MIROC6)","sublabel":"Próximo da média histórica","icon":"water","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"10.476,92","unit":"L/s","label":"Vazão Outorgada Total","sublabel":"Aquicultura 49,57% · Irrigação 37,77%","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"5.830,93","unit":"L/s","label":"Captação Subterrânea","sublabel":"Principal fonte de abastecimento","icon":"well","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"717,72","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Aumento de 53,3% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"611","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de consumo per capita","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"16.483,95","unit":"L/s","label":"Oferta Hídrica Total","sublabel":"3.483,95 interna + 13.000 transferidos","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"-7.775,57","unit":"L/s","label":"Déficit (maior demanda)","sublabel":"Mapeamento Funceme: irrigação em 21.045 L/s","icon":"alert-triangle","severity":"critical"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Déficit","unit":"","label":"Todos os Cenários","sublabel":"Maior déficit no Cenário III (aumento produtivo)","icon":"alert-triangle","severity":"critical"}
+]

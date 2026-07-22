@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Banabuiú",
     "level": 1
   },
   {
@@ -15,39 +15,41 @@
     "number": "1.2",
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Banabuiú localiza-se na porção central do Estado do Ceará, compreendida entre as latitudes 4º28’03’’S e 6º6’19’’S e as longitudes 38º06’02’’W e 40º10’19’’W, abrangendo uma área aproximada de 19.603,09 km². A região apresenta domínios hidrogeológicos compostos por Maciços Residuais, Depressão Sertaneja e Coberturas Sedimentares Cenozóicas. Do ponto de vista climático, insere-se em clima tropical com estação seca no inverno e semiárido quente, com temperatura média anual de 27ºC. A umidade relativa do ar varia entre 52% e 73,3%. A insolação anual atinge cerca de 2.891,7 horas, o que contribui para elevadas taxas de evaporação, que alcançam uma média anual de 2.529,7 mm. A precipitação apresenta variabilidade espacial, com valores médios de 648 mm no alto curso da região hidrográfica, elevando-se para 725 mm em sua porção central.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica do Banabuiú dispõe de uma infraestrutura hídrica composta por 19 açudes públicos de características plurianuais sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 2.682.485.826,00 m³. Complementam esse sistema 11 adutoras convencionais e 5.984 poços cadastrados, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica do Banabuiú enfrenta desafios ambientais críticos, impulsionados pela prática histórica e tradicional da agropecuária. O modelo produtivo adotado ao longo dos anos resultou no desmatamento de áreas de nascentes e na formação de um corredor de supressão vegetal que atravessa diversos setores da região. Essa degradação contínua da cobertura nativa, aliada a outras atividades de forte impacto ambiental, tem acelerado e ampliado severamente os processos de desertificação no território, comprometendo o equilíbrio dos ecossistemas e a sustentabilidade dos recursos hídricos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas, levantamento de dados secundários em diferentes etapas da elaboração do plano.",
     "level": 1,
-    "image": "assets/reservatorios/banabuiu/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/banabuiu/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/banabuiu/inicio_elaboracao/inicio_elaboracao.png"
+    "image": "/assets/reservatorios/banabuiu/metodologia/inicio_da_elaboracao.png"
   },
-
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Responderam o referido instrumento 35 representantes, sendo destes apenas 5 pessoas do gênero feminino. Os segmentos que participaram da pesquisa foram poder público municipal (29%), poder público estadual e federal (20%), usuários (23%) e sociedade civil (29%).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/banabuiu/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/banabuiu/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -90,9 +92,9 @@
   {
     "number": "2.3",
     "title": "Prognóstico",
-    "content": "",
+    "content": "Levantamento de informações sobre oferta hídrica, demanda hídrica e aspectos ambientais através de questões norteadoras. Foram realizadas três oficinas em formato virtual. São elas: 1ª Oficina – Definição das variáveis-chave e parâmetros do sistema de\nrecursos hídricos do Ceará; 2ª Oficina – Definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses; 3ª Oficina – Sementes de Futuro (tendências e incertezas) da RH do Banabuiú.",
     "level": 2,
-    "image": "assets/reservatorios/banabuiu/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/banabuiu/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -111,7 +113,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/banabuiu/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/banabuiu/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -122,19 +124,19 @@
   {
     "number": "2.4.2",
     "title": "I Workshop",
-    "content": "Na RH do Banabuiú o evento ocorreu de forma presencial, no qual os participantes, que representavam instituições convidadas discutiram e indicavam a partir do que estava exposto na Matriz as ações que estavam aprovadas, que seriam excluídas, que deveriam ser incluídas ou alteradas nos programas, nas ações e nas instituições envolvidas apresentadas na matriz.",
+    "content": "A dinâmica do I WORKSHOP teve dois momentos: plenária e trabalho de grupo. Na plenária foi apresentada a metodologia para a elaboração da última etapa de atualização do Plano de Recursos Hídricos da RH do Banabuiú. Posteriormente, os participantes foram divididos em três grupos de trabalho: (i) GRUPO 1 – Demanda e Oferta Hídrica;(ii) GRUPO 2 – Gerenciamento da Água e Aspectos Político-Institucional e (iii) GRUPO 3 – Aspectos Ambientais. Neste momento, os participantes puderam aprovar, alterar, excluir e incluir ações e instituições envolvidas na matriz.",
     "level": 3
   },
   {
     "number": "2.4.3",
     "title": "Priorização Programas e Ações",
-    "content": "Após a validação da Matriz foi aplicado o IUT, isto é, uma metodologia adaptada do método GUT, que se refere ao impacto espacial, urgência e tendência. Para isso foi enviado um formulário google, em que os membros do CSBH do Banabuiú e demais participantes do Workshop responderam, indicando duas classificações (impacto e urgência) para cada ação contida no formulário, em função da sua percepção e vivência na região.",
+    "content": "Aplicação da metodologia IUT (Impacto espacial, Urgência e Tendência) via formulários preenchidos pelos membros do CSBH. Os respondentes indicaram duas classificações (impacto e urgência) para cada ação contida no formulário, em função da sua percepção e vivência na região.\nII Workshop\nO II Workshop de Programas e Ações foi realizado de forma virtual. A metodologia desse evento consistiu na apresentação para a plenária do resultado da priorização de cada ação validada no I Workshop. Os participantes puderam fazer destaques e modificar o resultado da priorização durante o evento.",
     "level": 3
   },
   {
     "number": "2.4.4",
     "title": "II Workshop",
-    "content": "No segundo Workshop foram apresentados à plenária o resultado da priorização de cada ação validada no I Workshop. Os participantes puderam fazer destaques e modificar o resultado da priorização durante o evento. Após a validação das ações, foram apresentados aos participantes 4 novas ações que haviam sido encaminhadas após o envio do formulário para priorização e 1 durante o evento. Com isso a plenária aprovou 3 ações e as qualificou com alta prioridade.",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes: A Região Hidrográfica do Banabuiú possui 5 açudes públicos de grande porte (capacidade superior a 75 milhões de m³) com características plurianuais, gerenciados pela COGERH, totalizando uma capacidade de acumulação de 2.320.090.000 m³. A infraestrutura conta ainda com 10 reservatórios de médio porte (capacidade entre 10 e 75 milhões de m³), que acumulam 345.613.000 m³, e 4 açudes de pequeno porte (capacidade inferior a 10 milhões de m³). Somadas, essas estruturas conferem à região uma capacidade total de acumulação de 2.682.485.826,00 m³.\nSistemas adutores: A infraestrutura de condução de água da região é composta por 11 adutoras convencionais e um eixo de integração (Fogareiro/Pirabibu), localizado em Quixeramobim, com 10,54 km de extensão e captação no açude Fogareiro. Adicionalmente, o Estado implementa o Projeto Malha D’água, lançado em março de 2022, visando estabelecer uma rede de abastecimento robusta para os núcleos urbanos e suprir as fragilidades do sistema atual. Na RH do Banabuiú, o projeto contempla três grandes eixos: o Sistema Adutor 22 (Banabuiú Sertão Central), o Sistema Adutor 23 (Fogareiro-Alto Banabuiú) e o Sistema Adutor 24 (Sistema Adutor dos Sertões de Quixadá-Quixeramobim).\nClima e Recursos Hídricos: O clima da região caracteriza-se como Tropical com estação seca no inverno e Semiárido quente. A temperatura média anual é de 27ºC, com umidade relativa do ar variando entre 52% e 73,3%. A insolação média anual atinge 2.891,7 horas, impulsionando a evaporação média anual para a expressiva marca de 2.529,7 mm. A precipitação média anual apresenta variabilidade espacial, oscilando entre 648 mm no alto curso da bacia (área de menor pluviosidade) e 725 mm na região central (área de maior pluviosidade).\nDesafios Ambientais: A degradação ambiental na região está intrinsecamente ligada à exploração de recursos naturais, incluindo a supressão da cobertura vegetal, o extrativismo vegetal e mineral, a incorporação de terras, as queimadas e a contaminação dos corpos hídricos. A expansão agropecuária histórica representa um vetor severo de impacto. Nas áreas de nascentes do Rio Quixeramobim (Madalena), houve intenso desmatamento para pastagens e agricultura complementar. Nos setores setentrionais, a forte ocupação formou um corredor contínuo de desmatamento estendendo-se até o Baixo Banabuiú. Esse padrão de supressão vegetal repete-se em diversas frentes: entre o açude Acopiara e Morada Nova, a montante do açude Banabuiú até Senador Pompeu, espalhando-se pelo centro-sul até o alto curso, e nas proximidades do açude Poço do Barro.\nÁreas protegidas: A região abriga 10 Unidades de Conservação consolidadas, compostas por: 1 Área de Relevante Interesse Ecológico (ARIE das Águas Emendadas dos Inhamuns); 2 Monumentos Naturais (Gruta da Casa de Pedra e Monólito de Quixadá); e 7 Reservas Particulares do Patrimônio Natural (RPPNs), sendo elas Luizinho Alencar, Fazenda Arizona, Fazenda Não Me Deixes, Fonseca, Magé, Rio Bonito e Samuel Nobre.\nAspectos socioeconômicos:\nDemografia: A análise demográfica abrange 17 municípios. Observa-se um processo acelerado de urbanização: a população rural, que representava 80,4% do total da região em 1970, reduziu-se para 43,2% em 2010, evidenciando um forte êxodo para as áreas urbanas.\nEconômico: O setor de serviços predomina na maioria dos municípios. Contudo, a agropecuária possui forte relevância, especialmente em Milhã, Jaguaretama, Jaguaribara e Madalena. Morada Nova e Limoeiro do Norte figuram entre os 21 municípios com maior Valor Adicionado Bruto (VAB) agropecuário do Ceará. Limoeiro do Norte destaca-se pelo alto rendimento nas culturas de banana e mamão, além da expressiva produção leiteira.\nSocial: Três municípios apresentam Índice de Desenvolvimento Humano Municipal (IDHM) inferior a 0,599 (Itatira, Mombaça e Ibicuitinga), enquadrando-se em Baixo Desenvolvimento. Os demais situam-se na faixa de Médio Desenvolvimento. O setor de serviços é o de maior impacto social e empregabilidade, seguido pela Indústria de Transformação (Quixadá, Limoeiro do Norte e Quixeramobim).\nDEMANDA HÍDRICA\nATUAL\n- usos e distribuição\nA vazão total outorgada na região do Banabuiú totaliza 2.033,71 L/s, destacando como principais usos a irrigação e o abastecimento humano que consomem respectivamente 52,63% e 34,72% desse total. O atendimento das vazões outorgadas tem sido realizado por açudes monitorados (556,43 L/s), água subterrânea (248,91 L/s), lago ou lagoa (0,29 L/s), rios ou riacho (302,12 L/s) e Eixão das Águas e Canal da Integração (925,24 L/s). O maior atendimento para o abastecimento humano na RH do Banabuiú é proveniente do açude Pedras Brancas. A irrigação, por sua vez, possui outorgas para captar principalmente do Eixão das Águas (705,94 L/s). O uso industrial está concentrado nas águas subterrâneas (6,82 L/s) e no Eixão das Águas (15,87 L/s) A diluição de efluentes tem sido realizada em rios e riachos (137, 07 L/s).\nFUTURA -\nDemanda humana futura\nO prognóstico baseia-se em três cenários prospectivos elaborados em oficinas temáticas sobre variáveis-chave, hipóteses de evolução e sementes de futuro.\nObtida pelo produto da população projetada pelo consumo per capita em três situações prognósticas.\nProjeção Populacional: Realizada por métodos estatísticos a partir de censos históricos. Estimou-se uma taxa média de crescimento populacional de 1,20% para um horizonte de 30 anos.\nConsumo per capita da população: O Cenário I mantém o consumo base. Os Cenários II e III preveem variação de 10% (aumento e redução, respectivamente) para populações urbanas em municípios com mais de 5.000 habitantes.\nValor da demanda humana futura: Para 2050, as projeções são: 1.048 L/s (Cenário I), 1.132 L/s (Cenário II) e 963 L/s (Cenário III).\nadiciona o gráfico\nDemanda futura irrigação: Calculada considerando eficiência, área irrigada e evapotranspiração. Prevê-se aumento de 6% nos Cenários I e III (melhoria de eficiência para 0,90) e redução de 35% no Cenário II devido à severidade das secas.\nadicionar a figura\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: O reservatório Banabuiú possui a maior vazão afluente (20,43 m³/s com 90% de garantia), sendo 39,97% regularizado, 20,37% evaporado e 39,66% vertido. A precipitação média sobre a área de influência dos reservatórios variou de 667,82 mm (Capitão Mor) a 764,99 mm (Cedro). O coeficiente de escoamento (CE), entendido como o rendimento hidrológico da bacia, traduz a quantidade de precipitação que efetivamente se transformará em descarga dos rios. Observa-se que a RH do Banabuiú se situa entre 4,93% e 9,17%.\nQualitativo: Foram realizadas 756 medições trimestrais nos açudes da COGERH. A maioria das análises registrou estado trófico eutrófico.\nOferta hídrica Subterrânea Atual\nQuantitativo: Existem 5.984 captações na região (FUNCEME 2020). Morada Nova, Quixeramobim e Boa Viagem concentram a maior parcela. A oferta total é de 50,32 milhões de m³/ano. O estudo sinaliza que 92,31% das captações desta região hidrográfica são representadas por poços tubulares, sendo este tipo de poços os que possuem mais dados, a saber: profundidade, vazão e qualidade da água.\nQualitativo: São 648 poços com dados de qualidade. Observa-se que cerca de 61,42% dos poços possuem “águas ligeiramente salobras”, 29,48% possuem ‘águas doces’, 8,64% apresentam “águas moderadamente salobras” e cerca de 0,46% dos poços possuem “águas\nfortemente salobras”. Baseado em Sólidos Totais Dissolvidos (STD). Dos poços avaliados, 191 são de água doce. Mombaça é o único município com STD médio inferior a 1.000 mg/L.\nFUTURA - Metodologia e Projeções\nEstimada via modelo SMAP com projeções do CMIP6 (SSP2-4.5). O modelo MRI-ESM2-0 representa o Cenário II (maior variabilidade/restritivo), o MIROC6 o Cenário I e o BCC-CSM2-MR o Cenário III.\nA média das vazões afluentes futuras, no período de 2020 a 2050, para os modelos escolhidos podem ser visualizadas na Tabela 11. Os três modelos apresentam diferenças quanto a percentuais de redução ou aumento em relação à vazão afluente observada da região.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nNa Região Hidrográfica do Banabuiú verifica-se a vazão regularizada total de 15.499,92 L/s proveniente dos reservatórios e 1. 595,52 L/s oriundos das águas subterrâneas. O que resulta em uma oferta total de 17.095,45 L/s.\nA demanda na Região Hidrográfica do Banabuiú, considerando as quatro fontes de dados apresentadas, é da ordem de 2.033,71 L/s segundo as outorgas vigentes, de 2.186,68 L/s segundo os Usos Consuntivos da ANA, de 2.423,73 L/s conforme cálculo da demanda Instalada com base no Censo de 2017 e 2.185,07 L/s calculado pelo mapeamento das áreas irrigadas realizado pela FUNCEME. Considerando o valor de oferta total de 17.095.45 L/s, o balanço hídrico aponta superávit para as quatro bases de estudo, sendo a demanda calculada pelas outorgas vigentes a que apresenta o maior saldo, totalizando 15.061,74 L/s.\nCENÁRIO FUTURO\nTodos os cenários indicam superávit hídrico, porém em valores significativamente menores que o presente. O menor saldo ocorre no Cenário I. O Cenário III (desejável) apresenta saldo superior ao II em 412 L/s, mesmo considerando crescimento agropecuário e novos reservatórios.",
     "level": 3
   },
   {
@@ -153,31 +155,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A Região Hidrográfica do Banabuiú possui 5 açudes públicos de grande porte (capacidade superior a 75 milhões de m³) com características plurianuais, gerenciados pela COGERH, totalizando uma capacidade de acumulação de 2.320.090.000 m³. A infraestrutura conta ainda com 10 reservatórios de médio porte (capacidade entre 10 e 75 milhões de m³), que acumulam 345.613.000 m³, e 4 açudes de pequeno porte (capacidade inferior a 10 milhões de m³). Somadas, essas estruturas conferem à região uma capacidade total de acumulação de 2.682.485.826,00 m³.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "A infraestrutura de condução de água da região é composta por 11 adutoras convencionais e um eixo de integração (Fogareiro/Pirabibu), localizado em Quixeramobim, com 10,54 km de extensão e captação no açude Fogareiro. Adicionalmente, o Estado implementa o Projeto Malha D’água, lançado em março de 2022, visando estabelecer uma rede de abastecimento robusta para os núcleos urbanos e suprir as fragilidades do sistema atual. Na RH do Banabuiú, o projeto contempla três grandes eixos: o Sistema Adutor 22 (Banabuiú Sertão Central), o Sistema Adutor 23 (Fogareiro-Alto Banabuiú) e o Sistema Adutor 24 (Sistema Adutor dos Sertões de Quixadá-Quixeramobim).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima da região caracteriza-se como Tropical com estação seca no inverno e Semiárido quente. A temperatura média anual é de 27ºC, com umidade relativa do ar variando entre 52% e 73,3%. A insolação média anual atinge 2.891,7 horas, impulsionando a evaporação média anual para a expressiva marca de 2.529,7 mm. A precipitação média anual apresenta variabilidade espacial, oscilando entre 648 mm no alto curso da bacia (área de menor pluviosidade) e 725 mm na região central (área de maior pluviosidade).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A degradação ambiental na região está intrinsecamente ligada à exploração de recursos naturais, incluindo a supressão da cobertura vegetal, o extrativismo vegetal e mineral, a incorporação de terras, as queimadas e a contaminação dos corpos hídricos. A expansão agropecuária histórica representa um vetor severo de impacto. Nas áreas de nascentes do Rio Quixeramobim (Madalena), houve intenso desmatamento para pastagens e agricultura complementar. Nos setores setentrionais, a forte ocupação formou um corredor contínuo de desmatamento estendendo-se até o Baixo Banabuiú. Esse padrão de supressão vegetal repete-se em diversas frentes: entre o açude Acopiara e Morada Nova, a montante do açude Banabuiú até Senador Pompeu, espalhando-se pelo centro-sul até o alto curso, e nas proximidades do açude Poço do Barro.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A região abriga 10 Unidades de Conservação consolidadas, compostas por: 1 Área de Relevante Interesse Ecológico (ARIE das Águas Emendadas dos Inhamuns); 2 Monumentos Naturais (Gruta da Casa de Pedra e Monólito de Quixadá); e 7 Reservas Particulares do Patrimônio Natural (RPPNs), sendo elas Luizinho Alencar, Fazenda Arizona, Fazenda Não Me Deixes, Fonseca, Magé, Rio Bonito e Samuel Nobre.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -213,25 +220,29 @@
     "number": "4.1",
     "title": "Atual",
     "content": "A estimativa fundamenta-se nas demandas de outorga vigente, cálculos da ANA e dados secundários (Censos 2010/2017, Funceme e PAM 2019).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "A demanda hídrica total instalada é de 2.423,73 L/s. A irrigação é o uso preponderante (1.478,85 L/s), seguida pelo abastecimento humano (589,00 L/s) e dessedentação animal (355,88 L/s).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/banabuiu/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico baseia-se em três cenários prospectivos elaborados em oficinas temáticas sobre variáveis-chave, hipóteses de evolução e sementes de futuro.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "Obtida pelo produto da população projetada pelo consumo per capita em três situações prognósticas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/banabuiu/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.1.1",
@@ -255,7 +266,8 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "Calculada considerando eficiência, área irrigada e evapotranspiração. Prevê-se aumento de 6% nos Cenários I e III (melhoria de eficiência para 0,90) e redução de 35% no Cenário II devido à severidade das secas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/banabuiu/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -267,13 +279,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "Considera águas superficiais e subterrâneas nos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/oferta/disponibilidade_hidrica_atual.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/banabuiu/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -291,7 +305,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/banabuiu/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -309,7 +324,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "5.2.1",
@@ -327,12 +343,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "A oferta total é de 17.095,45 L/s (15.499,92 L/s superficial + 1.595,52 L/s subterrânea). Com uma demanda de 2.423,73 L/s, a região apresenta superávit de 14.671,72 L/s.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "Todos os cenários indicam superávit hídrico, porém em valores significativamente menores que o presente. O menor saldo ocorre no Cenário I. O Cenário III (desejável) apresenta saldo superior ao II em 412 L/s, mesmo considerando crescimento agropecuário e novos reservatórios.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/banabuiu/balanco/cenario_futuro.png"
   }
 ]

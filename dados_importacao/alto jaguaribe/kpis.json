@@ -1,0 +1,29 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"25","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 2.765.668.616 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"3.471","unit":"","label":"Poços Cadastrados","sublabel":"10,91% do total estadual","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"8","unit":"","label":"Adutoras Convencionais","sublabel":"Destaque: Campos Sales-Salitre-Araripe (103 km)","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"800","unit":"mm","label":"Precipitação Média Anual","sublabel":"Evaporação: ~2.000 mm/ano","icon":"droplets","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"2","unit":"","label":"Novos Reservatórios","sublabel":"Jucá (34,17M m³) em Parambu · Berê (11,9M m³) em Jardim","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"8","unit":"","label":"Sistemas Malha d'Água","sublabel":"Integração regional em implantação","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"824,03","unit":"hm³/ano","label":"Vazão Afluente (Orós)","sublabel":"38,78% regularizado · 22,99% evaporado","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"57","unit":"%","label":"Poços com Água Doce","sublabel":"42% ligeiramente salobras","icon":"check","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"198","unit":"","label":"Medições de Qualidade","sublabel":"58% eutrófico · 16% mesotrófico","icon":"test-tube","severity":"warning"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-55","unit":"%","label":"Redução Orós (pior modelo)","sublabel":"Vazões afluentes futuras: 55% a 69%","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":2,"value":"-69","unit":"%","label":"Redução Orós (melhor modelo)","sublabel":"Todos os modelos projetam aumento de temperatura","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"2.529","unit":"L/s","label":"Irrigação","sublabel":"Maior consumo da região","icon":"sprout","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"590","unit":"L/s","label":"Abastecimento Humano","sublabel":"População urbana e rural","icon":"users","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":3,"value":"415,85","unit":"L/s","label":"Dessedentação Animal","sublabel":"Pecuária regional","icon":"cow","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"1.178","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 56% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"1.010","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Cenário sustentável/eficiente","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"16.912,58","unit":"L/s","label":"Vazão Regularizada (Q90)","sublabel":"Orós responde por 65% da oferta","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"15.918","unit":"L/s","label":"Superávit Hídrico","sublabel":"Oferta supera demanda instalada","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"11.265","unit":"L/s","label":"Saldo Cenário III (desejável)","sublabel":"Maior disponibilidade + redução de perdas","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"7.915","unit":"L/s","label":"Saldo Cenário II (restritivo)","sublabel":"Menor disponibilidade futura","icon":"trending-down","severity":"warning"}
+]

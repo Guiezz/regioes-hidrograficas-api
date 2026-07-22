@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Litoral",
     "level": 1
   },
   {
@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Litoral localiza-se na porção noroeste do Estado do Ceará, limitando-se pela latitude 4°10'55''S e compreendida entre as longitudes 40°12'30''W e 39°07'55''W, abrangendo uma área aproximada de 8.571,90 km². A região apresenta domínios hidrogeológicos diversificados, compostos por rochas cristalinas, coberturas sedimentares e depósitos aluvionares. Do ponto de vista climático, a região insere-se em clima semiárido quente e tropical de savana, com temperatura média anual de 27,3°C. A umidade relativa média anual é da ordem de 81,4%. A insolação anual varia espacialmente, registrando cerca de 2.815 horas na faixa litorânea e 2.707 horas na porção semiárida, influenciando as taxas de evaporação, que oscilam entre 1.864,55 mm no litoral e 2.344,7 mm no interior. A precipitação apresenta variabilidade significativa, com médias anuais de 600 mm ao sul da região, elevando-se para 1.100 mm na faixa litorânea, abrangendo os municípios de Itapipoca, Trairi, Amontada e Itarema.",
     "level": 2,
-    "image": "/assets/mapa_litoral.png"
+    "image": "/assets/reservatorios/litoral/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica do Litoral dispõe de uma infraestrutura hídrica composta por 6 açudes públicos de características plurianuais sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 214.898.000 m³. Complementam esse sistema 5 adutoras e 1.183 poços cadastrados, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica do Litoral enfrenta desafios críticos relacionados à gestão da oferta e à segurança da infraestrutura. Observa-se a prática recorrente de construção de pequenos açudes a montante de reservatórios estratégicos, o que compromete o aporte hídrico regular. Além disso, a segurança de barragens é um ponto de atenção prioritária, visto que a região possui três estruturas classificadas como de prioridade máxima de intervenção, demandando ações urgentes de recuperação e monitoramento.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
     "level": 1,
-    "image": "/assets/reservatorios/litoral/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/litoral/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/litoral/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/litoral/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. A pesquisa foi encaminhada para os 40 membros do CBHL. Destes, 12 são usuários, 12 fazem parte da sociedade civil, 8 fazem parte do Poder Público estadual ou federal e 8 fazem parte do Poder Público municipal. Responderam ao referido instrumento 36 representantes, sendo 22 homens e 14 mulheres.",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/litoral/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/litoral/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -72,7 +74,7 @@
   {
     "number": "2.2.2",
     "title": "Audiência Pública: Iniciando o Diálogo",
-    "content": "Apresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
+    "content": "Iniciando o Diálogo\nApresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
     "level": 3
   },
   {
@@ -92,12 +94,12 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/litoral/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/litoral/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
     "title": "Oficina de Cenarização - Sementes do Futuro",
-    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Aspectos ambientais.",
+    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Aspectos ambientais. Foram realizadas três oficinas, são elas: 1ª Oficina – Definição das variáveis-chave e parâmetros do sistema de recursos hídricos do Ceará; 2ª Oficina – Definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses; 3ª Oficina – Sementes de Futuro (tendências e incertezas) da RHL.",
     "level": 3
   },
   {
@@ -111,7 +113,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/litoral/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/litoral/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -122,7 +124,7 @@
   {
     "number": "2.4.2",
     "title": "I Workshop",
-    "content": "Foi discutido o eixo demanda hídrica. A dinâmica ocorreu em dois momentos: plenária e grupos de trabalho. Na plenária foi apresentada a metodologia e, posteriormente, os participantes foram divididos em três grupos: GT 1 - Demanda e oferta hídrica, GT 2 - Gerenciamento da água e aspectos político-institucionais e GT 3 - Aspectos ambientais. Os participantes puderam alterar, excluir e incluir ações e instituições envolvidas na Matriz.",
+    "content": "A dinâmica do I WORKSHOP teve dois momentos: plenária e trabalho de grupo. Na plenária foi apresentada a metodologia para a elaboração da última etapa de atualização do Plano de Recursos Hídricos da RH do Baixo Jaguaribe. Posteriormente, os participantes foram divididos em três grupos de trabalho: (i) GRUPO 1 – Demanda e Oferta Hídrica;(ii) GRUPO 2 – Gerenciamento da Água e Aspectos Político-Institucional e (iii) GRUPO 3 – Aspectos Ambientais. Neste momento, os participantes puderam aprovar, alterar, excluir e incluir ações e instituições envolvidas na matriz.",
     "level": 3
   },
   {
@@ -134,7 +136,7 @@
   {
     "number": "2.4.4",
     "title": "Reunião de aprovação do plano",
-    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes\nA região possui 6 açudes públicos de médio porte com características plurianuais, gerenciados pela COGERH, totalizando capacidade de acumulação de 191.778.000 m³, além de 4 açudes de pequeno porte. A região conta ainda com três reservatórios planejados: Trairi (58.800.000 m³) no município de Trairi; Pajé (50.000.000 m³) em Sobral; e Cruxati (47.000.000 m³) abrangendo Itapipoca e Amontada.\nSistemas adutores\nA região possui 5 adutoras convencionais que totalizam 83,82 km de extensão. Destacam-se a Adutora de Itapipoca II (30,58 km), cuja fonte é o reservatório Gameleira, seguida pelas adutoras de Irauçuba (17 km) e de Amontada (13,60 km). Futuramente, novas adutoras serão implementadas através do Projeto Malha D'Água para suprir as demandas hídricas dos núcleos urbanos.\nClima e Recursos Hídricos:\nO clima caracteriza-se como semiárido quente e tropical de savana. A temperatura média anual é de 27,3°C, com umidade relativa média de 81,4%. A insolação anual varia de 2.815 horas na faixa litorânea a 2.707 horas na porção semiárida. A precipitação média anual apresenta variabilidade espacial, oscilando entre 600 mm ao sul da região e 1.100 mm na zona litorânea (Itapipoca, Trairi, Amontada e Itarema).\nDesafios Ambientais\nA região enfrenta pressões ambientais distintas conforme o ecossistema. Nas dunas fixas, a instalação de parques eólicos tem gerado conflitos com comunidades tradicionais, somando-se aos problemas de retirada de areia e especulação imobiliária. Nas planícies fluviomarinhas, observa-se a degradação dos manguezais. Na Depressão Sertaneja, o desmatamento e as queimadas aumentam a vulnerabilidade à desertificação. No âmbito do saneamento, nenhum município possui destinação adequada de resíduos sólidos e a cobertura de esgoto é insuficiente ou inexistente em diversas áreas. Por fim, a atividade de extração mineral carece de fiscalização rigorosa para mitigar impactos no ambiente e na saúde das populações do entorno.\nÁreas protegidas\nA RHL possui 5 Unidades de Conservação, sendo: 02 (duas) APA’s, a do Estuário do Rio Mundaú e a das Dunas da Lagoinha (SEMA, 2021) cujos Planos de Manejo estão sendo elaborados; 02 (duas) Reservas Particulares do Patrimônio Natural (RPPN) e 01 (uma) Reserva Ecológica Particular (REP). Esta localiza-se em Trairi e tem uma área de 54,53ha.\nAspectos socioeconômicos:\nDemografia: A análise considerou 15 municípios, incluindo Marco e Umirim (apesar de possuírem área inferior a 10% na região). Verificou-se um processo de urbanização similar ao de grandes centros, caracterizado pelo crescimento populacional, aumento da taxa de urbanização e redução do contingente rural.\nEconômico: Sobral e Itapipoca figuram entre os 10 maiores PIBs do Estado. A economia da maioria dos municípios é baseada no setor de serviços. A Indústria de Transformação destaca-se em Sobral, Itapipoca, Marco, Morrinhos e Acaraú. O setor energético é relevante, com 46 Parques Eólicos em operação distribuídos por Acaraú, Amontada, Itarema e Trairi.\nSocial: Quatro municípios apresentam IDHM inferior a 0,599 (Baixo Desenvolvimento), enquanto os demais situam-se na faixa de Médio Desenvolvimento (0,600 a 0,699). Sobral é a exceção, com IDHM de 0,714 (Alto Desenvolvimento). A agricultura é expressiva, com 9.300 hectares de culturas permanentes (coco-da-baía, banana e castanha de caju), concentradas em Itapipoca, Itarema e Trairi, e 63.000 hectares de culturas de sequeiro (milho, mandioca e feijão), com destaque para Itapipoca. A região também desenvolve atividades de extração vegetal, silvicultura e aquicultura (carcinicultura).\nmanter os textos e deixar eles dentro do balão ainda fica diferente.\nDEMANDA HÍDRICA\nATUAL\nA estimativa das demandas hídricas da Região Hidrográfica do Litoral fundamenta-se em três vertentes principais: as demandas oriundas do cadastro de outorga vigente; as demandas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água; e a demanda calculada com base em dados secundários, incluindo o Censo Populacional (2010), o Censo Agropecuário (2017), o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal (2019).\n- Usos e distribuição\nA RHL possui uma demanda hídrica total instalada de 1.117,32 L/s. A distribuição da demanda evidencia a irrigação como o uso predominante, totalizando 587,98 L/s (lavouras permanentes e temporárias), com destaque para os municípios de Acaraú e Paraipaba. O abastecimento humano representa uma demanda de 433,41 L/s, tendo como maiores consumidores Itapipoca, Amontada e Itarema. A demanda instalada para dessedentação animal soma 95,93 L/s, concentrando-se principalmente nos municípios de Sobral, Itapipoca, Amontada e Irauçuba.\nFUTURA -\nO prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas e uma reunião de delineamento da história dos cenários, realizadas de forma virtual. A primeira oficina focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da RHL. Por fim, foram desenvolvidas histórias que descrevem como a transição do presente para o estado final pode se desenrolar ao longo do tempo.\nDemanda humana futura\nA demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.\nProjeção Populacional\nA projeção populacional foi realizada por meio dos métodos linear, geométrico, polinomial, logarítmico e potência, a partir de dados populacionais obtidos dos censos do IBGE de 1970, 1980, 1991, 2000 e 2010. Com base nesses dados, estimou-se uma taxa média de crescimento populacional para a RHL, num horizonte de 30 anos, igual a 1,693% para os três cenários.\nConsumo per capita da população\nFoi adotado o consumo per capita atual (o mesmo preconizado no Projeto Malha D'Água) para os Cenários I e II. Para o Cenário III, hipotetizou-se, ao final de 30 anos, uma redução de 10% no consumo da população urbana em municípios acima de 5.000 habitantes.\nDemanda humana futura (Resultado)\nA demanda residente foi estimada em 965 L/s para os Cenários I e II e em 896 L/s para o Cenário III. Devido ao forte turismo na região, estimou-se também a demanda sazonal, que atinge 982 L/s para os Cenários I e II e 912 L/s para o Cenário III. Dessa forma, a demanda humana atinge valores de 982L/s (cenário I e II) e 912 L/s (cenário III) impondo crescimento de 44% e 48% entre 2020 e 2050. O município de Itapipoca expõe a maior demanda em todos os cenários em virtude do tamanho de sua população residente.\nDemanda futura irrigação\nA demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. A eficiência de uso foi projetada com elevação gradativa, partindo de valores médios de 0,70 para 0,90 em 2050. Para a área irrigada, foi imposta uma redução de 35% no Cenário II (em virtude do aumento da severidade e duração das secas) e um aumento de 20% no Cenário III. Comparando o ano de 2050 com a situação de partida (972,90 L/s), estimou-se uma redução de 16% no Cenário I e de 45% no Cenário II, enquanto no Cenário III observou-se uma elevação de 0,9%, decorrente apenas do incremento da área.\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: A avaliação quantitativa é realizada por meio de vazões afluentes e de indicadores hidrológicos. O reservatório Patos apresenta a maior vazão afluente da bacia, com 57,97 hm³/ano. A decomposição desse volume indica que 90,25% é proveniente de vertimentos de montante, 4,13% corresponde à evaporação e 5,03% é efetivamente regularizado.\nQualitativo: A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas, obtidas em campo por meio de sonda multiparâmetro com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes sob gestão da COGERH. Foram realizadas 344 medições, registrando-se, na sua maioria, o estado mesotrófico. Destacam-se os reservatórios Missi e Santo Antônio de Aracatiaçu, que apresentaram com maior frequência o estado hipereutrófico, indicando maior comprometimento da qualidade da água.\nOferta hídrica Subterrânea Atual\nQuantitativo: A avaliação baseou-se na análise do banco de dados do Sistema de Informações de Águas Subterrâneas (Siagas). A Região Hidrográfica do Litoral possui 1.183 poços cadastrados, representando 3,72% do total estadual, sendo a vasta maioria (98,99%) realizada por poços tubulares. Quanto aos usos, predominam o abastecimento múltiplo (359 poços) e o abastecimento doméstico (143 poços), embora 29% dos cadastros não apresentem especificação de uso. Em termos de distribuição espacial, Itarema concentra a maior parcela (20,20%), seguido por Itapipoca (16,74%), Amontada (12,34%) e Irauçuba (10,48%). A análise das vazões estabilizadas indica que 37% dos poços situam-se na faixa de 0 a 5 m³/h e 9% na faixa de 5 a 10 m³/h, caracterizando produtividade baixa ou muito baixa. Ressalta-se que 43% dos poços não possuem especificação de vazão.\nnão tem foto pra ambos\nQualitativo: Para a avaliação qualitativa, utilizaram-se dados da COGERH referentes aos poços monitorados e implantados pela SOHIDRA, tendo como parâmetro os Sólidos Totais Dissolvidos (STD) conforme classificação do Manual de Dessalinização da Água. A região dispõe de dados de qualidade para 26 poços. Desses, 65% foram classificados como água doce, 30% como ligeiramente salobras e 3,8% como moderadamente salobras. Os municípios de Uruburetama e Itarema apresentaram os melhores níveis de qualidade, com predomínio de água doce (STD < 1.000 mg/L).\nFUTURA - Metodologia e Projeções\nA oferta hídrica futura foi estimada por meio do modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura provenientes de oito modelos globais do CMIP6 (versão mais recente), avaliados sob o cenário SSP2 com forçante radiativa de 4,5 W/m² (SSP2-4.5). As variáveis climáticas foram previamente submetidas a processos de correção de viés para adequação à escala regional. De forma geral, a maioria dos modelos indica uma tendência de redução das vazões afluentes quando comparadas à média observada. Para o reservatório Gameleira, estimou-se uma redução de 59% no modelo CanESM5 e de 35% no MIROC6; em contrapartida, o modelo MPI-ESM1-2-HR projetou um aumento de 30% em relação ao observado.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nO balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 2.032,27 L/s na RHL. Três reservatórios respondem por 71% desse valor: Missi, Gameleira e Santo Antônio de Aracatiaçu, sendo considerados os mais importantes do ponto de vista da disponibilidade hídrica. No comparativo entre a demanda instalada e a vazão regularizada, observou-se ocorrência de déficit hídrico (-583,55 L/s) quando utilizada a demanda estimada pela ANA, e superávit nos casos do Censo Agropecuário e Produção Pecuária Municipal (+916,95 L/s) e dos Censos Demográfico, Funceme e Produção Pecuária Municipal (+532,03 L/s).\nCENÁRIO FUTURO\nA disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, MPI-ESM1-2-HR e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Na RHL, a vazão regularizada é influenciada por três fatores: topografia aberta e fechada, vazões afluentes médias e coeficiente de variação anual. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras e, por isso, é indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões afluentes mais próximas das históricas, sendo representativo do Cenário I, enquanto o MPI-ESM1-2-HR tornou-se representativo do Cenário III.",
     "level": 3
   },
   {
@@ -147,31 +149,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui 6 açudes públicos de médio porte com características plurianuais, gerenciados pela COGERH, totalizando capacidade de acumulação de 191.778.000 m³, além de 4 açudes de pequeno porte. A região conta ainda com três reservatórios planejados: Trairi (58.800.000 m³) no município de Trairi; Pajé (50.000.000 m³) em Sobral; e Cruxati (47.000.000 m³) abrangendo Itapipoca e Amontada.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "A região possui 5 adutoras convencionais que totalizam 83,82 km de extensão. Destacam-se a Adutora de Itapipoca II (30,58 km), cuja fonte é o reservatório Gameleira, seguida pelas adutoras de Irauçuba (17 km) e de Amontada (13,60 km). Futuramente, novas adutoras serão implementadas através do Projeto Malha D'Água para suprir as demandas hídricas dos núcleos urbanos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima caracteriza-se como semiárido quente e tropical de savana. A temperatura média anual é de 27,3°C, com umidade relativa média de 81,4%. A insolação anual varia de 2.815 horas na faixa litorânea a 2.707 horas na porção semiárida. A precipitação média anual apresenta variabilidade espacial, oscilando entre 600 mm ao sul da região e 1.100 mm na zona litorânea (Itapipoca, Trairi, Amontada e Itarema).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A região enfrenta pressões ambientais distintas conforme o ecossistema. Nas dunas fixas, a instalação de parques eólicos tem gerado conflitos com comunidades tradicionais, somando-se aos problemas de retirada de areia e especulação imobiliária. Nas planícies fluviomarinhas, observa-se a degradação dos manguezais. Na Depressão Sertaneja, o desmatamento e as queimadas aumentam a vulnerabilidade à desertificação. No âmbito do saneamento, nenhum município possui destinação adequada de resíduos sólidos e a cobertura de esgoto é insuficiente ou inexistente em diversas áreas. Por fim, a atividade de extração mineral carece de fiscalização rigorosa para mitigar impactos no ambiente e na saúde das populações do entorno.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A RHL possui 5 Unidades de Conservação, sendo: 2 Áreas de Proteção Ambiental (APA do Estuário do Rio Mundaú e APA das Dunas da Lagoinha), 2 Reservas Particulares do Patrimônio Natural (RPPN) e 1 Reserva Ecológica Particular.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -207,25 +214,29 @@
     "number": "4.1",
     "title": "Atual",
     "content": "A estimativa das demandas hídricas da Região Hidrográfica do Litoral fundamenta-se em três vertentes principais: as demandas oriundas do cadastro de outorga vigente; as demandas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água; e a demanda calculada com base em dados secundários, incluindo o Censo Populacional (2010), o Censo Agropecuário (2017), o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal (2019).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "A RHL possui uma demanda hídrica total instalada de 1.117,32 L/s. A distribuição da demanda evidencia a irrigação como o uso predominante, totalizando 587,98 L/s (lavouras permanentes e temporárias), com destaque para os municípios de Acaraú e Paraipaba. O abastecimento humano representa uma demanda de 433,41 L/s, tendo como maiores consumidores Itapipoca, Amontada e Itarema. A demanda instalada para dessedentação animal soma 95,93 L/s, concentrando-se principalmente nos municípios de Sobral, Itapipoca, Amontada e Irauçuba.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/litoral/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas e uma reunião de delineamento da história dos cenários, realizadas de forma virtual. A primeira oficina focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da RHL. Por fim, foram desenvolvidas histórias que descrevem como a transição do presente para o estado final pode se desenrolar ao longo do tempo.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "A demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/litoral/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1.1",
@@ -249,7 +260,8 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. A eficiência de uso foi projetada com elevação gradativa, partindo de valores médios de 0,70 para 0,90 em 2050. Para a área irrigada, foi imposta uma redução de 35% no Cenário II (em virtude do aumento da severidade e duração das secas) e um aumento de 20% no Cenário III. Comparando o ano de 2050 com a situação de partida (972,90 L/s), estimou-se uma redução de 16% no Cenário I e de 45% no Cenário II, enquanto no Cenário III observou-se uma elevação de 0,9%, decorrente apenas do incremento da área.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/litoral/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -261,13 +273,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/litoral/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -285,7 +299,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/litoral/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -303,7 +318,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "5.2.1",
@@ -321,12 +337,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "O balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 2.032,27 L/s na RHL. Três reservatórios respondem por 71% desse valor: Missi, Gameleira e Santo Antônio de Aracatiaçu, sendo considerados os mais importantes do ponto de vista da disponibilidade hídrica. No comparativo entre a demanda instalada e a vazão regularizada, observou-se ocorrência de déficit hídrico (-583,55 L/s) quando utilizada a demanda estimada pela ANA, e superávit nos casos do Censo Agropecuário e Produção Pecuária Municipal (+916,95 L/s) e dos Censos Demográfico, Funceme e Produção Pecuária Municipal (+532,03 L/s).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, MPI-ESM1-2-HR e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Na RHL, a vazão regularizada é influenciada por três fatores: topografia aberta e fechada, vazões afluentes médias e coeficiente de variação anual. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras e, por isso, é indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões afluentes mais próximas das históricas, sendo representativo do Cenário I, enquanto o MPI-ESM1-2-HR tornou-se representativo do Cenário III.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/litoral/balanco/cenario_futuro.png"
   }
 ]

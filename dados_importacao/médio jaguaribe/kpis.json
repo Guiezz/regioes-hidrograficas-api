@@ -1,0 +1,27 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"11","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 435.089.786 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"3.145","unit":"","label":"Poços Cadastrados","sublabel":"Distribuição por toda a bacia","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"9","unit":"","label":"Adutoras Convencionais","sublabel":"104,6 km de extensão","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"304","unit":"hm³","label":"Açude Pedras Brancas","sublabel":"Principal reservatório da região","icon":"dam","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"2","unit":"","label":"Novos Reservatórios","sublabel":"No Rio Figueiredo e em Quixeré","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"1","unit":"","label":"Sistema Malha d'Água","sublabel":"Integração ao Sistema Jaguaribe-Metropolitano","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"3,14","unit":"m³/s","label":"Vazão Afluente (Pedras Brancas, Q90)","sublabel":"23,22% regularizado · 56,55% evaporado","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"474","unit":"","label":"Medições de Qualidade","sublabel":"78% eutrófico · Conjuntura de Seca","icon":"test-tube","severity":"critical"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"58","unit":"%","label":"Poços com Água Doce","sublabel":"37% ligeiramente salobras","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-39%/-53%","unit":"","label":"Redução Q90 (MRI/MIROC6)","sublabel":"Entre 39% e 53% nos modelos CMIP6","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"15.462,29","unit":"L/s","label":"Demanda Outorgada Total","sublabel":"Resfriamento 83,63% · Irrigação 8,08%","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"12.929","unit":"L/s","label":"Resfriamento Industrial","sublabel":"Maior uso da região (Pecém, etc.)","icon":"factory","severity":"warning"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"1.625","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 24% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"1.380","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Eficiência no consumo urbano","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"15.762","unit":"L/s","label":"Oferta Total Disponível","sublabel":"Superficial regularizada + subterrânea","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"Superávit","unit":"","label":"Situação Geral","sublabel":"Oferta supera demanda mesmo com resfriamento","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Déficit","unit":"","label":"Cenário II (FGOALS-g3)","sublabel":"Menor disponibilidade · Conflitos potenciais","icon":"alert-triangle","severity":"critical"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"Superávit","unit":"","label":"Cenário III (sustentável)","sublabel":"Eficiência + reúso mantêm equilíbrio","icon":"trending-up","severity":"positive"}
+]

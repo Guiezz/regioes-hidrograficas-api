@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Curu localiza-se na porção setentrional do Estado do Ceará, compreendida entre as latitudes 3°20’00’’S e 4°40’00’’S e a longitude 38°55’00’’W, abrangendo uma área aproximada de 8.621,83 km². A região apresenta predominância do embasamento cristalino, que ocupa cerca de 94,2% do território, enquanto as formações sedimentares correspondem a aproximadamente 5,48%, influenciando diretamente a disponibilidade hídrica subterrânea e superficial. Do ponto de vista climático, a região insere-se majoritariamente em clima seco a semiárido, quente, com temperaturas médias anuais variando entre 26,2°C e 28,2°C. A umidade relativa média anual é da ordem de 73,8%, enquanto a insolação anual atinge cerca de 2.640 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 1.482,40 mm. A precipitação apresenta elevada variabilidade espacial, com valores médios anuais de aproximadamente 1.248 mm na faixa litorânea, reduzindo-se para cerca de 759,7 mm na porção central da região, característica típica das bacias inseridas no semiárido cearense.",
     "level": 2,
-    "image": "/assets/mapa_crateus.png"
+    "image": "/assets/reservatorios/curu/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica do Curu dispõe de uma infraestrutura hídrica composta por 13 açudes públicos sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 1.028.800.000 m³. Complementam esse sistema 1.755 poços e 15 adutoras, que desempenham papel fundamental no abastecimento humano, no suporte às atividades produtivas e na redução da vulnerabilidade hídrica da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica do Curu apresenta elevada variabilidade de deflúvios, característica típica das bacias inseridas no semiárido, o que compromete a regularidade da oferta hídrica ao longo do tempo. Além disso, destacam-se os processos de degradação ambiental e desertificação, que afetam a capacidade de recarga dos sistemas hídricos e impõem desafios adicionais à gestão sustentável dos recursos hídricos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
-    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, levantamento de dados secundários em diferentes etapas da elaboração do plano. Nesse sentido destaca-se as seguintes etapas do processo de elaboração dos plano:",
+    "content": "A oferta hídrica futura foi estimada por meio do modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura provenientes de modelos globais de mudança do clima. Foram considerados oito modelos do conjunto CMIP6, em sua versão mais recente, avaliados sob o cenário SSP2, com forçante radiativa de 4,5 W/m² (SSP2-4.5), cenário intermediário amplamente adotado em estudos de planejamento de recursos hídricos. As variáveis climáticas foram previamente submetidas a processos de correção de viés, de modo a adequá-las às condições regionais da bacia, uma vez que os dados originais são disponibilizados em grade de escala global. Após a correção, as séries foram utilizadas para a simulação das vazões afluentes futuras aos reservatórios da região hidrográfica.\nProjeções de Vazões Afluentes: De forma geral, os resultados indicam uma tendência de redução das vazões afluentes futuras quando comparadas à média observada no período histórico. Essa redução é consistente entre os modelos analisados, embora com magnitudes distintas. Para o açude General Sampaio, as simulações apontaram reduções significativas das vazões médias afluentes, com decréscimos estimados em 41% no modelo CanESM5, 37% no FGOALS-g3 e 59% no MIROC6, evidenciando um cenário de maior restrição hídrica futura e reforçando a necessidade de estratégias adaptativas de gestão e planejamento do uso da água na região\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nA disponibilidade hídrica atual da Região Hidrográfica do Curu (RHC) é representada pela vazão regularizada com garantia de 90% (Q90), o que indica que, em nove de cada dez anos, é possível disponibilizar uma vazão de até 9.245,65 L/s para atendimento às demandas regionais. Os reservatórios com maior contribuição relativa para a regularização hídrica da região — e, portanto, de maior importância estratégica — são o açude Pentecoste, responsável por 42,5% da vazão regularizada, seguido pelos açudes General Sampaio (26,3%) e Caxitoré (17,3%). Ao comparar a vazão regularizada disponível com a demanda hídrica instalada, verificou-se a ocorrência de um déficit de 1.088,64 L/s, considerando a demanda de irrigação estimada a partir dos dados do Censo Agropecuário de 2017, evidenciando uma condição de pressão sobre os recursos hídricos, especialmente nos períodos de maior demanda agrícola.\nCENÁRIO FUTURO\nA disponibilidade hídrica futura foi estimada também com base na vazão regularizada com garantia de 90% (Q90), calculada a partir das vazões afluentes projetadas pelos modelos climáticos CanESM5, FGOALS-g3 e MIROC6. A utilização desses modelos considera que as mudanças climáticas podem se manifestar em diferentes horizontes temporais, influenciando tanto a severidade quanto a duração de eventos hidrológicos extremos. Os resultados indicam uma redução da disponibilidade hídrica futura em relação à condição atual, com decréscimos estimados em 47% no modelo CanESM5, 41% no FGOALS-g3 e 9% no MIROC6. O modelo CanESM5 apresentou a maior variabilidade interanual das vazões afluentes futuras, sendo caracterizado como um cenário de maior incerteza e, por isso, adotado como Cenário II. Já o MIROC6 apresentou vazões mais próximas das condições históricas, representando o Cenário III (futuro desejável), enquanto o FGOALS-g foi associado ao Cenário I. A análise comparativa dos cenários demonstrou que o maior saldo hídrico ocorreu no Cenário III, enquanto o Cenário I apresentou déficit hídrico, reforçando a necessidade de planejamento adaptativo e definição de estratégias de gestão compatíveis com os diferentes níveis de risco hidrológico futuro.",
     "level": 1,
-    "image": "/assets/reservatorios/curu/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/curu/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/curu/inicio_elaboracao/inicio_elaboracao.png"
+    "image": "/assets/reservatorios/curu/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Os segmentos que participaram da pesquisa foram poder público (40%), usuários (16%) e sociedade civil (44%).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/curu/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/curu/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -72,7 +74,7 @@
   {
     "number": "2.2.2",
     "title": "Audiência Pública: Iniciando o Diálogo",
-    "content": "Apresentação e discussão do documento Iniciando o Diálogo elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas, Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e arranjo institucional.",
+    "content": "Iniciando o Diálogo: Apresentação e discussão do documento Iniciando o Diálogo elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas, Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e arranjo institucional.",
     "level": 3
   },
   {
@@ -84,9 +86,9 @@
   {
     "number": "2.3",
     "title": "Prognóstico",
-    "content": "",
+    "content": "Levantamento de informações sobre oferta hídrica, demanda hídrica e aspectos ambientais através de questões norteadoras. Foram realizadas quatro oficinas em formato virtual. São elas: 1a Oficina – levantamento das sementes de futuro (tendências e\nincertezas) da RHC; 2a Oficina – definição das variáveis-chave e parâmetros do sistema\nde recursos hídricos do Ceará; 3a Oficina – definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses; 4a Oficina – delineamento da história dos cenários.",
     "level": 2,
-    "image": "/assets/reservatorios/curu/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/curu/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -105,7 +107,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/curu/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/curu/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -116,7 +118,7 @@
   {
     "number": "2.4.2",
     "title": "II Oficina Programas e Ações",
-    "content": "Apresentação e validação das ações e utilizou-se a percepção dos diferentes atores presentes na oficina para priorizar as ações.",
+    "content": "Apresentação e discussão das propostas dos programas e ações para orientar a gestão da região até 2050. A base utilizada para produzir a matriz norteadora foi: o último PRHC, somado às ações nas etapas de diagnóstico e prognóstico. A matriz continha ações agrupadas em programas por sua vez distribuídas nos eixos temáticos do prognóstico.",
     "level": 3
   },
   {
@@ -135,7 +137,8 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "Possui 13 açudes públicos (capacidade de 1.028.800.000 m³) de características plurianuais geridos pela COGERH. Destes, 3 - Caxitoré, General Sampaio e Pentecoste - são de grande porte possuindo capacidade superior a 75 milhões de m³, a média açudagem possui 5 - Frios, Jerimum, Tejuçuoca, São Mateus e Souza - com capacidade entre 10 a 75 milhões de m³. Além disso, a região possui um reservatório em construção (27.300.000 m³) e dois planejados (capacidade de 27.200.000 m³ e 20.320.000 m³).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
@@ -147,19 +150,22 @@
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "Clima Seco, semiárido e quente, Temperatura média de 26,2°C a 28,2°C, Precipitação média anual para o Litoral 1.248 mm e para Região central da região 759,7 mm, Umidade média anual de 73,8, Insolação anual de 2.640 horas e Evaporação média anual de 1.482,40 mm",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "O uso de adubos minerais e orgânicos, colocados no solo, podendo ser causa de eutrofização, também o uso de defensivos agrícolas de forma indiscriminada, que pode levar ao comprometimento das águas. A atividade mineradora pode impactar o ambiente e causar adoecimento das populações próximas à atividade. Além disso, apresenta problemas no lançamento de dejetos nos corpos hídricos, disposição dos resíduos sólidos, drenagem e manejo das águas pluviais urbanas. Por fim, não há rede de tratamento de esgoto ou população não está ligada a ela.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A região possui 9 Unidades de Conservação sendo 3 estadual, 1 municipal e 5 particulares. Além disso, a região possui proposta de criação de outras 3 áreas e a ampliação de uma. A APA de Baturité possui uma área de cerca de 19% do território da RHC, não possui Plano de Manejo assim como a RPPN Luizinho Alencar.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -189,13 +195,15 @@
     "number": "4",
     "title": "Demandas hídricas, atual e futura",
     "content": "",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/curu/demanda/demanda_hidrica_atual.png"
   },
   {
     "number": "4.1",
     "title": "Atual",
     "content": "A estimativa das demandas hídricas da Região Hidrográfica do Curu fundamenta-se em três vertentes principais: as demandas provenientes do cadastro de outorgas vigente, aquelas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água, e as demandas estimadas a partir de dados secundários, incluindo o Censo Populacional de 2010, o Censo Agropecuário de 2017, o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal de 2019. A partir da integração dessas informações, foram identificadas as demandas hídricas atualmente existentes na região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/demanda/demanda_hidrica_atual.png"
   },
   {
     "number": "4.1.1",
@@ -213,13 +221,15 @@
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, os cenários foram elaborados por meio de 3 oficinas que ocorreram de forma virtual, a primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará: demanda, oferta, meio ambiente, gerenciamento das águas e político-institucional, a segunda focou na definição das hipóteses de evolução dos parâmetros e relação de causa e efeito dessas hipóteses e a terceira foi marcada pelo levantamento das sementes de futuro (tendência e incertezas) da RHC.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/demanda/demanda_humana_futura_1.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "Obtida pelo produto da população projetada, pelo consumo per capita seguida as três situações prognósticas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/curu/demanda/demanda_humana_futura_1.png"
   },
   {
     "number": "4.2.1.1",
@@ -243,7 +253,8 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada por meio de equação utilizando dados disponíveis pela Funceme (2020). A equação considera a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. Para a situação de partida foi imposta uma redução de 35% (cenário II) e um aumento de 20% (Cenário III) para 2050. A eficiência de uso foi elevada gradativamente partindo de valores médios de 0,65 para  0,90 em 2050.\nAdotou-se o impacto positivo de aumento da eficiência de uso sobre a demanda hídrica futura da irrigação. Comparando o ano de 2050 com a situação de partida (6740 L/s) estimou-se redução de 28% (I) 53% (II) e 13% (III).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/curu/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -255,13 +266,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/oferta/disponibilidade_hidrica_atual.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/curu/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -279,7 +292,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/curu/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -297,7 +311,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/oferta/futura_projecoes_de_vazoes_afluentes.png"
   },
   {
     "number": "5.2.1",
@@ -321,12 +336,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "A disponibilidade hídrica atual da Região Hidrográfica do Curu (RHC) é representada pela vazão regularizada com garantia de 90% (Q90), o que indica que, em nove de cada dez anos, é possível disponibilizar uma vazão de até 9.245,65 L/s para atendimento às demandas regionais. Os reservatórios com maior contribuição relativa para a regularização hídrica da região — e, portanto, de maior importância estratégica — são o açude Pentecoste, responsável por 42,5% da vazão regularizada, seguido pelos açudes General Sampaio (26,3%) e Caxitoré (17,3%). Ao comparar a vazão regularizada disponível com a demanda hídrica instalada, verificou-se a ocorrência de um déficit de 1.088,64 L/s, considerando a demanda de irrigação estimada a partir dos dados do Censo Agropecuário de 2017, evidenciando uma condição de pressão sobre os recursos hídricos, especialmente nos períodos de maior demanda agrícola.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "A disponibilidade hídrica futura foi estimada também com base na vazão regularizada com garantia de 90% (Q90), calculada a partir das vazões afluentes projetadas pelos modelos climáticos CanESM5, FGOALS-g3 e MIROC6. A utilização desses modelos considera que as mudanças climáticas podem se manifestar em diferentes horizontes temporais, influenciando tanto a severidade quanto a duração de eventos hidrológicos extremos. Os resultados indicam uma redução da disponibilidade hídrica futura em relação à condição atual, com decréscimos estimados em 47% no modelo CanESM5, 41% no FGOALS-g3 e 9% no MIROC6. O modelo CanESM5 apresentou a maior variabilidade interanual das vazões afluentes futuras, sendo caracterizado como um cenário de maior incerteza e, por isso, adotado como Cenário II. Já o MIROC6 apresentou vazões mais próximas das condições históricas, representando o Cenário III (futuro desejável), enquanto o FGOALS-g foi associado ao Cenário I. A análise comparativa dos cenários demonstrou que o maior saldo hídrico ocorreu no Cenário III, enquanto o Cenário I apresentou déficit hídrico, reforçando a necessidade de planejamento adaptativo e definição de estratégias de gestão compatíveis com os diferentes níveis de risco hidrológico futuro.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/curu/balanco/cenario_futuro.png"
   }
 ]

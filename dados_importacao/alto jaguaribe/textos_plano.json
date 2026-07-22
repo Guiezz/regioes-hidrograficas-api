@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Alto Jaguaribe",
     "level": 1
   },
   {
@@ -16,44 +16,46 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Alto Jaguaribe localiza-se na porção sudoeste e sul do Estado do Ceará, abrangendo uma área aproximada de 10.627,71 km². Apresenta domínios hidrogeológicos compostos por coberturas sedimentares, depósitos aluvionares e rochas cristalinas. O clima é semiárido, seco e quente, com temperatura média anual entre 25ºC e 29,1ºC. A precipitação média anual varia de 1.000 mm no sudeste a 600 mm no noroeste, com evaporação média anual atingindo até 3.016,5 mm.",
     "level": 2,
-    "image": "/assets/mapa_alto_jaguaribe.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
-    "content": "A infraestrutura hídrica é composta por 25 açudes públicos gerenciados pela COGERH, com capacidade total de acumulação de 2.765.668.616,00 m³. O sistema conta ainda com 8 adutoras convencionais e 3.471 poços cadastrados, fundamentais para o abastecimento humano e atividades produtivas.",
-    "level": 2
+    "content": "A infraestrutura hídrica da região é ancorada por uma rede de reservatórios e açudes essenciais para a garantia de água, sendo o Açude Orós o de maior destaque. A região é composta por 25 açudes públicos gerenciados pela COGERH, com capacidade total de acumulação de 2.765.668.616,00 m³. O sistema conta ainda com 8 adutoras convencionais, que somam esforços aos projetos futuros do Governo do Estado voltados ao abastecimento, como o Projeto Malha d'Água, que prevê a implantação de novos sistemas adutores integrados. Há também o uso intensivo de águas subterrâneas por meio de poços profundos, ao todos possui 3.471 poços cadastrados, fundamentais para o abastecimento humano e atividades produtivas.",
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
-    "content": "A bacia enfrenta desafios socioambientais críticos, como intensa extração vegetal, desmatamento, desertificação e mineração de alto impacto. A poluição hídrica é agravada pela ineficiência na coleta e tratamento de esgoto doméstico, além do lançamento de efluentes industriais e agropecuários, comprometendo a segurança hídrica regional.",
-    "level": 2
+    "content": "A gestão da água na bacia é desafiadora, principalmente devido à escassez hídrica sazonal e à vulnerabilidade a eventos extremos de seca. A bacia enfrenta desafios socioambientais críticos, como intensa extração vegetal, desmatamento, desertificação e mineração de alto impacto. A poluição hídrica é agravada pela ineficiência na coleta e tratamento de esgoto doméstico, além do lançamento de efluentes industriais e agropecuários, comprometendo a segurança hídrica regional. Além disso, existem conflitos recorrentes pela água, como disputas entre o uso para abastecimento humano e irrigação ou aquicultura, e a construção irregular de pequenas barragens (pequena açudagem).",
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
-    "content": "A elaboração utilizou metodologia participativa com aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários.",
+    "content": "Todos os modelos climáticos testados projetam um cenário de aumento de temperatura e redução expressiva das vazões afluentes médias aos reservatórios. Por exemplo, para o Açude Orós, os modelos estimam reduções de vazão afluente futura que variam entre 55% e 69% em relação ao histórico observado.",
     "level": 1,
-    "image": "assets/reservatorios/alto_jaguaribe/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/alto_jaguaribe/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento das percepções dos membros dos CBHs sobre usos, problemas hídricos/ambientais e aspectos gerenciais.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. A pesquisa foi encaminhada para os 50 membros do CSBHAJ. Destes, 8 são usuários, 12 fazem parte da sociedade civil, 12 fazem parte do Poder Público estadual ou federal e 9 fazem parte do Poder Público municipal. Responderam ao referido instrumento 41 representantes, sendo 33 homens e 8 mulheres.",
     "level": 3
   },
   {
     "number": "2.1.2",
     "title": "Grupo focal",
-    "content": "Relatos de experiências práticas com técnicos da Gerência Regional sobre sistemas hídricos, alocação de água e secas.",
+    "content": "Relatos das vivências, experiências práticas com técnicos dos Núcleos de Gestão e Operação da Gerência Regional, em que discorreram sobre trajetória, sistemas hídricos, arranjos institucionais, a alocação de água, as secas, entre outros temas.",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/alto_jaguaribe/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -86,12 +88,12 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/alto_jaguaribe/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
     "title": "Oficina de Cenarização - Sementes do Futuro",
-    "content": "Levantamento de informações sobre oferta hídrica, demanda hídrica e aspectos ambientais através de questões norteadoras.",
+    "content": "Levantamento de informações sobre oferta hídrica, demanda hídrica e aspectos ambientais através de questões norteadoras. Foram realizadas três oficinas, em formato virtual e presencial. São elas: 1ª Oficina – Definição das variáveis-chave e parâmetros do sistema de recursos hídricos do Ceará; 2ª Oficina – Definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses; 3ª Oficina – Sementes de Futuro (tendências e incertezas) da RHAJ.",
     "level": 3
   },
   {
@@ -99,24 +101,24 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/alto_jaguaribe/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/alto_jaguaribe/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
     "title": "Etapa preparatória",
-    "content": "Consolidação de ações verbalizadas em uma Matriz de Programas e Ações dividida em 5 eixos temáticos para validação.",
+    "content": "Consolidação de ações verbalizadas em uma Matriz de Programas e Ações dividida em 5 eixos temáticos: demanda, oferta, gerenciamento das águas, político-institucional e aspectos ambientais, para validação.",
     "level": 3
   },
   {
     "number": "2.4.2",
     "title": "Oficina 01",
-    "content": "Divisão em três grupos de trabalho (Oferta/Demanda, Gerenciamento/Político-Institucional e Aspectos Ambientais) para aprovar, excluir ou alterar ações da matriz.",
+    "content": "A dinâmica do I WORKSHOP teve dois momentos: plenária e trabalho de grupo. Na plenária foi apresentada a metodologia para a elaboração da última etapa de atualização do Plano de Recursos Hídricos da RH do Alto Jaguaribe. Posteriormente, os participantes foram divididos em três grupos de trabalho: (i) GRUPO 1 – Demanda e Oferta Hídrica (Figura 3) ;(ii) GRUPO 2 – Gerenciamento das Águas e Aspectos Político-Institucional (Figura 4) e (iii) GRUPO 3 – Aspectos Ambientais. Neste momento, os participantes puderam aprovar, alterar, excluir e incluir ações e instituições envolvidas na matriz.",
     "level": 3
   },
   {
     "number": "2.4.3",
     "title": "Priorização Programas e Ações",
-    "content": "Aplicação da metodologia IUT (Impacto espacial, Urgência e Tendência) via formulários preenchidos pelos membros do CSBH.",
+    "content": "Aplicação da metodologia IUT (Impacto espacial, Urgência e Tendência) via formulários preenchidos pelos membros do CSBH. Os respondentes indicaram duas classificações (impacto e urgência) para cada ação contida no formulário, em função da sua percepção e vivência na região.",
     "level": 3
   },
   {
@@ -129,31 +131,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A bacia possui 3 açudes de grande porte, 11 de médio porte e 11 de pequeno porte, totalizando 2.765.668.616 m³. Há planejamento para dois novos reservatórios: Jucá (Parambu) e Berê (Jardim).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "Conta com 8 adutoras convencionais e projetos estratégicos do Malha D’água, como os sistemas Arneiroz II-Sertões dos Inhamuns, Cariri Ocidental e Trussu-Alto Jaguaribe.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "Clima semiárido, quente e seco, com insolação de 2.803,7 horas e precipitação variando espacialmente entre 1.000 mm (sudeste) e 600 mm (noroeste).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A mineração, queimadas e desmatamentos são vetores críticos, atrelados ao manejo rudimentar da terra. A extração vegetal é a principal renda rural no fim do ano, acelerando a desertificação.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "Inclui a APA da Chapada do Araripe, Flona do Araripe, ESEC de Aiuaba, Monumento Natural Sítio Cana Brava e quatro RPPNs.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -189,31 +196,36 @@
     "number": "4.1",
     "title": "Atual",
     "content": "Estimativas fundamentadas em outorgas, dados da ANA, Funceme e censos oficiais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "Demanda total instalada de 2.149,61 L/s. A irrigação é o uso preponderante (1.143,79 L/s), seguida pelo abastecimento humano (590,00 L/s) e dessedentação animal (415,85 L/s).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/alto_jaguaribe/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "Prognóstico baseado em três cenários prospectivos (I, II e III) com horizonte de 30 anos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "Estimada para 2050 em 1.094,24 L/s (Cenário I), 1.178,11 L/s (Cenário II) e 1.010,37 L/s (Cenário III).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/alto_jaguaribe/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "Cenários I e III estimam elevação de 8% com ganho de eficiência, enquanto o Cenário II prevê redução de 35% devido à severidade das secas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/alto_jaguaribe/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -225,13 +237,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "Considera águas superficiais e subterrâneas em termos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/oferta/disponibilidade_hidrica.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/alto_jaguaribe/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -249,7 +263,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/alto_jaguaribe/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -267,7 +282,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "Modelagem via SMAP indica drástica redução das vazões afluentes (até 69% no Orós). O modelo MRI-ESM2-0 representa o cenário restritivo (II) devido à alta incerteza.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "6",
@@ -279,12 +295,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "Oferta de 16.912,58 L/s, com o Orós respondendo por 65%. O balanço aponta superávit nas três bases de demanda estudadas.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "O maior superávit ocorre no Cenário III (novos reservatórios e eficiência). O Cenário II apresenta menor saldo devido à severidade das secas e redução das vazões naturais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/alto_jaguaribe/balanco/cenario_futuro.png"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Salgado",
     "level": 1
   },
   {
@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Salgado, integrante da Bacia do Rio Jaguaribe, localiza-se na porção sudeste do Estado do Ceará, compreendida entre as latitudes 6°16'49''S e 7°51'29''S e as longitudes 38°31'03''W e 39°41'46''W, abrangendo uma área aproximada de 12.739 km². A região apresenta domínios geológicos distintos, compostos pelo Embasamento Cristalino e pela Bacia Sedimentar do Araripe. Do ponto de vista climático, a região insere-se em clima semiárido, seco e quente, com temperatura média anual de 26°C. A umidade relativa média anual é da ordem de 65,6%, enquanto a insolação anual atinge cerca de 2.927,4 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 2.244,4 mm — sendo que 68% deste total ocorre no período seco, entre julho e dezembro. A precipitação média anual varia entre 800 mm e 1.200 mm.",
     "level": 2,
-    "image": "/assets/mapa_salgado.png"
+    "image": "/assets/reservatorios/salgado/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica do Salgado dispõe de uma infraestrutura hídrica composta por 15 açudes públicos (sendo 11 de médio porte e 4 de pequeno porte) sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 447.450.805 m³. Complementam esse sistema 8 adutoras convencionais, além de 4.211 poços tubulares, 86 poços amazonas e 240 fontes, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica do Salgado enfrenta desafios significativos relacionados à degradação ambiental em diversos estágios, decorrente de atividades de alto impacto sem o devido controle. Além disso, destaca-se a ocupação urbana desordenada em Áreas de Preservação Permanente (APP), o que compromete a integridade dos sistemas naturais e impõe desafios adicionais à gestão sustentável dos recursos hídricos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
     "level": 1,
-    "image": "/assets/reservatorios/salgado/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/salgado/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/salgado/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/salgado/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Os questionários foram enviados para todos os representantes do CBH, sendo respondidos por 38 de seus representantes – 10 do poder público municipal (26%), 8 do poder público estadual e federal (21%), 8 do setor usuários (21%), e 12 da sociedade civil (32%).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/salgado/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/salgado/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -72,7 +74,7 @@
   {
     "number": "2.2.2",
     "title": "Audiência Pública: Iniciando o Diálogo",
-    "content": "Apresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Na RHS foram realizadas duas audiências. A primeira, de forma presencial, foi dividida em dois momentos — plenária e grupos temáticos: GT 1 - Oferta e demanda hídrica e GT 2 - Questões Ambientais. A segunda audiência, realizada de forma virtual, teve o objetivo de promover uma maior participação, seguindo a mesma estrutura da primeira.",
+    "content": "Iniciando o Diálogo\nApresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Na RHS foram realizadas duas audiências. A primeira, de forma presencial, foi dividida em dois momentos — plenária e grupos temáticos: GT 1 - Oferta e demanda hídrica e GT 2 - Questões Ambientais. A segunda audiência, realizada de forma virtual, teve o objetivo de promover uma maior participação, seguindo a mesma estrutura da primeira.",
     "level": 3
   },
   {
@@ -92,12 +94,12 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/salgado/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/salgado/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
     "title": "Oficina de Cenarização - Sementes do Futuro",
-    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Meio ambiente. Com base nessas informações foram construídos os cenários futuros de demanda, oferta e balanço hídrico da região.",
+    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Meio ambiente. Com base nessas informações foram construídos os cenários futuros de demanda, oferta e balanço hídrico da região. As três oficinas foram: 1ª Oficina – definição das variáveis-chave e parâmetros do Sistema de Recursos Hídricos do Estado do Ceará; 2ª Oficina – definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses para o Sistema SRHCE; e 3ª Oficina – levantamento das sementes de futuro (tendências e incertezas) da RHS.",
     "level": 3
   },
   {
@@ -111,18 +113,18 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/salgado/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/salgado/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
     "title": "I Oficina Programas e Ações",
-    "content": "Contou com dois momentos: plenária e grupos temáticos. Na plenária, foi apresentada a metodologia para elaboração da última etapa de atualização do PRHS. Posteriormente, os participantes foram divididos em 3 grupos — GT 1 - Demanda e oferta hídrica, GT 2 - Gerenciamento da água e aspectos político-institucionais e GT 3 - Aspectos ambientais.",
+    "content": "Etapa anterior às oficinas, em que se consolidaram informações sobre as ações verbalizadas durante o processo de elaboração do plano e as sistematizou em uma planilha dividida em 5 eixos (oferta hídrica, demanda hídrica, aspectos ambientais, gerenciamento das águas e político-institucional), denominada Matriz de Programas e Ações, encaminhada ao CBH para validação dos eixos.",
     "level": 3
   },
   {
     "number": "2.4.2",
     "title": "Priorização de ações",
-    "content": "Após a oficina, aplicou-se um formulário via Google Forms para priorização das ações definidas. Utilizou-se uma adaptação do método GUT chamada IUT, que se refere ao impacto espacial, urgência e tendência.",
+    "content": "Contou com dois momentos: plenária e grupos temáticos. Na plenária, foi apresentada a metodologia para elaboração da última etapa de atualização do PRHS. Posteriormente, os participantes foram divididos em 3 grupos — GT 1 - Demanda e oferta hídrica, GT 2 - Gerenciamento da água e aspectos político-institucionais e GT 3 - Aspectos ambientais. Neste momento, os participantes puderam aprovar, alterar, excluir e incluir ações e instituições envolvidas na matriz.\nPriorização de ações\nApós a oficina, aplicou-se um formulário via Google Forms para priorização das ações definidas. Utilizou-se uma adaptação do método GUT chamada IUT, que se refere ao impacto espacial, urgência e tendência.",
     "level": 3
   },
   {
@@ -134,7 +136,7 @@
   {
     "number": "2.4.4",
     "title": "Reunião de aprovação do plano",
-    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes\nA região possui 15 açudes públicos com capacidade total de 447.450.805 m³, gerenciados pela COGERH. Destes, 11 são de médio porte, acumulando 438.060.805 m³, e 4 são de pequeno porte, acumulando 9.390.000 m³. Além disso, a região possui um reservatório planejado com capacidade de acumulação prevista de 17.300.000 m³.\nSistemas adutores\nA região possui 8 adutoras que totalizam 72,16 km, sendo a adutora de Lavras da Mangabeira a de maior extensão, com 25,96 km. Além disso, desde 2016, o Estado trabalha na implementação de uma rede de abastecimento para núcleos urbanos através do Projeto Malha D'Água.\nClima e Recursos Hídricos\nO clima é classificado como semiárido, seco e quente, com temperatura média de 26°C, precipitação média anual variando entre 800 mm e 1.200 mm, umidade média anual de 65,6%, insolação anual de 2.927,4 horas e evaporação média anual de 2.244,4 mm — sendo que, na seca, entre julho e dezembro, a evaporação corresponde a 68% do total.\nDesafios Ambientais\nA região enfrenta sérios problemas ambientais ocasionados pela especulação imobiliária, turismo descontrolado e urbanização desordenada. A agroindústria, o desmatamento, a erosão do solo e os processos de desertificação contribuem para a degradação. Destaca-se a contaminação de águas superficiais e subterrâneas, especialmente na Chapada do Araripe, o que coloca a região em estágios variados de degradação ambiental.\nÁreas protegidas\nA região possui 15 Unidades de Conservação, sendo 2 federais, 6 estaduais, 3 municipais e 4 particulares. A APA da Chapada do Araripe, a maior da região, possui uma área de cerca de 3.789 km² e está inserida na porção cearense da Bacia Sedimentar do Araripe. Destaca-se também o Geopark Araripe, abrangendo os municípios de Barbalha, Crato, Juazeiro do Norte, Missão Velha, Nova Olinda e Santana do Cariri.\nAspectos socioeconômicos\nDemografia: Dos aspectos demográficos, foram utilizados 25 municípios da RHS, seguindo critérios referentes à sua área territorial dentro da Região Hidrográfica. Com base nisso, verificou-se crescimento populacional, aumento da taxa de urbanização e uma tendência de aumento do contingente da população urbana e diminuição da população rural.\nEconômico: Os municípios de Juazeiro do Norte e Crato apresentaram participação superior a 1% no PIB estadual, com destaque para Juazeiro do Norte, que em 2019 registrou PIB acima de 3 bilhões de reais. Em contrapartida, Granjeiro, Baixio e Umari tiveram as menores participações. A maioria dos municípios tem a maior participação de sua economia vinculada ao setor de serviços.\nSocial: Dos municípios da região, 3 apresentaram IDHM inferior a 0,599 (Barro, Granjeiro e Umari), representando baixo desenvolvimento. O município de Crato destacou-se com IDHM superior a 0,699 (Alto Desenvolvimento), enquanto os demais situam-se no intervalo de médio desenvolvimento (0,600 a 0,699). A região destaca-se pela Indústria de Transformação, concentrada no CRAJUBAR (Crato, Juazeiro e Barbalha). Na agricultura, possui 3.900 hectares de culturas permanentes e 84.000 hectares de culturas temporárias, além de atividades de extração vegetal e aquicultura.\nDEMANDA HÍDRICA\nATUAL\nBacia Sedimentar do Araripe\nOs dados fundamentam-se no documento \"Relatório Final do Balanço Hídrico considerando a Demanda e Oferta por Município\", parte integrante do estudo \"Aspectos Qualiquantitativos de Águas Subterrâneas da Bacia do Araripe, no Estado do Ceará\". A demanda total identificada para este domínio é de 4,04 m³/s. A distribuição por usos apresenta a irrigação como principal componente, com demanda instalada de 2,29 m³/s (lavouras permanentes e temporárias), seguida pelo abastecimento humano e uso industrial com 1,61 m³/s, dessedentação animal com 0,12 m³/s e demais usos com 0,03 m³/s.\nEmbasamento Cristalino\nA estimativa das demandas fundamenta-se nas três vertentes padrão: cadastro de outorgas vigente, cálculos da Agência Nacional de Águas (ANA) via Manual de Usos Consuntivos e estimativas baseadas em dados secundários (Censo Populacional 2010, Censo Agropecuário 2017, mapeamento da Funceme e Pesquisa Agropecuária Municipal 2019). A demanda total para o Embasamento Cristalino é de 2,37 m³/s, com predominância da irrigação (lavouras permanentes e temporárias) com 1,72 m³/s, seguida pelo abastecimento humano com 0,38 m³/s, dessedentação animal com 0,21 m³/s, demais usos com 0,04 m³/s e indústria com 0,01 m³/s.\nDemanda total da região\nConsolidando as demandas da Bacia Sedimentar do Araripe (4,04 m³/s) e do Embasamento Cristalino (2,37 m³/s), a Região Hidrográfica do Salgado apresenta uma demanda hídrica total instalada de 6,41 m³/s.\n* não tem foto\nFUTURA -\nO prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; e a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região.\nDemanda humana futura\nA demanda foi obtida pelo produto da população projetada pelo consumo per capita, considerando os três cenários propostos. Na Bacia Sedimentar, estimam-se valores de 1.815,05 L/s para o Cenário I, 2.369,40 L/s para o Cenário II e 1.586,51 L/s para o Cenário III. Para o Embasamento Cristalino, as projeções indicam 701,96 L/s no Cenário I, 798,35 L/s no Cenário II e 628,92 L/s no Cenário III.\nDemanda instalada futura da irrigação\nA demanda foi calculada com base na eficiência de uso e nas áreas irrigadas projetadas. Para a Bacia Sedimentar, projeta-se uma demanda de 2.211,89 L/s (Cenário I), 2.285,97 L/s (Cenário II) e 2.135,49 L/s (Cenário III).\nNo Embasamento Cristalino, os valores estimados são de 1.864,50 L/s para o Cenário I, 1.724,73 L/s para o Cenário II e 2.078,94 L/s para o Cenário III.\nDemanda futura da pecuária\nPara a pecuária, utilizou-se o conceito de Bovino Equivalente de Demanda de Água (BEDA). Na Bacia Sedimentar, as estimativas são de 238,18 L/s (Cenário I), 156,07 L/s (Cenário II) e 299,28 L/s (Cenário III). Para o Embasamento Cristalino, projeta-se 213,23 L/s nos Cenários I e II, elevando-se para 298,45 L/s no Cenário III.\nDemanda futura da indústria\nAs projeções industriais basearam-se majoritariamente em informações coletadas nos Workshops e entrevistas junto aos membros do CBHS. Na Bacia Sedimentar, projeta-se 30,10 L/s (Cenário I), 28,37 L/s (Cenário II) e 30,83 L/s (Cenário III). No Embasamento Cristalino, a demanda mantém-se estável em 6,63 L/s para os três cenários analisados.\nDemanda futura total\nA somatória das projeções setoriais indica os seguintes totais: na Bacia Sedimentar, tem-se 4.342,91 L/s (Cenário I), 4.869,50 L/s (Cenário II) e 4.081,80 L/s (Cenário III);\nNo Embasamento Cristalino, os totais são de 2.830,83 L/s (Cenário I), 2.787,45 L/s (Cenário II) e 3.057,45 L/s (Cenário III), com incremento variando entre 17,52 % e 28,91% a depender do Cenário analisado.\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: A avaliação quantitativa é realizada com base nas vazões afluentes e em indicadores hidrológicos, como a precipitação média e o escoamento superficial. A precipitação média sobre a área de influência dos reservatórios variou de 778,41 mm a 999,34 mm. O coeficiente de escoamento, que representa o rendimento hidrológico da bacia, apresentou valores entre 4% e 16%, compatíveis com as características do semiárido cearense.\nQualitativo: A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas, obtidas em campo por meio de sonda multiparâmetro com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes sob gestão da COGERH. Foram realizadas 677 medições nos reservatórios da RHS, registrando-se, na sua maioria, o estado Eutrófico, o que acarreta implicações diretas sobre a qualidade da água. Os reservatórios Cachoeira, Gomes, Manoel Balbino, Olho d'água, Prazeres, Rozario, Domingos II, Tatajuba e Thomas Osterne apresentaram condições tróficas aceitáveis em mais da metade das medições. Em contrapartida, os reservatórios Lima Campos e Jenipapeiro II apresentaram condições Eutróficas ou Hipereutróficas em mais de 80% das medições, situação semelhante à observada nos reservatórios Atalho, Quixabinha e Ubaldinho, que registraram essas condições em mais de 60% das medições.\nOferta hídrica Subterrânea Atual\nQuantitativo: A avaliação foi realizada por meio da análise dos bancos de dados do Sistema de Informações de Águas Subterrâneas (Siagas), Sisar, Funceme e COGERH. A infraestrutura de captação da região é composta por 4.211 poços tubulares, 86 poços amazonas e 240 fontes naturais. Em termos de distribuição espacial, os municípios com maior número de pontos são Juazeiro do Norte (594), Crato (553) e Mauriti (400). A oferta total de água subterrânea é estimada em 5,80 m³/s, sendo: poços no embasamento cristalino com 0,14 m³/s; poços no Aquífero Médio da Bacia Sedimentar do Araripe com 4,23 m³/s; poços no Aquífero Inferior com 0,89 m³/s; e fontes naturais com 0,54 m³/s.\nQualitativo: A COGERH realiza campanhas periódicas para monitorar a qualidade da água nos aquíferos da Bacia Sedimentar do Araripe. Para o parâmetro Sólidos Totais Dissolvidos (STD), nenhum dos poços do Aquífero Médio apresentou valores acima do Valor Máximo Permitido (VMP), enquanto no Aquífero Inferior apenas um poço em Brejo Santo excedeu o limite. Análises detalhadas em 16 poços do Aquífero Inferior revelaram contaminações pontuais: 4 poços com concentração de Nitrato acima do VMP, 10 com presença de E. Coli, além de registros isolados de Níquel e Chumbo acima dos valores de referência. Em relação às fontes monitoradas, embora o STD tenha se mantido abaixo de 1.000 mg/L, identificou-se contaminação por amônia em uma fonte no Crato e, nas análises bacteriológicas, nenhuma fonte atendeu aos padrões exigidos pela Portaria de Consolidação n° 5 do Ministério da Saúde.\nFUTURA -\nOferta futura de água superficial\nA oferta hídrica futura foi estimada pelo modelo SMAP, utilizando como insumo projeções de precipitação e temperatura de oito modelos globais do CMIP6 (versão mais recente), avaliados sob o cenário SSP2 com forçante radiativa de 4,5 W/m² (SSP2-4.5). A variabilidade anual foi analisada pelo coeficiente de variação (CV), sendo que a RHS possui um CV característico em torno de 1,0. Observou-se que modelos com CV entre 0,6 e 1,6 foram os mais representativos. Nesse contexto, o modelo FGOALS-g3 aponta para uma tendência de redução da variabilidade das vazões afluentes nos reservatórios analisados. A média das vazões afluentes futuras, no período de 2020 a 2050, nos modelos FGOALS-g3 e CanESM5 as reduções são em sua grande maioria superiores a 50% em relação aos valores atuais.\nOferta futura de água subterrânea\nNo prognóstico da Região Hidrográfica do Salgado, considera-se que a oferta de água subterrânea permanecerá estável em relação ao diagnóstico atual. Dessa forma, projeta-se uma oferta total de 5,80 m³/s, englobando as contribuições dos sistemas aquíferos Médio e Inferior da Bacia Sedimentar do Araripe, as fontes da encosta da Chapada do Araripe e os poços localizados no embasamento cristalino.\nOferta futura de transferência de água\nA oferta futura considera também os eixos de integração. A transferência Orós-Lima Campos opera mediante acordo para transposição de no máximo 3 m³/s, visando a manutenção do nível do reservatório Lima Campos, com transferência média de 1 m³/s; entre 2012 e 2018, durante a seca, o volume bombeado oscilou entre 0,5 e 0,7 m³/s. Adicionalmente, o Projeto de Integração do Rio São Francisco (PISF) prevê o aporte através do Ramal do Salgado. Segundo a Resolução ANA n° 2.333/2017, a vazão média solicitada para o Ceará é de 4,43 m³/s. Considerando a indefinição atual sobre a partilha exata, adotou-se como critério provisório a proporcionalidade da demanda, estimando-se para o Cenário 3 uma transferência do PISF para o Salgado da ordem de 0,6 m³/s.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nO balanço hídrico atual é representado pela vazão regularizada com garantia de 90% e, de maneira similar ao cálculo das demandas, é dividido entre os municípios localizados na Bacia Sedimentar do Araripe e os municípios inseridos no Embasamento Cristalino.\nBacia Sedimentar do Araripe\nA oferta hídrica atual é de 5,66 m³/s (90,5% de reserva regulada e 9,5% de fontes), a demanda é de 4,27 m³/s, resultando em um superávit hídrico de 1,39 m³/s.\nEmbasamento Cristalino\nA oferta hídrica atual é de 3,03 m³/s (95,3% de reservatórios superficiais e 4,6% de poços cristalinos), a demanda é de 2,37 m³/s, resultando em um superávit hídrico de 0,66 m³/s.\nCENÁRIO FUTURO\nBacia Sedimentar do Araripe\nTodos os cenários prospectivos indicam superávit no balanço hídrico para a Bacia Sedimentar, independentemente do aumento da oferta devido ao PISF, variando entre 0,79 e 2,18 m³/s. O maior saldo ocorre no Cenário III (seja considerando ou não o PISF), que se refere ao futuro mais otimista.\nEmbasamento Cristalino\nEssa porção da RHS possui condição mais desfavorável para o horizonte de projeto, estando mais vulnerável às mudanças climáticas e à implantação de novas fontes hídricas. Com exceção do Cenário III (o mais otimista), estima-se que haverá déficit hídrico caso parte da oferta proveniente do PISF não seja incorporada à operação do sistema ao longo do horizonte de estudo. O balanço hídrico varia entre -0,19 e 0,86 m³/s.",
     "level": 3
   },
   {
@@ -147,31 +149,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui 15 açudes públicos com capacidade total de 447.450.805 m³, gerenciados pela COGERH. Destes, 11 são de médio porte, acumulando 438.060.805 m³, e 4 são de pequeno porte, acumulando 9.390.000 m³. Além disso, a região possui um reservatório planejado com capacidade de acumulação prevista de 17.300.000 m³.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "A região possui 8 adutoras que totalizam 72,16 km, sendo a adutora de Lavras da Mangabeira a de maior extensão, com 25,96 km. Além disso, desde 2016, o Estado trabalha na implementação de uma rede de abastecimento para núcleos urbanos através do Projeto Malha D'Água.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima é classificado como semiárido, seco e quente, com temperatura média de 26°C, precipitação média anual variando entre 800 mm e 1.200 mm, umidade média anual de 65,6%, insolação anual de 2.927,4 horas e evaporação média anual de 2.244,4 mm — sendo que, na seca, entre julho e dezembro, a evaporação corresponde a 68% do total.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A região enfrenta sérios problemas ambientais ocasionados pela especulação imobiliária, turismo descontrolado e urbanização desordenada. A agroindústria, o desmatamento, a erosão do solo e os processos de desertificação contribuem para a degradação. Destaca-se a contaminação de águas superficiais e subterrâneas, especialmente na Chapada do Araripe, o que coloca a região em estágios variados de degradação ambiental.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A região possui 15 Unidades de Conservação, sendo 2 federais, 6 estaduais, 3 municipais e 4 particulares. A APA da Chapada do Araripe, a maior da região, possui uma área de cerca de 3.789 km² e está inserida na porção cearense da Bacia Sedimentar do Araripe. Destaca-se também o Geopark Araripe, abrangendo os municípios de Barbalha, Crato, Juazeiro do Norte, Missão Velha, Nova Olinda e Santana do Cariri.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -207,19 +214,22 @@
     "number": "4.1",
     "title": "Atual",
     "content": "A caracterização das demandas hídricas na Região Hidrográfica do Salgado apresenta uma distinção metodológica baseada em seus domínios geológicos: a Bacia Sedimentar do Araripe e o Embasamento Cristalino. A integração dessas informações permite compreender o cenário atual de uso dos recursos hídricos na região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/demanda/bacia_sedimentar_do_araripe.png"
   },
   {
     "number": "4.1.1",
     "title": "Bacia Sedimentar do Araripe",
     "content": "Os dados fundamentam-se no documento \"Relatório Final do Balanço Hídrico considerando a Demanda e Oferta por Município\", parte integrante do estudo \"Aspectos Qualiquantitativos de Águas Subterrâneas da Bacia do Araripe, no Estado do Ceará\". A demanda total identificada para este domínio é de 4,04 m³/s. A distribuição por usos apresenta a irrigação como principal componente, com demanda instalada de 2,29 m³/s (lavouras permanentes e temporárias), seguida pelo abastecimento humano e uso industrial com 1,61 m³/s, dessedentação animal com 0,12 m³/s e demais usos com 0,03 m³/s.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/bacia_sedimentar_do_araripe.png"
   },
   {
     "number": "4.1.2",
     "title": "Embasamento Cristalino",
     "content": "A estimativa das demandas fundamenta-se nas três vertentes padrão: cadastro de outorgas vigente, cálculos da Agência Nacional de Águas (ANA) via Manual de Usos Consuntivos e estimativas baseadas em dados secundários (Censo Populacional 2010, Censo Agropecuário 2017, mapeamento da Funceme e Pesquisa Agropecuária Municipal 2019). A demanda total para o Embasamento Cristalino é de 2,37 m³/s, com predominância da irrigação (lavouras permanentes e temporárias) com 1,72 m³/s, seguida pelo abastecimento humano com 0,38 m³/s, dessedentação animal com 0,21 m³/s, demais usos com 0,04 m³/s e indústria com 0,01 m³/s.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/embasamento_cristalino.png"
   },
   {
     "number": "4.1.3",
@@ -231,37 +241,43 @@
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; e a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "A demanda foi obtida pelo produto da população projetada pelo consumo per capita, considerando os três cenários propostos. Na Bacia Sedimentar, estimam-se valores de 1.815,05 L/s para o Cenário I, 2.369,40 L/s para o Cenário II e 1.586,51 L/s para o Cenário III. Para o Embasamento Cristalino, as projeções indicam 701,96 L/s no Cenário I, 798,35 L/s no Cenário II e 628,92 L/s no Cenário III.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada com base na eficiência de uso e nas áreas irrigadas projetadas. Para a Bacia Sedimentar, projeta-se uma demanda de 2.211,89 L/s (Cenário I), 2.285,97 L/s (Cenário II) e 2.135,49 L/s (Cenário III). No Embasamento Cristalino, os valores estimados são de 1.864,50 L/s para o Cenário I, 1.724,73 L/s para o Cenário II e 2.078,94 L/s para o Cenário III.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_instalada_futura_da_irrigacao_sedimentar.png"
   },
   {
     "number": "4.2.3",
     "title": "Demanda futura da pecuária",
     "content": "Para a pecuária, utilizou-se o conceito de Bovino Equivalente de Demanda de Água (BEDA). Na Bacia Sedimentar, as estimativas são de 238,18 L/s (Cenário I), 156,07 L/s (Cenário II) e 299,28 L/s (Cenário III). Para o Embasamento Cristalino, projeta-se 213,23 L/s nos Cenários I e II, elevando-se para 298,45 L/s no Cenário III.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_futura_da_pecuaria.png"
   },
   {
     "number": "4.2.4",
     "title": "Demanda futura da indústria",
     "content": "As projeções industriais basearam-se majoritariamente em informações coletadas nos Workshops e entrevistas junto aos membros do CBHS. Na Bacia Sedimentar, projeta-se 30,10 L/s (Cenário I), 28,37 L/s (Cenário II) e 30,83 L/s (Cenário III). No Embasamento Cristalino, a demanda mantém-se estável em 6,63 L/s para os três cenários analisados.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_futura_da_industria.png"
   },
   {
     "number": "4.2.5",
     "title": "Demanda futura total",
     "content": "A somatória das projeções setoriais indica os seguintes totais: na Bacia Sedimentar, tem-se 4.342,91 L/s (Cenário I), 4.869,50 L/s (Cenário II) e 4.081,80 L/s (Cenário III); no Embasamento Cristalino, os totais são de 2.830,83 L/s (Cenário I), 2.787,45 L/s (Cenário II) e 3.057,45 L/s (Cenário III).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/demanda/demanda_futura_total_cristalino.png"
   },
   {
     "number": "5",
@@ -273,13 +289,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/oferta/disponibilidade_hidrica.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -297,7 +315,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/salgado/oferta/oferta_futura_de_agua_subterranea.png"
   },
   {
     "number": "5.1.2.1",
@@ -315,7 +334,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/oferta/oferta_futura_de_transferencia_de_agua.png"
   },
   {
     "number": "5.2.1",
@@ -345,7 +365,8 @@
     "number": "6.1",
     "title": "Atual",
     "content": "O balanço hídrico atual é representado pela vazão regularizada com garantia de 90% e, de maneira similar ao cálculo das demandas, é dividido entre os municípios localizados na Bacia Sedimentar do Araripe e os municípios inseridos no Embasamento Cristalino.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/balanco/cenario_atual.png"
   },
   {
     "number": "6.1.1",
@@ -363,7 +384,8 @@
     "number": "6.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/salgado/balanco/cenario_futuro_bacia_sedimentar.png"
   },
   {
     "number": "6.2.1",

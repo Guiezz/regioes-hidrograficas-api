@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Coreaú",
     "level": 1
   },
   {
@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Coreaú localiza-se na porção norte-ocidental do Estado do Ceará, compreendida entre as latitudes 3°56'49''S e 2°46'54''S e as longitudes 41°25'21''W e 40°11'50''W, abrangendo uma área aproximada de 10.627,71 km². A região apresenta domínios hidrogeológicos diversificados, compostos por coberturas sedimentares, depósitos aluvionares e rochas cristalinas. Do ponto de vista climático, a região insere-se majoritariamente em clima tropical de savana com inverno seco, transicionando para semiárido quente na porção sul. A temperatura média anual é de 27,3°C, com umidade relativa média da ordem de 81,4%. A insolação anual varia conforme a zona, registrando cerca de 2.815 horas na extensão litorânea e 2.707 horas na área semiárida, refletindo-se nas taxas de evaporação, que alcançam médias de 1.864,5 mm no litoral e 2.344,7 mm no interior. A precipitação apresenta variabilidade espacial, oscilando entre 1.300 mm nas proximidades das Serras da Ibiapaba e Meruoca e 1.100 mm em direção à costa.",
     "level": 2,
-    "image": "/assets/mapa_coreau.png"
+    "image": "/assets/reservatorios/coreau/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica do Coreaú dispõe de uma infraestrutura hídrica composta por 10 açudes públicos de características plurianuais sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 298.018.997 m³. Complementam esse sistema 7 adutoras convencionais e 2.030 poços cadastrados, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica do Coreaú enfrenta desafios socioambientais complexos, marcados por conflitos territoriais entre comunidades tradicionais e grandes empreendimentos de parques eólicos. Além disso, observam-se processos intensos de degradação ambiental e desertificação, impulsionados por erosão e atividades de mineração, que geram impactos significativos tanto no equilíbrio ecológico quanto na saúde das populações locais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
-    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
+    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários.",
     "level": 1,
-    "image": "assets/reservatorios/coreau/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/coreau/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/coreau/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/coreau/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre principais usos, problemas ambientais, conflitos e aspectos gerenciais. O questionário foi encaminhado para os 29 membros (havia uma vacância) e responderam 162 o referido instrumento e 25 representantes, sendo destes apenas 7 pessoas do gênero feminino. Os segmentos quye participaram da pesquisa foram poder público municipal (24%), poder público estadual e federal (24%), usuários (12%) e sociedade civil (40%).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/coreau/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/coreau/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -92,7 +94,7 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/coreau/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/coreau/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -111,7 +113,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/coreau/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/coreau/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -128,7 +130,7 @@
   {
     "number": "2.4.3",
     "title": "Priorização Programas e Ações",
-    "content": "Após a validação da Matriz, foi aplicado o IUT, metodologia adaptada do método GUT, que se refere ao impacto espacial, urgência e tendência. Para isso foi enviado um formulário Google aos membros do CBH do Coreaú e demais participantes do Workshop, que responderam indicando duas classificações (impacto e urgência) para cada ação contida no formulário, em função de sua percepção e vivência na região.",
+    "content": "Aplicação da metodologia IUT (Impacto espacial, Urgência e Tendência) para classificar as ações conforme a percepção dos membros do CSBH.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes\nA região possui 10 açudes públicos de características plurianuais gerenciados pela COGERH, totalizando capacidade de acumulação de 296.018.997 m³. Destes, 8 são de média açudagem (capacidade entre 10 e 75 milhões de m³): Angico, Diamante, Diamantino II, Gangorra, Itaúna, Martinópole, Tucunduba e Várzea da Volta. Os outros dois são de pequeno porte (inferior a 10 milhões de m³): Premuoca e Trapiá III. Além disso, a região conta com dois reservatórios planejados: Frecheirinha e Canto.\nSistemas adutores\nA infraestrutura adutora conta com 7 adutoras convencionais. Adicionalmente, o Estado implementa o Projeto Malha D'Água para suprir as fragilidades da rede de abastecimento urbano. Nesta RH, o projeto contempla os seguintes sistemas: Coreaú, Gangorra-Granja/Martinópole, Tucunduba - Litoral Norte e Sistema Adutor Ibiapaba Norte.\nClima e Recursos Hídricos:\nO clima caracteriza-se majoritariamente como tropical de savana com inverno seco, transicionando para semiárido quente na porção sul. A temperatura média anual é de 27,3°C, com umidade relativa média de 81,4%. A insolação anual varia de 2.815 horas na faixa litorânea a 2.707 horas na zona semiárida, influenciando a evaporação média anual, que oscila entre 1.864,5 mm no litoral e 2.344,7 mm no interior. A precipitação média anual varia de 1.300 mm nas proximidades das Serras da Ibiapaba e Meruoca a 1.100 mm em direção à costa.\nDesafios Ambientais\nA região enfrenta processos erosivos significativos nas dunas fixas devido à ação eólica, descaracterizando paisagens e comprometendo o equilíbrio ecológico. A instalação de parques eólicos tem gerado conflitos territoriais com comunidades tradicionais. Observa-se degradação em áreas de mangue, nos Maciços Residuais e na Depressão Sertaneja, onde o desmatamento e as queimadas aceleram a desertificação. Por fim, a atividade de extração mineral impacta diretamente o ambiente e a saúde das populações locais.\nÁreas protegidas\nA Região Hidrográfica do Coreaú possui 9 Unidades de Conservação, sendo: 4 Áreas de Proteção Ambiental (APA da Lagoa da Jijoca, APA Delta do Parnaíba, APA da Serra da Ibiapaba e APA Serra da Meruoca); 3 Parques (Nacionais de Jericoacoara e Ubajara, e Estadual das Carnaúbas); e 2 Reservas Particulares do Patrimônio Natural (RPPN Paulino Velôso Camêlo e RPPN Fonte de Luz).\nAspectos socioeconômicos:\nDemografia: A análise abrangeu 21 municípios, selecionados por critérios territoriais e de gestão hídrica. Observou-se um processo de urbanização acelerado, evidenciado pela inversão demográfica: a população rural, que representava 66,9% em 1970, reduziu-se para 37,9% em 2010, indicando forte migração para as áreas urbanas.\nEconômico: Morrinhos, Chaval e Coreaú figuram entre os 10 menores PIBs per capita do Estado, enquanto Tianguá situa-se entre os 20 maiores. O setor de serviços predomina na economia de 11 dos 15 municípios analisados. O setor energético conta com dois parques eólicos em operação e 58 pedidos de outorga. A agricultura é expressiva, com 13.686 hectares de culturas permanentes (castanha, maracujá, coco-da-baía e banana) e 63.000 hectares de culturas temporárias (mandioca, cana-de-açúcar, milho e feijão). Há também atividades de extração vegetal e indústria de transformação.\nSocial: Nove municípios apresentam IDHM inferior a 0,599, indicando Baixo Desenvolvimento (Barroquinha, Chaval, Granja, Martinópole, Moraújo, Morrinhos, Santana do Acaraú, Uruoca e Viçosa do Ceará). Os demais situam-se na faixa de Médio Desenvolvimento, com exceção de Sobral, classificado com Alto IDHM. A Indústria de Transformação concentra-se nos polos de Sobral, Tianguá, Camocim e Viçosa do Ceará.\ndeixar eles dentro do balão ainda fica diferente.\nDEMANDA HÍDRICA\nATUAL\nUsos e Distribuição\nA RH do Coreaú possui uma demanda hídrica total instalada de 1.014,98 L/s. A distribuição da demanda evidencia o abastecimento humano como o uso predominante, totalizando 530,67 L/s. A demanda instalada da irrigação (lavoura permanente e temporária) soma 370,98 L/s, enquanto a dessedentação animal representa 113,33 L/s.\nFUTURA -\nO prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região.\nDemanda humana futura\nA demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.\nProjeção Populacional: A projeção populacional foi realizada por meio dos métodos linear, geométrico, polinomial, logarítmico e potência, a partir de dados populacionais obtidos dos censos do IBGE de 1970, 1980, 1991, 2000 e 2010. Com base nesses dados, estimou-se uma taxa média de crescimento populacional para a RH do Coreaú, num horizonte de 30 anos, igual a 1,49% para os três cenários.\nConsumo per capita da população: Foi adotado o consumo per capita atual (o mesmo preconizado no Projeto Malha D'Água) para o Cenário I. Para os demais cenários, hipotetizou-se, ao final de 30 anos, um aumento de 10% para o Cenário II e uma redução de 10% para o Cenário III.\nDemanda humana futura (Resultado): Estimou-se para o horizonte de 2050 uma demanda total de abastecimento humano de 1.189,96 L/s para o Cenário I, 1.308,95 L/s para o Cenário II e 1.070,96 L/s para o Cenário III.\nDemanda futura irrigação\nA demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. A eficiência de uso, que já apresentava valor de partida alto com média de 0,8, foi elevada para 0,90 em 2050 nos cenários que preveem melhora (I e III). Quanto à área, impôs-se uma redução de 35% no Cenário II e um aumento de 20% nos Cenários I e III. Comparando o ano de 2050 com a situação de partida (370,98 L/s), estimou-se um aumento de 7% para os Cenários I e III e uma redução de 35% para o Cenário II. Ressalta-se que a redução de área no Cenário II deve-se ao aumento da severidade e duração das secas, impactando o desenvolvimento econômico e social da região.\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: A avaliação quantitativa é realizada por meio de vazões afluentes e dos indicadores hidrológicos. O reservatório Itaúna possui a maior vazão afluente da região, com 127,24 hm³/ano. A decomposição desse volume indica que 52,22% é proveniente de vertimentos, 18,21% corresponde à evaporação e 29,57% é efetivamente regularizado.\nQualitativo: A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas, obtidas em campo por meio de sonda multiparâmetro com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes sob gestão da COGERH. Foram realizadas 388 medições, sendo os reservatórios com maior frequência de monitoramento: Várzea da Volta (17%), Itaúna (11%), Angicos (11%), Gangorra (10%), Martinópole (10%) e Trapiá III (10%); o Diamantino II apresentou a menor frequência (4%). Na maioria das medições foi registrado o estado mesotrófico, observando-se que apenas os açudes Diamante e Diamantino II não atingiram o estado hipereutrófico durante o período monitorado.\nOferta hídrica Subterrânea Atual\nQuantitativo: A avaliação baseou-se na análise do banco de dados do Sistema de Informações de Águas Subterrâneas (Siagas). A Região Hidrográfica do Coreaú possui 2.030 poços cadastrados. Quanto aos usos, predominam os usos múltiplos (39,46%), seguidos pela irrigação (26,51%), agricultura (15,56%) e abastecimento humano (15,18%). Em termos de distribuição espacial, Camocim concentra a maior parcela (11,93%), seguido por Tianguá (11,59%), Coreaú (9,07%) e Jijoca de Jericoacoara (9,02%). A oferta de água subterrânea calculada totaliza 15,88 milhões de m³ (considerando bombeamento de 8 horas/dia), volume capaz de beneficiar aproximadamente 57.900 famílias de 5 pessoas com consumo médio de 0,75 m³/dia.\nQualitativo: Para a avaliação da qualidade das águas subterrâneas, foram utilizados dados documentais tendo como parâmetro os Sólidos Totais Dissolvidos (STD) e a classificação do Manual de Dessalinização da Água. Nos aquíferos porosos, que totalizam 229 captações (35,78% do total), 62,01% produzem água potável e 37,99% apresentam água imprópria. Nos aquíferos cársticos, com 38 captações (5,94%), 60,35% são potáveis e 39,47% impróprias. Nos aquíferos aluviais, que somam 60 captações (9,38%), observa-se a melhor qualidade relativa, com 91,67% produzindo água potável e apenas 8,33% apresentando água imprópria para consumo humano.\nFUTURA - Metodologia e Projeções\nA oferta hídrica futura foi estimada por meio do modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura provenientes de oito modelos globais do CMIP6 (versão mais recente), avaliados sob o cenário SSP2 com forçante radiativa de 4,5 W/m² (SSP2-4.5). As variáveis climáticas foram previamente submetidas a processos de correção de viés para adequação à escala regional. Os modelos selecionados para a análise — FGOALS-g3, CanESM5 e MIROC6 — apresentam divergências em seus resultados, indicando percentuais variados de redução ou aumento em relação à vazão afluente historicamente observada na região.\nA vazão regularizada é influenciada por três fatores: topografia aberta e fechada, vazões afluentes médias e coeficiente de variação anual. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futura anual (CV alto) e, por isso, é um modelo de maior incerteza sendo indicado para representar a disponibilidade hídrica do cenário II. O modelo MIROC6 proporcionou vazões afluentes próximas das vazões históricas sendo representativo do cenário III e o FGOLS-g3 tornou-se representativo do cenário I.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nO balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 2.958 L/s provenientes dos reservatórios, somada a 503 L/s oriundos das águas subterrâneas, resultando em uma oferta total de 3.461 L/s. Considerando esse valor, obtém-se um superávit de 3.031 L/s considerando as outorgas vigentes, de 802 L/s considerando os usos consuntivos da ANA e de 2.446 L/s considerando a demanda instalada. Conclui-se que a quantidade outorgada vigente está dentro do limite da vazão regularizada com 90% de garantia.\nCENÁRIO FUTURO\nA disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras (CV alto) e, por isso, é indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões afluentes próximas das históricas, sendo representativo do Cenário III, enquanto o FGOALS-g3 tornou-se representativo do Cenário I. Observou-se que o maior saldo hídrico ocorreu no Cenário I (futuro desejável) e que o Cenário II apresentou déficit hídrico.",
     "level": 3
   },
   {
@@ -147,31 +149,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui 10 açudes públicos de características plurianuais gerenciados pela COGERH, totalizando capacidade de acumulação de 296.018.997 m³. Destes, 8 são de média açudagem (capacidade entre 10 e 75 milhões de m³): Angico, Diamante, Diamantino II, Gangorra, Itaúna, Martinópole, Tucunduba e Várzea da Volta. Os outros dois são de pequeno porte (inferior a 10 milhões de m³): Premuoca e Trapiá III. Além disso, a região conta com dois reservatórios planejados: Frecheirinha e Canto.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "A infraestrutura adutora conta com 7 adutoras convencionais. Adicionalmente, o Estado implementa o Projeto Malha D'Água para suprir as fragilidades da rede de abastecimento urbano. Nesta RH, o projeto contempla os seguintes sistemas: Coreaú, Gangorra-Granja/Martinópole, Tucunduba - Litoral Norte e Sistema Adutor Ibiapaba Norte.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima caracteriza-se majoritariamente como tropical de savana com inverno seco, transicionando para semiárido quente na porção sul. A temperatura média anual é de 27,3°C, com umidade relativa média de 81,4%. A insolação anual varia de 2.815 horas na faixa litorânea a 2.707 horas na zona semiárida, influenciando a evaporação média anual, que oscila entre 1.864,5 mm no litoral e 2.344,7 mm no interior. A precipitação média anual varia de 1.300 mm nas proximidades das Serras da Ibiapaba e Meruoca a 1.100 mm em direção à costa.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A região enfrenta processos erosivos significativos nas dunas fixas devido à ação eólica, descaracterizando paisagens e comprometendo o equilíbrio ecológico. A instalação de parques eólicos tem gerado conflitos territoriais com comunidades tradicionais. Observa-se degradação em áreas de mangue, nos Maciços Residuais e na Depressão Sertaneja, onde o desmatamento e as queimadas aceleram a desertificação. Por fim, a atividade de extração mineral impacta diretamente o ambiente e a saúde das populações locais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A Região Hidrográfica do Coreaú possui 9 Unidades de Conservação, sendo: 4 Áreas de Proteção Ambiental (APA da Lagoa da Jijoca, APA Delta do Parnaíba, APA da Serra da Ibiapaba e APA Serra da Meruoca); 3 Parques (Nacionais de Jericoacoara e Ubajara, e Estadual das Carnaúbas); e 2 Reservas Particulares do Patrimônio Natural (RPPN Paulino Velôso Camêlo e RPPN Fonte de Luz).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -201,31 +208,36 @@
     "number": "4",
     "title": "Demandas hídricas, atual e futura",
     "content": "",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/coreau/demanda/demanda_hidrica_atual.png"
   },
   {
     "number": "4.1",
     "title": "Atual",
     "content": "A estimativa das demandas hídricas da Região Hidrográfica do Coreaú fundamenta-se em três vertentes principais: as demandas oriundas do cadastro de outorga vigente; as demandas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água; e a demanda calculada com base em dados secundários, incluindo o Censo Populacional (2010), o Censo Agropecuário (2017), o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal (2019).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/demanda/usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "A RH do Coreaú possui uma demanda hídrica total instalada de 1.014,98 L/s. A distribuição da demanda evidencia o abastecimento humano como o uso predominante, totalizando 530,67 L/s. A demanda instalada da irrigação (lavoura permanente e temporária) soma 370,98 L/s, enquanto a dessedentação animal representa 113,33 L/s.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/coreau/demanda/usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "A demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/coreau/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1.1",
@@ -249,7 +261,8 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. A eficiência de uso, que já apresentava valor de partida alto com média de 0,8, foi elevada para 0,90 em 2050 nos cenários que preveem melhora (I e III). Quanto à área, impôs-se uma redução de 35% no Cenário II e um aumento de 20% nos Cenários I e III. Comparando o ano de 2050 com a situação de partida (370,98 L/s), estimou-se um aumento de 7% para os Cenários I e III e uma redução de 35% para o Cenário II. Ressalta-se que a redução de área no Cenário II deve-se ao aumento da severidade e duração das secas, impactando o desenvolvimento econômico e social da região.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/coreau/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -261,13 +274,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/oferta/disponibilidade_hidrica_atual.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/coreau/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -285,7 +300,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/coreau/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -303,7 +319,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "5.2.1",
@@ -321,12 +338,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "O balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 2.958 L/s provenientes dos reservatórios, somada a 503 L/s oriundos das águas subterrâneas, resultando em uma oferta total de 3.461 L/s. Considerando esse valor, obtém-se um superávit de 3.031 L/s considerando as outorgas vigentes, de 802 L/s considerando os usos consuntivos da ANA e de 2.446 L/s considerando a demanda instalada. Conclui-se que a quantidade outorgada vigente está dentro do limite da vazão regularizada com 90% de garantia.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras (CV alto) e, por isso, é indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões afluentes próximas das históricas, sendo representativo do Cenário III, enquanto o FGOALS-g3 tornou-se representativo do Cenário I. Observou-se que o maior saldo hídrico ocorreu no Cenário I (futuro desejável) e que o Cenário II apresentou déficit hídrico.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/coreau/balanco/cenario_futuro.png"
   }
 ]

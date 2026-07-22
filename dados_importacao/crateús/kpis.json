@@ -1,0 +1,28 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"10","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 436.038.000 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"2.140","unit":"","label":"Poços Cadastrados","sublabel":"94% poços tubulares","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"265,20","unit":"km","label":"Adutoras","sublabel":"26,60 km convencionais + 238,60 km emergenciais","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"27,4","unit":"°C","label":"Temperatura Média","sublabel":"Evaporação: 3.552 mm/ano · Precipitação: 600-1.300 mm","icon":"thermometer","severity":"warning"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"1","unit":"","label":"Reservatório em Construção","sublabel":"Açude Fronteiras · 488.140.000 m³","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"1","unit":"","label":"Sistema Malha d'Água","sublabel":"Adutor Fronteiras · 7 municípios atendidos","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"1,23","unit":"m³/s","label":"Vazão Regularizada (Q90)","sublabel":"Coeficiente de escoamento: 4,5% a 9,3%","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"326","unit":"","label":"Medições de Qualidade","sublabel":"Predomínio mesotrófico","icon":"test-tube","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"57","unit":"%","label":"Poços com Água Doce","sublabel":"41% ligeiramente salobras","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-73","unit":"%","label":"Redução Jaburu II (FGOALS-g3)","sublabel":"Maior redução entre os modelos","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":2,"value":"-54","unit":"%","label":"Redução Jaburu II (MRI-ESM2-0)","sublabel":"Menor redução entre os modelos","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"1.314,30","unit":"L/s","label":"Demanda Total Instalada","sublabel":"Crateús concentra 60,4%","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"915","unit":"L/s","label":"Irrigação","sublabel":"69,6% da demanda total","icon":"sprout","severity":"warning"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"364","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Aumento de 34,6% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"312","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Aumento de 17% com eficiência","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"2,42","unit":"m³/s","label":"Oferta Total (sup. + sub.)","sublabel":"1,23 m³/s superficial + 1,18 m³/s subterrânea","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"1,00","unit":"m³/s","label":"Superávit Hídrico","sublabel":"87% da demanda suprida por reservatórios","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"1,30","unit":"m³/s","label":"Saldo Cenário III (MRI-ESM2-0)","sublabel":"Melhor cenário · Com Açude Fronteiras","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"0,86","unit":"m³/s","label":"Saldo Cenário II (FGOALS-g3)","sublabel":"Menor saldo · Secas severas","icon":"trending-down","severity":"warning"}
+]

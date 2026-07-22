@@ -1,0 +1,26 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"6","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 2.640.138.957 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"1.543","unit":"","label":"Poços Cadastrados","sublabel":"Baixo uso, prioridade superficial","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"9","unit":"","label":"Adutoras Convencionais","sublabel":"Eixão das Águas · Canal do Trabalhador · Malha d'Água","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"4","unit":"","label":"ETAs em Operação","sublabel":"Gavião · Oeste · Pacajus · RMF Sul","icon":"building","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"3","unit":"","label":"Novos Sistemas","sublabel":"Pacajus-Cascavel · Aquiraz · Malha d'Água RMF Sul","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"9,90","unit":"m³/s","label":"Vazão Regularizada (Q90)","sublabel":"Pacoti/Riachão: 2,50 · Gavião: 1,20 · Pacajus: 0,50","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"468","unit":"","label":"Medições de Qualidade","sublabel":"Mesotrófico a eutrófico","icon":"test-tube","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"10.000","unit":"L/s","label":"Transposição Castanhão","sublabel":"Eixão das Águas + Canal do Trabalhador","icon":"water","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-40%/-69%","unit":"","label":"Redução Q90","sublabel":"Castanhão e açudes locais com reduções significativas","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"10.432","unit":"L/s","label":"Demanda Humana Total","sublabel":"Região Metropolitana de Fortaleza: 4,6M habitantes","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"2.446","unit":"L/s","label":"Irrigação","sublabel":"Segundo maior uso","icon":"sprout","severity":"warning"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"13.190","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 26,4% em 30 anos","icon":"users","severity":"critical"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"10.935","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de perdas + eficiência","icon":"users","severity":"warning"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"15.841","unit":"L/s","label":"Oferta Hídrica Total","sublabel":"12.591 L/s Castanhão + 3.250 L/s locais","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"2.963","unit":"L/s","label":"Superávit Atual","sublabel":"Sistema integrado garante segurança","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"-1.537","unit":"L/s","label":"Déficit (Cen. II)","sublabel":"Crescimento populacional + redução oferta","icon":"alert-triangle","severity":"critical"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"2.275","unit":"L/s","label":"Superávit (Cen. III)","sublabel":"Eficiência hídrica mantém equilíbrio","icon":"trending-up","severity":"positive"}
+]

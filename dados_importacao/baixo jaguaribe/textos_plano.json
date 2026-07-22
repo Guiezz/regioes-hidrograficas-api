@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Baixo Jaguaribe",
     "level": 1
   },
   {
@@ -16,44 +16,46 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica do Baixo Jaguaribe localiza-se na porção nordeste do Estado do Ceará, abrangendo uma área aproximada de 7.216,35 km². A região apresenta domínios geológicos diversificados, compostos por depósitos sedimentares cenozoicos, pela bacia sedimentar cretácea do Apodi, e por escudos e maciços antigos. Do ponto de vista climático, insere-se em clima tropical de savana e semiárido quente, com temperatura média anual de 26,0ºC e evaporação média anual de 2.091,0 mm. A precipitação apresenta variabilidade espacial, com valores médios de 801,29 mm no alto curso, elevando-se para 896,69 mm em seu baixo curso.",
     "level": 2,
-    "image": "assets/mapa_baixo_jaguaribe.png"
+    "image": "/assets/reservatorios/baixo_jaguaribe/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
-    "content": "A região dispõe de uma infraestrutura hídrica composta por apenas 1 açude público de médio porte (Santo Antônio de Russas) sob gestão da COGERH, com capacidade de 25.050.000,00 m³. Complementam esse sistema 15 adutoras convencionais e aproximadamente 7.142 poços cadastrados, fundamentais para o abastecimento humano e atividades produtivas.",
-    "level": 2
+    "content": "A infraestrutura é fundamentalmente apoiada no abastecimento por águas subterrâneas (mais de 5.800 poços na região), eclusas e pequenos barramentos, além da dependência estratégica da transferência de águas do Açude Castanhão (localizado no Médio Jaguaribe) através do Eixão das Águas/Canal da Integração e do Canal do Trabalhador. Há 14 adutoras convencionais e projetos em andamento como o Malha D'Água. O único reservatório monitorado na bacia é o Açude Santo Antônio de Russas.",
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
-    "content": "A região enfrenta desafios críticos marcados pelo uso abusivo de agrotóxicos e fertilizantes, resultando na contaminação do solo e águas subterrâneas. Destacam-se o desmatamento de áreas sensíveis, ocupação urbana desordenada e a escassez de dados de monitoramento quantitativo e qualitativo das águas subterrâneas, o que dificulta a gestão integrada.",
-    "level": 2
+    "content": "O maior desafio da região é a vulnerabilidade a secas severas. Há intensos conflitos alocativos pela água, especialmente entre o abastecimento humano e atividades produtivas (carcinicultura e irrigação), e disputas pela transferência de água para a Região Metropolitana de Fortaleza (RMF). Problemas ambientais incluem o uso indiscriminado de agrotóxicos, poluição por efluentes, destinação inadequada de resíduos sólidos, desmatamento de matas ciliares e impactos causados por carcinicultura (como a salinização de aquíferos e destruição de manguezais).",
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano utilizou metodologia participativa, incluindo formulários, grupos focais, oficinas, entrevistas semiestruturadas e levantamento de dados secundários.",
     "level": 1,
-    "image": "assets/reservatorios/baixo_jaguaribe/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/baixo_jaguaribe/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/baixo_jaguaribe/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/baixo_jaguaribe/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre usos, problemas hídricos, conflitos e aspectos gerenciais.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Responderam o referido instrumento 40 representantes, sendo destes apenas 12 pessoas do gênero feminino. Os segmentos que participaram da pesquisa foram: poder público municipal (27,5%), poder público estadual e federal (22,5%), usuários (30%) e sociedade civil (20%).",
     "level": 3
   },
   {
     "number": "2.1.2",
     "title": "Grupo focal",
-    "content": "Relatos de experiências práticas com técnicos da Gerência Regional sobre sistemas hídricos, alocação de água e secas.",
+    "content": "Relatos das vivências, experiências práticas com técnicos dos Núcleos de Gestão e Operação da Gerência Regional, em que discorreram sobre trajetória, sistemas hídricos, arranjos institucionais, a alocação de água, as secas, entre outros temas.",
     "level": 3
   },
   {
@@ -61,38 +63,38 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/baixo_jaguaribe/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/baixo_jaguaribe/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
     "title": "Reunião de partida",
-    "content": "Apresentação do plano de trabalho, síntese dos questionários e formação da Câmara Técnica de Acompanhamento (CT).",
+    "content": "Apresentação de plano de trabalho, sínteses da análise dos questionários, conceito e importância do Plano de Recursos Hídricos, conscientização da relevância do processo participativo e formação da Câmara Técnica de Acompanhamento da Elaboração do Plano (CT).",
     "level": 3
   },
   {
     "number": "2.2.2",
     "title": "Audiência Pública - Iniciando o Diálogo",
-    "content": "Discussão de documento baseado em dados secundários, com grupos temáticos divididos entre oferta/demanda hídrica e questões ambientais.",
+    "content": "Apresentação e discussão do documento Iniciando o Diálogo elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 2 GTs para realizar discussões sobre os temas, Oferta e demanda hídrica e Questões ambientais.",
     "level": 3
   },
   {
     "number": "2.2.3",
     "title": "Entrevistas Semiestruturadas",
-    "content": "Realizadas com diversos atores sobre aspectos futuros de demandas hídricas e ambientais para fomentar o prognóstico.",
+    "content": "Simultaneamente foram realizadas entrevistas semiestruturadas com diferentes atores da região sobre aspectos futuros, em especial, sobre as demandas hídricas e as questões ambientais. Essas entrevistas fomentaram a etapa de prognóstico.",
     "level": 3
   },
   {
     "number": "2.2.4",
     "title": "Reunião de Aprovação do Diagnóstico",
-    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH, CT e posterior discussão no CSBH.",
+    "content": "Revisão e aprovação do Diagnóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CSBH para avaliar e aprovar.",
     "level": 3
   },
   {
     "number": "2.3",
     "title": "Prognóstico",
-    "content": "",
+    "content": "Levantamento de informações sobre oferta hídrica, demanda hídrica e aspectos ambientais através de questões norteadoras. Foram realizadas três oficinas, em formato virtual e presencial. São elas: 1ª Oficina – Definição das variáveis-chave e parâmetros do sistema de\nrecursos hídricos do Ceará; 2ª Oficina – Definição das hipóteses de evolução dos parâmetros e relações de causa e efeito dessas hipóteses; 3ª Oficina – Sementes de Futuro (tendências e incertezas) da RH do Baixo Jaguaribe.",
     "level": 2,
-    "image": "assets/reservatorios/baixo_jaguaribe/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/baixo_jaguaribe/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -103,7 +105,7 @@
   {
     "number": "2.3.2",
     "title": "Oficina de Cenarização 2",
-    "content": "Definição de hipóteses de evolução dos parâmetros e criação de futuros possíveis e plausíveis.",
+    "content": "Revisão e aprovação do Prognóstico pelo GT-COGERH e CT e posteriormente discussão em reunião do CSBH para avaliar e aprovar.",
     "level": 3
   },
   {
@@ -117,24 +119,24 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "assets/reservatorios/baixo_jaguaribe/plano_acao/plano_acao.jpeg"
+    "image": "/assets/reservatorios/baixo_jaguaribe/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
     "title": "Etapa preparatória",
-    "content": "Revisão do plano de 2000 e sistematização de ações em uma Matriz de Programas e Ações dividida em 5 eixos.",
+    "content": "Etapa anterior às oficinas, em que se consolidou informações sobre as ações verbalizadas durante o processo de elaboração do plano e do plano de 2000 da RH. Após isso as sistematizou em uma planilha, dividida em 5 eixos (oferta hídrica, demanda hídrica, aspectos ambientais, gerenciamento das águas e político-institucional), denominada de Matriz de Programas e Ações.",
     "level": 3
   },
   {
     "number": "2.4.2",
     "title": "I Workshop",
-    "content": "Ocorrido na Chapada do Apodi e no Vale do Jaguaribe, onde participantes validaram, excluíram ou incluíram ações na matriz.",
+    "content": "A dinâmica do I WORKSHOP teve dois momentos: plenária e trabalho de grupo. Na plenária foi apresentada a metodologia para a elaboração da última etapa de atualização do Plano de Recursos Hídricos da RH do Baixo Jaguaribe. Posteriormente, os participantes foram divididos em três grupos de trabalho: (i) GRUPO 1 – Demanda e Oferta Hídrica;(ii) GRUPO 2 – Gerenciamento da Água e Aspectos Político-Institucional e (iii) GRUPO 3 – Aspectos Ambientais. Neste momento, os participantes puderam aprovar, alterar, excluir e incluir ações e instituições envolvidas na matriz.",
     "level": 3
   },
   {
     "number": "2.4.3",
     "title": "Priorização Programas e Ações",
-    "content": "Aplicação da metodologia IUT (Impacto, Urgência e Tendência) via formulário para classificar as ações validadas.",
+    "content": "Aplicação da metodologia IUT (Impacto espacial, Urgência e Tendência) via formulários preenchidos pelos membros do CSBH. Os respondentes indicaram duas classificações (impacto e urgência) para cada ação contida no formulário, em função da sua percepção e vivência na região.\nII Workshop\nO II Workshop de Programas e Ações foi realizado de forma virtual. A metodologia desse evento consistiu na apresentação para a plenária do resultado da priorização de cada ação validada no I Workshop. Os participantes puderam fazer destaques e modificar o resultado da priorização durante o evento.",
     "level": 3
   },
   {
@@ -147,7 +149,8 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui apenas o açude Santo Antônio de Russas, de médio porte, com capacidade de acumulação de 25.050.000,00 m³.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
@@ -165,13 +168,15 @@
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "Impactos severos de degradação do solo, mineração clandestina, carcinicultura e poluição por efluentes. O uso abusivo de agrotóxicos é um ponto crítico que contamina águas superficiais e subterrâneas.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "Abriga 5 Unidades de Conservação: APA Canoa Quebrada, APA Berçário da Vida Marinha, APA Lagoa de Saco do Barro e duas RPPNs (Ilha Encantada e Fazenda Belém).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -207,43 +212,50 @@
     "number": "4.1",
     "title": "Atual",
     "content": "Demanda total instalada de 16.707,34 L/s, baseada em outorgas, dados da ANA e censos agropecuários/populacionais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "Uso preponderante na irrigação (10.963,04 L/s), seguido pela aquicultura (5.194,31 L/s), abastecimento humano (429,158 L/s) e pecuária (120,83 L/s).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/atual_usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "Prognóstico baseado em três cenários prospectivos (I, II e III) definidos em oficinas temáticas.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "Estimada para 2050 em 664,36 L/s (Cenário I), 717,72 L/s (Cenário II) e 611,00 L/s (Cenário III), baseada em taxa de crescimento populacional de 0,97% ao ano.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/futura_demanda_humana_futura.png"
   },
   {
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "Cenários I e III preveem elevação de 5% (com melhora na eficiência), enquanto o Cenário II prevê redução de 35% devido à severidade das secas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "4.2.3",
     "title": "Demanda instalada futura da pecuária",
     "content": "Estimada em 145,00 L/s para os Cenários I e III, e 78,54 L/s para o Cenário II (redução de 35%).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/demanda_instalada_futura_da_pecuaria.png"
   },
   {
     "number": "4.2.4",
     "title": "Demanda instalada futura da aquicultura",
     "content": "Projeções de 8.322,8 L/s (Cenário I), 3.257,6 L/s (Cenário II) e 14.409,00 L/s (Cenário III - futuro desejado).",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/demanda/demanda_instalada_futura_da_aquicultura.png"
   },
   {
     "number": "5",
@@ -255,13 +267,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "Avaliação quantitativa e qualitativa de águas superficiais e subterrâneas.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/oferta/disponibilidade_hidrica.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "O açude Santo Antônio de Russas possui vazão afluente de 50,50 hm³/ano, com apenas 15,55% desse volume sendo efetivamente regularizado.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.2",
@@ -273,13 +287,15 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "Destaque para o Aluvião do Rio Jaguaribe com 5.856 poços e produção de 276 milhões de m³/ano, atendendo principalmente carcinicultura e irrigação.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/baixo_jaguaribe/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.2",
     "title": "Futura",
     "content": "Modelagem realizada via SMAP com modelos climáticos CMIP6 (FGOALS-g3, MRI-ESM2-0 e MIROC6) sob cenário de emissões SSP2-4.5.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "6",
@@ -291,12 +307,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "A oferta total (própria + transferência do Médio Jaguaribe) é de 13.269,95 L/s. Frente à demanda instalada de 16.707,34 L/s, a região apresenta déficit hídrico.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "O Cenário II (escassez) apresenta o menor saldo negativo devido à redução forçada das áreas produtivas de irrigação e aquicultura. Todos os cenários consideram os impactos das mudanças climáticas na severidade de secas.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/baixo_jaguaribe/balanco/cenario_futuro.png"
   }
 ]

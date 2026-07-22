@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Ibiapaba",
     "level": 1
   },
   {
@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica da Serra da Ibiapaba localiza-se na porção noroeste do Estado do Ceará, compreendida entre as latitudes 3°28'00''S e 4°59'10''S e as longitudes 40°23'15''W e 41°42'10''W, abrangendo uma área aproximada de 5.987,75 km². A região apresenta predominância de domínios geológicos sedimentares e depósitos aluvionares, influenciando diretamente a hidrogeologia local. Do ponto de vista climático, a região insere-se em clima tropical de savana, caracterizado por inverno seco, com temperatura média anual de 23°C. A umidade relativa média anual é da ordem de 89%, enquanto a evaporação média anual atinge cerca de 2.597 mm. A precipitação apresenta variabilidade espacial significativa, com médias anuais oscilando entre 800 mm e 1.400 mm.",
     "level": 2,
-    "image": "/assets/mapa_ibiapaba.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica da Serra da Ibiapaba dispõe de uma infraestrutura hídrica composta por apenas 1 açude público de grande porte sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 141.000.000 m³. Complementam esse sistema 1 adutora estruturante e 1.511 poços, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica da Serra da Ibiapaba enfrenta desafios críticos quanto à garantia da oferta de água, dependendo majoritariamente de um único açude de grande porte para o abastecimento regional. Ressalta-se que esta barragem foi classificada como de alto risco pelo Relatório de Segurança de Barragens (RASB) de 2020, o que demanda atenção prioritária. Além disso, destacam-se graves problemas ambientais associados ao desmatamento e à precariedade dos serviços de saneamento básico, que comprometem a qualidade e a sustentabilidade dos recursos hídricos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
-    "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
+    "content": "A oferta hídrica futura foi estimada por meio do modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura provenientes de modelos globais de mudança do clima. Foram considerados oito modelos do conjunto CMIP6, em sua versão mais recente, avaliados sob o cenário SSP2, com forçante radiativa de 4,5 W/m² (SSP2-4.5). As variáveis climáticas foram previamente submetidas a processos de correção de viés, de modo a adequá-las às condições regionais da bacia, uma vez que os dados originais são disponibilizados em grade de escala global. Após a correção, as séries foram utilizadas para a simulação das vazões afluentes futuras.\nProjeções de Vazões Afluentes\nDe forma geral, os resultados indicam uma tendência de redução das vazões afluentes futuras quando comparadas à média observada no período histórico. Para o reservatório Jaburu I, as simulações apontaram reduções significativas das vazões médias afluentes, com decréscimos estimados em 49% no modelo CanESM5, 36% no FGOALS-g3 e 14% no MIROC6, evidenciando um cenário de maior restrição hídrica futura.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nO balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 1,442 m³/s na RHSI. A demanda outorgada vigente na bacia, considerada uma demanda contínua de 0,146 m³/s para o rio Jenipapo, é da ordem de 1,297 m³/s e, sendo a vazão regularizada de 1,442 m³/s, tem-se um superávit de 0,145 m³/s, considerando somente a oferta hídrica superficial. No comparativo entre a demanda instalada na região e a vazão regularizada, observou-se um déficit de 0,119 m³/s.\nCENÁRIO FUTURO\nA disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Observou-se uma redução da regularização futura do reservatório Jaburu I de 32% (CanESM5), 22% (FGOALS-g3) e 9% (MIROC6) em relação à situação atual. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras, sendo o modelo de maior incerteza e, por isso, indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões mais próximas das históricas, sendo representativo do Cenário III, enquanto o FGOALS-g3 tornou-se representativo do Cenário I.",
     "level": 1,
-    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/serra_ibiapaba/inicio_elaboracao/inicio_elaboracao.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Responderam o referido instrumento 28 representantes, sendo destes apenas 8 pessoas do gênero feminino. Os segmentos que participaram da pesquisa foram poder público (43%), usuários (25%) e sociedade civil (32%).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/serra_ibiapaba/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -72,7 +74,7 @@
   {
     "number": "2.2.2",
     "title": "Audiência Pública: Iniciando o Diálogo",
-    "content": "Apresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
+    "content": "Iniciando o Diálogo\nApresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
     "level": 3
   },
   {
@@ -92,12 +94,12 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/serra_ibiapaba/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
     "title": "Oficina de Cenarização - Sementes do Futuro",
-    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Aspectos ambientais.",
+    "content": "Etapa para elaboração do prognóstico, realizada a partir de questões norteadoras para levantar informações sobre 3 eixos: Oferta hídrica, Demanda hídrica e Aspectos ambientais. Foram realizadas quatro oficinas com atores vinculados a equipe da UFC/FUNCAP, ao grupo de trabalho da COGERH e ao Comitê de Bacia Hidrográfica da Serra da Ibiapaba (CBHSI), são elas: 1ª Oficina – Definição das variáveis-chave e parâmetros do sistema de recursos hídricos do Ceará; 2ª Oficina – Definição das hipóteses de evolução dos parâmetros e\nrelações de causa e efeito dessas hipóteses; 3ª Oficina – Sementes de Futuro (tendências e incertezas) da RHSI; 4ª Oficina – Delineamento da história dos cenários.",
     "level": 3
   },
   {
@@ -111,7 +113,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/serra_ibiapaba/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/serra_ibiapaba/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -134,7 +136,7 @@
   {
     "number": "2.4.4",
     "title": "Reunião de aprovação do plano",
-    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.",
+    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes\nA região possui 1 açude público de grande porte com capacidade de 141.000.000 m³, de características plurianuais, gerido pela COGERH. Além disso, está planejado o reservatório Lontras, que barrará o Rio Inhuçu e terá capacidade de armazenamento projetada de 347.130.000 m³.\nSistemas adutores\nA região possui 1 adutora estruturante com extensão total de 44,2 km. Este sistema tem como fonte o reservatório Jaburu I, sendo responsável pelo abastecimento do município de Ibiapina e pela transferência de água para municípios da Região Hidrográfica do Acaraú.\nClima e Recursos Hídricos:\nO clima é classificado como tropical de savana com inverno seco, com temperatura média de 23°C, precipitação média anual variando de 800 mm a 1.400 mm, umidade média anual de 89% e evaporação média anual de 2.597 mm.\nDesafios Ambientais\nA região, caracterizada pelo Planalto Sedimentar, encontra-se com áreas fortemente degradadas conforme dados mapeados pela FUNCEME (2016). No saneamento, nenhum município possui destinação final adequada de resíduos sólidos e parte significativa da população não possui rede de esgoto. A drenagem e o manejo das águas pluviais urbanas frequentemente não seguem a legislação. A presença de currais a montante, o uso das águas para lazer (balneários) e lavagem de roupas, somados ao lançamento de esgoto, comprometem a qualidade hídrica. Por fim, a atividade de extração mineral representa outro impacto ambiental relevante para as populações do entorno.\nÁreas protegidas\nA região possui 1 Unidade de Conservação: a APA da Serra da Ibiapaba, considerada uma das maiores do Brasil. Destaca-se na região o desenvolvimento da tradição de cultivo em ambiente protegido (telados e estufas). Além disso, alguns municípios executam ações de reflorestamento, incluindo a produção de mudas e a implementação de sistemas agroflorestais.\nAspectos socioeconômicos:\nDemografia: Dos aspectos demográficos, foram considerados 11 municípios, selecionados por critérios de área territorial, participação no Comitê Gestor ou influência de aglomerado urbano. Verificou-se um processo de urbanização semelhante ao de grandes centros, com crescimento populacional, aumento da taxa de urbanização e tendência de concentração na zona urbana em detrimento da rural.\nEconômico: O município de Tianguá figura entre os maiores PIBs do Estado, enquanto Poranga situa-se entre os dez menores valores. Na agropecuária, Tianguá e Ubajara destacam-se entre as maiores participações estaduais no setor. A maioria dos municípios tem sua economia baseada majoritariamente no setor de serviços.\nSocial: Dos municípios da região, 5 apresentam IDHM inferior a 0,599 (Baixo Desenvolvimento), enquanto os demais situam-se no intervalo de 0,600 a 0,699 (Médio Desenvolvimento). A agricultura é expressiva, com 9.300 hectares de culturas permanentes (maracujá e banana), 16.500 hectares de culturas de sequeiro (cana-de-açúcar, tomate, batata-doce e mandioca) e 114 hectares dedicados à floricultura. A região conta ainda com atividades de extração vegetal e possui 11 Parques Eólicos em operação.\nDEMANDA HÍDRICA\nATUAL\n-  Usos\nA demanda hídrica atual está associada principalmente aos usos de abastecimento humano, irrigação, dessedentação animal e à demanda específica do Rio Jenipapo. Considerando esses usos consuntivos, a demanda hídrica total instalada na região é de 1.561 L/s, refletindo a pressão exercida pelos diferentes setores sobre os recursos hídricos disponíveis.\n* Distribuição\nA distribuição da demanda hídrica atual evidencia a predominância do uso para irrigação, seguido pelo abastecimento humano e pela dessedentação animal. O abastecimento humano apresenta uma demanda estimada de 251 L/s, com maiores demandas nos municípios de Guaraciaba do Norte e São Benedito. A demanda destinada à dessedentação animal totaliza 54 L/s, com maior concentração nos municípios de Ipueiras e Viçosa do Ceará. A irrigação representa o principal componente da demanda hídrica, com volume instalado de 1.110 L/s (abrangendo lavouras permanentes e temporárias), com destaque para os municípios de Guaraciaba do Norte e Ipu.\nFUTURA -\nO prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas e uma reunião de delineamento da história dos cenários, realizadas de forma virtual. A primeira oficina focou na definição de variáveis-chave e parâmetros do sistema de recursos hídricos do Ceará (demanda, oferta, meio ambiente, gerenciamento das águas e político-institucional); a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; e a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região. A etapa final consolidou as informações para delinear a história dos três cenários para a RHSI.\nDemanda humana futura\nA demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita. Para os três cenários, a taxa média de crescimento da população da RHSI em 30 anos é igual a 0,77% (ver Tabela 6). Foi adotado o consumo per capita apresentado na seção 3.1.2 para o primeiro cenário, e para os cenários II e III foi hipotetizado, ao final dos 30 anos, um aumento/redução de 10% de consumo per capta para a população urbana acima de 5.000 habitantes, aumento para o Cenário II e redução para o cenário III. Este aumento/redução depende da aplicação de medidas que modifiquem o comportamento do consumidor conforme detalhado no capítulo anterior. Dessa forma, preconizou-se que este aumento/redução começa a ocorrer após o ano de 2025 (Tabela 9). Estimou-se um valor de demanda total de abastecimento humano de 409 L/s para o cenário I; 440 L/s para o cenário II e 378 L/s para o cenário III na RHSI em 2050.\nProjeção Populacional\nA projeção populacional foi realizada por meio dos métodos linear, geométrico, polinomial, logarítmico e potência, a partir de dados de população obtidos do IBGE referentes aos censos de 1970, 1980, 1991, 2000 e 2010. A RHSI atingirá a população de 294.730 habitantes em 2050. Estima-se uma taxa de crescimento média de 0,77%. Os municípios de Poranga (1.296%), Ubajara (1.478%), Carnaubal (0.965%), Ibiapina (0.883%), Viçosa do Ceará (0.891%) e Tianguá (0.720%).\nConsumo per capita da população\nFoi adotado o consumo per capita atual (seguindo o padrão preconizado no Projeto Malha D'Água) para os Cenários I e II. Para o Cenário III, adotou-se uma redução de 10% no consumo da população urbana em municípios acima de 5.000 habitantes.\nDemanda humana futura (Resultado)\nEstimou-se para o horizonte de 2025 um valor de demanda total de abastecimento humano de 409 L/s para o Cenário I, 440 L/s para o Cenário II e 378 L/s para o Cenário III na Região Hidrográfica da Serra da Ibiapaba.\nDemanda futura irrigação\nA demanda foi calculada impondo-se variações na área irrigada atual: uma redução de 35% no Cenário II e um aumento de 20% nos Cenários I e III para o horizonte de 2025. A eficiência de uso foi projetada com elevação gradativa, partindo de valores médios de 0,85 para 0,92 em 2050. Comparando o ano de 2025 com a situação de partida (1.103 L/s), estimou-se um aumento de 11% para os Cenários I e III e uma redução de 35% para o Cenário II.\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: A avaliação quantitativa é realizada com base nas vazões afluentes e em indicadores hidrológicos, como a precipitação média e o escoamento superficial. A precipitação média na área de influência dos reservatórios é de 1.255,1 mm. O coeficiente de escoamento, que representa o rendimento hidrológico da bacia, apresentou valor de 18%, refletindo as características hidrogeológicas locais.\nQualitativo: A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas. Os dados são obtidos por meio de sondas multiparâmetro, com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes sob gestão da COGERH. Foram realizadas 48 medições no reservatório Jaburu I. Quanto ao estado trófico, a maioria das medições registrou estado oligotrófico (23 ocorrências), seguido pelas condições mesotrófica (17), eutrófica (7) e, em menor escala, hipereutrófica (1).\nOferta hídrica Subterrânea Atual\nQuantitativo: A oferta hídrica subterrânea da Região Hidrográfica da Serra da Ibiapaba foi avaliada com base no banco de dados do Sistema de Informações de Águas Subterrâneas (Siagas), considerando o número de poços, seus usos, distribuição municipal e vazões estabilizadas. Embora dados do IPECE (2017) indiquem a existência de 1.511 poços na região, no SIAGAS constam 793 cadastrados, correspondendo a 2,5% do total estadual. Quanto aos usos, predominam os poços destinados a demais usos (518), seguidos pelo abastecimento doméstico (142) e pelo abastecimento múltiplo (133). Em termos de distribuição espacial, Guaraciaba do Norte concentra 19,4% dos poços, seguido por Croatá (12,4%), Ibiapaba (11,2%) e São Benedito (10,8%). A análise das vazões estabilizadas indica predominância de poços com vazões entre 0 e 5 m³/h (174 poços), seguidos pela faixa de 5 a 10 m³/h. Observa-se ainda que 43,51% dos poços não possuem informação de vazão. De modo geral, a região apresenta baixa ou muito baixa produtividade dos poços.\nnão tem foto pra ambos.\nQualitativo: A avaliação qualitativa baseou-se em dados da COGERH relativos a poços monitorados e implantados pela SOHIDRA, utilizando como parâmetro os Sólidos Totais Dissolvidos (STD) conforme classificação do Manual de Dessalinização da Água. Ressalta-se que os municípios de Ipu, Carnaubal, Croatá, Ipueiras e São Benedito não apresentam poços monitorados. Nos locais onde há monitoramento, todos os municípios apresentaram bons índices de qualidade, com águas classificadas como doces (STD < 1.000 mg/L).\nFUTURA -",
     "level": 3
   },
   {
@@ -147,31 +149,36 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui 1 açude público de grande porte com capacidade de 141.000.000 m³, de características plurianuais, gerido pela COGERH. Além disso, está planejado o reservatório Lontras, que barrará o Rio Inhuçu e terá capacidade de armazenamento projetada de 347.130.000 m³.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
     "title": "Sistemas adutores",
     "content": "A região possui 1 adutora estruturante com extensão total de 44,2 km. Este sistema tem como fonte o reservatório Jaburu I, sendo responsável pelo abastecimento do município de Ibiapina e pela transferência de água para municípios da Região Hidrográfica do Acaraú.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/infraestrutura/sistemas_adutores.png"
   },
   {
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima é classificado como tropical de savana com inverno seco, com temperatura média de 23°C, precipitação média anual variando de 800 mm a 1.400 mm, umidade média anual de 89% e evaporação média anual de 2.597 mm.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A região, caracterizada pelo Planalto Sedimentar, encontra-se com áreas fortemente degradadas conforme dados mapeados pela FUNCEME (2016). No saneamento, nenhum município possui destinação final adequada de resíduos sólidos e parte significativa da população não possui rede de esgoto. A drenagem e o manejo das águas pluviais urbanas frequentemente não seguem a legislação. A presença de currais a montante, o uso das águas para lazer (balneários) e lavagem de roupas, somados ao lançamento de esgoto, comprometem a qualidade hídrica. Por fim, a atividade de extração mineral representa outro impacto ambiental relevante para as populações do entorno.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A região possui 1 Unidade de Conservação: a APA da Serra da Ibiapaba, considerada uma das maiores do Brasil. Destaca-se na região o desenvolvimento da tradição de cultivo em ambiente protegido (telados e estufas). Além disso, alguns municípios executam ações de reflorestamento, incluindo a produção de mudas e a implementação de sistemas agroflorestais.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -201,7 +208,8 @@
     "number": "4",
     "title": "Demandas hídricas, atual e futura",
     "content": "",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/serra_ibiapaba/demanda/demanda_hidrica_atual.png"
   },
   {
     "number": "4.1",
@@ -225,13 +233,15 @@
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de três oficinas e uma reunião de delineamento da história dos cenários, realizadas de forma virtual. A primeira oficina focou na definição de variáveis-chave e parâmetros do sistema de recursos hídricos do Ceará (demanda, oferta, meio ambiente, gerenciamento das águas e político-institucional); a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; e a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região. A etapa final consolidou as informações para delinear a história dos três cenários para a RHSI.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "Obtida pelo produto da população projetada pelo consumo per capita, seguindo as três situações prognósticas estabelecidas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/serra_ibiapaba/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1.1",
@@ -255,7 +265,8 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada impondo-se variações na área irrigada atual: uma redução de 35% no Cenário II e um aumento de 20% nos Cenários I e III para o horizonte de 2025. A eficiência de uso foi projetada com elevação gradativa, partindo de valores médios de 0,85 para 0,92 em 2050. Comparando o ano de 2025 com a situação de partida (1.103 L/s), estimou-se um aumento de 11% para os Cenários I e III e uma redução de 35% para o Cenário II.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/serra_ibiapaba/demanda/demanda_futura_irrigacao.png"
   },
   {
     "number": "5",
@@ -267,13 +278,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/oferta/disponibilidade_hidrica_atual.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/serra_ibiapaba/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -291,7 +304,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/serra_ibiapaba/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -309,7 +323,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/oferta/futura_projecoes_de_vazoes_afluentes.png"
   },
   {
     "number": "5.2.1",
@@ -333,12 +348,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "O balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 1,442 m³/s na RHSI. A demanda outorgada vigente na bacia, considerada uma demanda contínua de 0,146 m³/s para o rio Jenipapo, é da ordem de 1,297 m³/s e, sendo a vazão regularizada de 1,442 m³/s, tem-se um superávit de 0,145 m³/s, considerando somente a oferta hídrica superficial. No comparativo entre a demanda instalada na região e a vazão regularizada, observou-se um déficit de 0,119 m³/s.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos CanESM5, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Observou-se uma redução da regularização futura do reservatório Jaburu I de 32% (CanESM5), 22% (FGOALS-g3) e 9% (MIROC6) em relação à situação atual. O modelo CanESM5 apresentou maior variabilidade anual nas séries de vazões afluentes futuras, sendo o modelo de maior incerteza e, por isso, indicado para representar a disponibilidade hídrica do Cenário II. O modelo MIROC6 proporcionou vazões mais próximas das históricas, sendo representativo do Cenário III, enquanto o FGOALS-g3 tornou-se representativo do Cenário I.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/serra_ibiapaba/balanco/cenario_futuro.png"
   }
 ]

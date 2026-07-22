@@ -1,0 +1,27 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"10","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 298.018.997 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"2.030","unit":"","label":"Poços Cadastrados","sublabel":"Abastecimento humano e produtivo","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"7","unit":"","label":"Adutoras Convencionais","sublabel":"Redes de distribuição regional","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"27,3","unit":"°C","label":"Temperatura Média","sublabel":"Umidade: 81,4% · Evaporação: 1.864-2.344 mm","icon":"thermometer","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"2","unit":"","label":"Reservatórios Planejados","sublabel":"Frecheirinha e Canto","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"4","unit":"","label":"Sistemas Malha d'Água","sublabel":"Coreaú · Gangorra-Granja · Tucunduba · Ibiapaba Norte","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"127,24","unit":"hm³/ano","label":"Vazão Afluente (Itaúna)","sublabel":"29,57% regularizado · 52,22% vertido","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"388","unit":"","label":"Medições de Qualidade","sublabel":"Predomínio mesotrófico","icon":"test-tube","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"62","unit":"%","label":"Poços Potáveis (Aluviais)","sublabel":"Aquíferos porosos: 62% · Cársticos: 60%","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-41%/-47%/-9%","unit":"","label":"Redução Q90 (FGOALS/CanESM/MIROC6)","sublabel":"Modelos CMIP6 · SSP2-4.5","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"1.014,98","unit":"L/s","label":"Demanda Total Instalada","sublabel":"Humano 530,67 · Irrigação 370,98 · Animal 113,33","icon":"droplets","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"530,67","unit":"L/s","label":"Abastecimento Humano","sublabel":"Principal uso da região","icon":"users","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"1.309","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 1,49% ao ano","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"1.071","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de 10% consumo","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"3.461","unit":"L/s","label":"Oferta Total (Q90 + subterrânea)","sublabel":"2.958 L/s superficial + 503 L/s subterrânea","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"3.031","unit":"L/s","label":"Superávit (outorgas vigentes)","sublabel":"Demanda dentro do limite da Q90","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Superávit","unit":"","label":"Cenário I (futuro desejável)","sublabel":"Maior saldo hídrico","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"Déficit","unit":"","label":"Cenário II","sublabel":"Menor disponibilidade hídrica","icon":"alert-triangle","severity":"critical"}
+]

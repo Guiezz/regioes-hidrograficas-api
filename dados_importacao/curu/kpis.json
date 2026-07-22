@@ -1,0 +1,33 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"13","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 1.028.800.000 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"1.755","unit":"","label":"Poços Cadastrados","sublabel":"5,52% do total estadual","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"15","unit":"","label":"Adutoras","sublabel":"73,23 km construídos","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"73,8","unit":"%","label":"Umidade Relativa Média","sublabel":"Insolação: 2.640 h/ano · Evaporação: 1.482 mm/ano","icon":"droplets","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"763,85","unit":"km","label":"Malha d'Água","sublabel":"Novas adutoras em implantação","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"3","unit":"","label":"Novos Reservatórios","sublabel":"1 em construção (27.300.000 m³) + 2 planejados (47.520.000 m³)","icon":"construction","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"9.245,65","unit":"L/s","label":"Vazão Regularizada (Q90)","sublabel":"Garantia de 90%","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"43","unit":"%","label":"Poços com Água Doce (STD < 1.000 mg/L)","sublabel":"49% levemente salobra · 5% moderadamente salobra","icon":"check","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"348","unit":"","label":"Medições de Qualidade","sublabel":"Campanhas trimestrais · Predomínio mesotrófico","icon":"test-tube","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-41","unit":"%","label":"Cenário I (FGOALS-g3)","sublabel":"Redução das vazões afluentes futuras","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":2,"value":"-47","unit":"%","label":"Cenário II (CanESM5)","sublabel":"Maior variabilidade interanual","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":3,"value":"-9","unit":"%","label":"Cenário III (MIROC6)","sublabel":"Futuro desejável · Vazões mais próximas do histórico","icon":"trending-down","severity":"warning"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"10.334,64","unit":"L/s","label":"Demanda Total Instalada","sublabel":"Usos consuntivos da região","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"9.495,66","unit":"L/s","label":"Irrigação","sublabel":"91,4% da demanda · Paraipaba concentra 91% do total","icon":"sprout","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":3,"value":"700","unit":"L/s","label":"Abastecimento Humano","sublabel":"Atendimento às populações urbanas e rurais","icon":"users","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":4,"value":"138,98","unit":"L/s","label":"Dessedentação Animal","sublabel":"Maior demanda em Canindé (30,87 L/s)","icon":"cow","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"821","unit":"L/s","label":"Demanda Humana 2050","sublabel":"Cenários I e II · Projeção populacional de 661.273 hab.","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"762","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de 10% no consumo per capita urbano","icon":"users","severity":"warning"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"9.245,65","unit":"L/s","label":"Oferta — Vazão Regularizada (Q90)","sublabel":"Pentecoste responde por 42,5% · General Sampaio 26,3% · Caxitoré 17,3%","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"10.334,64","unit":"L/s","label":"Demanda Instalada","sublabel":"Base: Censo Agropecuário 2017 + cadastro de outorgas","icon":"droplets","severity":"warning"},
+  {"tab":"balanco","view_mode":"atual","order":3,"value":"-1.088,64","unit":"L/s","label":"Déficit Hídrico","sublabel":"Pressão sobre os recursos hídricos, especialmente na irrigação","icon":"alert-triangle","severity":"critical"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"-47","unit":"%","label":"Cenário II (CanESM5)","sublabel":"Maior incerteza · Redução da oferta futura","icon":"trending-down","severity":"critical"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"-41","unit":"%","label":"Cenário I (FGOALS-g3)","sublabel":"Redução da disponibilidade hídrica","icon":"trending-down","severity":"critical"},
+  {"tab":"balanco","view_mode":"futuro","order":3,"value":"-9","unit":"%","label":"Cenário III (MIROC6)","sublabel":"Futuro desejável · Menor impacto na oferta","icon":"trending-down","severity":"warning"}
+]

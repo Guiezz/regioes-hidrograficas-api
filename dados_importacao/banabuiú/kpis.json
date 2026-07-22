@@ -1,0 +1,26 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"19","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 2.682.485.826 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"5.984","unit":"","label":"Poços Cadastrados","sublabel":"92,31% poços tubulares","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"11","unit":"","label":"Adutoras Convencionais","sublabel":"+ Eixo Fogareiro/Pirabibu (10,54 km)","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"27","unit":"°C","label":"Temperatura Média","sublabel":"Evaporação: 2.529,7 mm/ano","icon":"thermometer","severity":"warning"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"3","unit":"","label":"Eixos Malha d'Água","sublabel":"Banabuiú Sertão Central · Fogareiro-Alto Banabuiú · Sertões de Quixadá-Quixeramobim","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"20,43","unit":"m³/s","label":"Vazão Afluente (Banabuiú, Q90)","sublabel":"39,97% regularizado · 39,66% vertido","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"756","unit":"","label":"Medições de Qualidade","sublabel":"Predomínio eutrófico","icon":"test-tube","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"29,48","unit":"%","label":"Poços com Água Doce","sublabel":"61,42% ligeiramente salobras","icon":"check","severity":"warning"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"Variável","unit":"","label":"Modelos CMIP6","sublabel":"MRI-ESM2-0, FGOALS-g3 e MIROC6 com projeções distintas","icon":"trending-down","severity":"warning"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"2.033,71","unit":"L/s","label":"Vazão Outorgada Total","sublabel":"Irrigação 52,63% · Abast. Humano 34,72%","icon":"droplets","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"925,24","unit":"L/s","label":"Captação Eixão das Águas","sublabel":"Principal fonte para irrigação","icon":"water","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"1.132","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 1,20% ao ano","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"963","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Redução de 10% consumo urbano","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"17.095,45","unit":"L/s","label":"Oferta Total (sup. + sub.)","sublabel":"15.499,92 superficial + 1.595,52 subterrânea","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"15.061,74","unit":"L/s","label":"Superávit (outorgas)","sublabel":"Maior saldo entre as bases de dados","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Superávit","unit":"","label":"Todos os Cenários","sublabel":"Valores menores que o presente","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"-412","unit":"L/s","label":"Diferença Cen. III vs II","sublabel":"Cenário III com saldo superior","icon":"trending-up","severity":"positive"}
+]

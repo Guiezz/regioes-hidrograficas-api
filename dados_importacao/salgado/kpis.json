@@ -1,0 +1,28 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"4","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 48.855.467 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"2.571","unit":"","label":"Poços Cadastrados","sublabel":"Poços tubulares predominantes","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"6","unit":"","label":"Adutoras Convencionais","sublabel":"51,44 km de extensão","icon":"pipe","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"3","unit":"","label":"Açudes Monitorados","sublabel":"Lima Campos · Cachoeira · Manoel Balbino","icon":"dam","severity":"positive"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"1","unit":"","label":"Novo Reservatório","sublabel":"Previsto no PDRH para o Rio Salgado","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"1","unit":"","label":"Sistema Malha d'Água","sublabel":"Sistema Adutor Salgado","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"23,18","unit":"hm³/ano","label":"Vazão Afluente (Lima Campos, Q90)","sublabel":"18,99% regularizado · 52,80% evaporado","icon":"water","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"392","unit":"","label":"Medições de Qualidade","sublabel":"Predomínio mesotrófico","icon":"test-tube","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"55","unit":"%","label":"Poços com Água Doce","sublabel":"42% ligeiramente salobras","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-34%/-36%/-40%","unit":"","label":"Redução Q90 (acumulado)","sublabel":"Modelos CMIP6: Lima Campos, Cachoeira e Manoel Balbino","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"860,48","unit":"L/s","label":"Demanda Outorgada Total","sublabel":"705,29 superficial + 155,19 subterrânea","icon":"droplets","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"394,37","unit":"L/s","label":"Irrigação","sublabel":"45,8% da demanda total","icon":"sprout","severity":"warning"},
+  {"tab":"demanda","view_mode":"atual","order":3,"value":"218,57","unit":"L/s","label":"Abastecimento Humano","sublabel":"25,4% da demanda total","icon":"users","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"237","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento contínuo","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"201","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Eficiência no consumo","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"1.411","unit":"L/s","label":"Oferta Q90 + Subterrânea","sublabel":"Superficial: 606 L/s · Subterrânea: 805 L/s","icon":"water","severity":"warning"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"302","unit":"L/s","label":"Superávit (outorgas)","sublabel":"Demanda atual dentro da oferta","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Superávit","unit":"","label":"Cenário III (desejável)","sublabel":"Eficiência + novas infraestruturas","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"Déficit","unit":"","label":"Cenário II (restritivo)","sublabel":"Redução da oferta + aumento da demanda","icon":"alert-triangle","severity":"critical"}
+]

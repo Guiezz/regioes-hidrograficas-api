@@ -2,7 +2,7 @@
   {
     "number": "1",
     "title": "Identificação",
-    "content": "",
+    "content": "Região Hidrográfica do Crateús",
     "level": 1
   },
   {
@@ -16,38 +16,40 @@
     "title": "Caracterização",
     "content": "A Região Hidrográfica dos Sertões de Crateús localiza-se na porção ocidental do Estado do Ceará, compreendida entre as latitudes 4°36'44''S e 6°07'40''S e as longitudes 40°00'00''W e 41°09'16''W, abrangendo uma área aproximada de 2.600 km². A região apresenta domínios hidrogeológicos distintos, compostos pela Bacia Sedimentar do Maranhão-Piauí e pelo escudo cristalino Pré-Cambriano. Do ponto de vista climático, a região insere-se em clima semiárido quente e tropical de savana, com temperatura média anual de 27,4°C. A umidade relativa média anual é da ordem de 59,5%, enquanto a insolação anual atinge cerca de 2.669 horas, contribuindo para elevadas taxas de evaporação, que alcançam uma média anual de 3.552 mm. A precipitação apresenta variabilidade espacial significativa, com médias anuais oscilando entre 600 mm na porção sul e 1.300 mm nas proximidades da Serra Grande.",
     "level": 2,
-    "image": "/assets/mapa_crateus.png"
+    "image": "/assets/reservatorios/crateus/identificacao/caracterizacao.png"
   },
   {
     "number": "1.3",
     "title": "Resumo da infraestrutura hídrica",
     "content": "A Região Hidrográfica dos Sertões de Crateús dispõe de uma infraestrutura hídrica composta por 10 açudes públicos de características plurianuais sob gestão da Companhia de Gestão dos Recursos Hídricos (COGERH), com capacidade total de acumulação de aproximadamente 436.038.000 m³. Complementam esse sistema 265,20 km de adutoras e 2.140 poços cadastrados, que desempenham papel fundamental no abastecimento humano e no suporte às atividades produtivas da região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/identificacao/resumo_da_infraestrutura_hidrica.png"
   },
   {
     "number": "1.4",
     "title": "Identificação de problemas e desafios",
     "content": "A Região Hidrográfica dos Sertões de Crateús enfrenta desafios críticos relacionados à degradação ambiental, evidenciada pela perda expressiva de vegetação primária e pelo assoreamento do leito dos rios. Um ponto de extrema vulnerabilidade é a gestão de resíduos sólidos, uma vez que nenhum município da região possui destinação final adequada. Além disso, a intensa atividade mineral na área compromete a qualidade do solo e dos recursos hídricos, situação agravada pelo desrespeito à legislação ambiental vigente.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/identificacao/identificacao_de_problemas_e_desafios.png"
   },
   {
     "number": "2",
     "title": "Metodologia dos planos",
     "content": "A elaboração do plano foi realizada a partir de metodologia participativa, envolvendo aplicação de formulários, grupos focais, oficinas e levantamento de dados secundários em diferentes etapas da elaboração do plano.",
     "level": 1,
-    "image": "/assets/reservatorios/crateus/metodologia/metodologia.png"
+    "image": "/assets/reservatorios/crateus/metodologia/metodologia_aplicada.png"
   },
   {
     "number": "2.1",
     "title": "Início da elaboração",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/crateus/inicio_elaboracao/elaboracao.png"
+    "image": "/assets/reservatorios/crateus/metodologia/inicio_da_elaboracao.png"
   },
   {
     "number": "2.1.1",
     "title": "Questionário",
-    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica.",
+    "content": "Levantamento inicial das percepções dos membros dos CBHs sobre os principais usos, problemas hídricos e ambientais, conflitos, aspectos institucionais e gerenciais da Região Hidrográfica. Os questionários foram enviados para todos os representantes do CBHSC, sendo respondidos por 26 de seus representantes – 7 do poder público municipal (27%), 3 do poder público estadual e federal, 6 do setor usuários (23%), e 10 da sociedade civil (38% ).",
     "level": 3
   },
   {
@@ -61,7 +63,7 @@
     "title": "Diagnóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/crateus/diagnostico/diagnostico.png"
+    "image": "/assets/reservatorios/crateus/metodologia/diagnostico.png"
   },
   {
     "number": "2.2.1",
@@ -72,7 +74,7 @@
   {
     "number": "2.2.2",
     "title": "Audiência Pública: Iniciando o Diálogo",
-    "content": "Apresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
+    "content": "Iniciando o Diálogo\nApresentação e discussão do documento Iniciando o Diálogo, elaborado com base em levantamento das etapas anteriores e dados secundários de instituições e/ou documentos oficiais. Dentro da audiência pública foram divididos 4 GTs para realizar discussões sobre os temas: Oferta e demanda hídrica, Eventos extremos (secas e cheias), Questões ambientais e Arranjo institucional.",
     "level": 3
   },
   {
@@ -92,7 +94,7 @@
     "title": "Prognóstico",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/crateus/prognostico/prognostico.png"
+    "image": "/assets/reservatorios/crateus/metodologia/prognostico.png"
   },
   {
     "number": "2.3.1",
@@ -111,7 +113,7 @@
     "title": "Plano de Ação",
     "content": "",
     "level": 2,
-    "image": "/assets/reservatorios/crateus/plano_acao/plano_acao.png"
+    "image": "/assets/reservatorios/crateus/metodologia/plano_de_acao.png"
   },
   {
     "number": "2.4.1",
@@ -122,7 +124,7 @@
   {
     "number": "2.4.2",
     "title": "I Oficina Programas e Ações",
-    "content": "Foi discutido o eixo demanda hídrica. A discussão foi realizada por ação, a qual poderia ser excluída, ter a redação modificada ou ser validada. Novas ações poderiam ainda ser incluídas no programa em debate. Em seguida, os participantes foram convidados a indicar as instituições a serem mobilizadas para a implementação de cada ação.",
+    "content": "Foram discutidos os eixos gerenciamento das águas e ambiental. A atribuição de prioridade foi realizada individualmente por cada participante e enviada posteriormente à equipe, tendo em vista que o tempo da oficina já havia sido excedido.\nIV Oficina Programas e Ações\nRealizada para discutir e validar a priorização das ações da matriz consolidada. Teve como resultado a validação da Matriz de Programas e Ações da RHSC.",
     "level": 3
   },
   {
@@ -134,7 +136,7 @@
   {
     "number": "2.4.4",
     "title": "III Oficina Programas e Ações",
-    "content": "Foram discutidos os eixos gerenciamento das águas e ambiental. A atribuição de prioridade foi realizada individualmente por cada participante e enviada posteriormente à equipe, tendo em vista que o tempo da oficina já havia sido excedido.",
+    "content": "Revisão e aprovação do Plano pelo GT-COGERH e CT e posteriormente discussão em reunião do CBH para avaliar e aprovar.\nINFRAESTRUTURA HÍDRICA\nReservatórios e Açudes\nA região possui 10 açudes públicos de características plurianuais gerenciados pela COGERH, totalizando capacidade de acumulação de 436.038.000 m³. Destes, 3 são classificados como de grande porte (Barra Velha, Flor do Campo e Jaburu II), 2 de médio porte com capacidade entre 10 e 75 milhões de m³ (Carnaubal e Realejo), e os demais de pequeno porte (inferior a 10 milhões de m³). Além disso, a região conta com o reservatório Fronteiras em construção, cuja capacidade de acumulação será de 488.140.000 m³.\nSistemas adutores\nA infraestrutura adutora totaliza 265,20 km de extensão, composta por 26,60 km de adutoras convencionais e 238,60 km de adutoras emergenciais. Adicionalmente, o Estado implementa o Projeto Malha D'Água para suprir fragilidades no abastecimento urbano. Na RHSC, o projeto contempla o Sistema Adutor Fronteiras, atendendo a sete municípios: Ararendá, Crateús, Independência, Ipaporanga, Novo Oriente, Poranga e Quiterianópolis.\nClima e Recursos Hídricos:\nO clima é predominantemente semiárido quente, variando para tropical de savana nas proximidades da Serra Grande. A temperatura média anual é de 27,4°C, com máximas de 36,0°C e mínimas de 20,6°C. A umidade relativa média anual é de 59,5% e a evaporação média atinge 3.552 mm. A precipitação média anual apresenta variabilidade espacial, oscilando entre 600 mm ao sul da região e 1.300 mm nas proximidades da Serra Grande.\nDesafios Ambientais\nA região enfrenta degradação severa em diversos domínios: na Depressão Sertaneja, a biodiversidade encontra-se comprometida com alta expansão da desertificação; nos Maciços Residuais, há escassez de cobertura vegetal primária e exploração agrícola incompatível; no Planalto Sedimentar, observa-se degradação das nascentes; e nas Planícies Fluviais, ocorre a destruição de matas ciliares, erosão, assoreamento e agravamento de inundações. Somam-se a isso problemas com incêndios florestais, destinação inadequada de resíduos sólidos em todos os municípios e precariedade nos sistemas de esgotamento sanitário.\nÁreas protegidas\nA RHSC possui 6 Unidades de Conservação Municipais do tipo Reserva Particular do Patrimônio Natural (RPPN) — sendo 5 em Crateús e 1 em Novo Oriente — e 1 Área de Relevante Interesse Ecológico (ARIE) em Independência. Há previsão para implementação de duas novas unidades de conservação abrangendo os municípios de Quiterianópolis, Novo Oriente, Crateús, Poranga, Ipaporanga, Ararendá e Ipueiras.\nAspectos socioeconômicos:\nDemografia:Foram analisados 10 municípios selecionados por critérios territoriais e de participação no Comitê de Bacia. Observa-se um processo de urbanização similar ao de grandes centros, caracterizado pelo crescimento populacional total, aumento da taxa de urbanização e redução do contingente rural.\nEconômico: A região registrou perda de participação no PIB estadual (queda de 0,45 p.p. entre 2002 e 2018). Crateús detém o maior PIB regional, embora represente apenas 0,44% do PIB do Estado. O setor de serviços é predominante na maioria dos municípios. Na agropecuária, destacam-se Independência, Tamboril e Ipaporanga.\nSocial: Seis municípios apresentam IDHM inferior a 0,599, indicando Baixo Desenvolvimento (Ararendá, Ipaporanga, Ipueiras, Poranga, Quiterianópolis e Tamboril). Os demais situam-se na faixa de Médio Desenvolvimento (0,600 a 0,699). A atividade econômica inclui a Indústria de Transformação (focada em Crateús e Nova Russas), a extração vegetal e a criação de animais, com destaque para os galináceos. A agricultura ocupa cerca de 103.750 hectares com culturas temporárias e 293 hectares com culturas permanentes.\ndeixar eles dentro do balão ainda fica diferente.\nDEMANDA HÍDRICA\nATUAL\nUsos e distribuição\nA demanda hídrica total instalada na região é de 1.314,30 L/s. Na distribuição espacial, o município de Crateús concentra 60,4% da demanda total, seguido por Independência com 11,2%, sendo os 25% restantes partilhados pelos demais municípios. O abastecimento humano apresenta uma demanda estimada de 230,39 L/s, composta por 70% de população urbana e 30% de população rural. A demanda destinada à dessedentação animal totaliza 169 L/s, com o rebanho bovino representando 62% e os caprinos e ovinos 25%, sendo Independência e Crateús os municípios com maiores demandas. A irrigação representa o principal componente, com volume instalado de 915 L/s (lavouras permanentes e temporárias), com destaque para Independência, Ararendá e Crateús como os municípios de maior demanda instalada.\nFUTURA\nO prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de quatro oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região; e na quarta foi realizado o delineamento da história dos cenários da RHSC.\nDemanda humana futura\nA demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as situações prognósticas estabelecidas.\nProjeção Populacional: A projeção populacional foi realizada por meio dos métodos linear, geométrico, polinomial, logarítmico e potência, a partir de dados populacionais obtidos dos censos do IBGE de 1970, 1980, 1991, 2000 e 2010. Com base nesses dados, estimou-se uma taxa média de crescimento populacional para a RHSC, num horizonte de 30 anos, da ordem de 0,69%.\nConsumo per capita da população: Foi adotado o consumo per capita atual (o mesmo preconizado no Projeto Malha D'Água) para o Cenário I. Para os Cenários II e III, adotou-se uma variação de 10% no consumo per capita da população urbana acima de 5.000 habitantes, sendo projetado um aumento para o Cenário II e uma redução para o Cenário III.\nDemanda humana futura (Resultado): Estimou-se uma demanda total de 338,24 L/s para o Cenário I, representando um aumento efetivo de 25,6%. Para o Cenário II, projeta-se uma demanda de 364,05 L/s, correspondendo a um aumento efetivo de 34,6%. Para o Cenário III, estimou-se uma demanda total de 312,43 L/s, representando um aumento efetivo de 17%.\nDemanda instalada futura da irrigação\nA demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. Com base nesses parâmetros e nos critérios definidos para cada cenário, a demanda futura da irrigação foi estimada em 2,60 m³/s no Cenário I, 2,99 m³/s no Cenário II e 3,86 m³/s no Cenário III.\nDemanda instalada futura da pecuária\nPara o cálculo da demanda da pecuária, foram utilizados dados da série histórica da Pesquisa de Pecuária Municipal (PPM) entre os anos de 2000 e 2020. Os resultados estimados indicam para os Cenários I e III uma demanda de 168,83 L/s, mantendo-se igual ao valor apresentado no diagnóstico atual. O Cenário II, que prevê uma redução dos rebanhos, apresenta uma estimativa de 155,07 L/s.\nOFERTA HÍDRICA\nDisponibilidade Hídrica\nATUAL\nOferta hídrica superficial\nQuantitativo: A avaliação quantitativa é realizada com base nas vazões afluentes e em indicadores hidrológicos, como a precipitação média e o escoamento superficial. A precipitação média anual sobre a área de influência dos reservatórios variou de 631,3 mm a 826,2 mm. O coeficiente de escoamento, entendido como o rendimento hidrológico da bacia, oscilou entre 4,5% e 9,3%, valores característicos do semiárido cearense.\nQualitativo: A avaliação qualitativa da água envolve análises físico-químicas, bacteriológicas, de nutrientes e hidrobiológicas, obtidas em campo por meio de sonda multiparâmetro com coletas realizadas a 0,3 m da superfície da água, em campanhas trimestrais nos açudes sob gestão da COGERH. Foram realizadas 326 medições, registrando-se, na sua maioria, o estado mesotrófico. O reservatório Carnaubal foi o único a apresentar condições de trofia aceitáveis em mais da metade das medições. Em contrapartida, os reservatórios Batalhão, Flor do Campo, Colina e Realejo apresentaram condições Eutróficas ou Hipereutróficas em mais de 80% das medições.\nOferta hídrica Subterrânea Atual\nQuantitativo: A avaliação baseou-se na análise do banco de dados do Sistema de Informações de Águas Subterrâneas (Siagas). A região possui 2.140 poços cadastrados, sendo a maioria das captações realizada por poços tubulares (94%). Em termos de distribuição espacial, destacam-se os municípios de Ipaporanga, com 36% dos poços, seguido por Ipueiras (25%) e Ararendá (8%). Quanto à produtividade, 50% dos poços cadastrados possuem vazão estabilizada, totalizando um volume de 1,178 m³/s, enquanto 18% encontram-se na condição de secos, parados ou fechados.\nQualitativo: Para a avaliação qualitativa, utilizaram-se dados da COGERH referentes aos poços monitorados e implantados pela SOHIDRA, tendo como parâmetro os Sólidos Totais Dissolvidos (STD). A região possui 287 poços com dados de qualidade disponíveis. Desses, 57% foram classificados como água doce e 41% como água ligeiramente salobra. Os municípios que apresentaram os melhores níveis de água doce (STD < 1.000 mg/L) foram Novo Oriente, Ipueiras e Ipaporanga.\nFUTURA - Metodologia e Projeções\nA oferta hídrica futura foi estimada por meio do modelo hidrológico SMAP, utilizando como insumo projeções climáticas de precipitação e temperatura provenientes de oito modelos globais do CMIP6 (versão mais recente), avaliados sob o cenário SSP2 com forçante radiativa de 4,5 W/m² (SSP2-4.5). As variáveis climáticas foram previamente submetidas a processos de correção de viés para adequação à escala regional, uma vez que os dados originais são disponibilizados em grade global. De forma geral, os modelos indicam uma tendência de redução das vazões afluentes quando comparadas à média observada. Para o reservatório Jaburu II, as simulações apontaram reduções significativas nas vazões médias afluentes anuais futuras, estimadas em 73% no modelo FGOALS-g3, 56% no MIROC6 e 54% no MRI-ESM2-0.\nBALANÇO HÍDRICO\nCENÁRIO ATUAL\nO balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 1,23 m³/s da oferta superficial. Somada à vazão estimada de águas subterrâneas de 1,177 m³/s, a oferta total da RHSC totaliza 2,42 m³/s. Os reservatórios seriam capazes de suprir, a longo prazo, cerca de 87% da demanda hídrica da região, destacando-se Jaburu II e Barra Velha, que juntos respondem por 52% da oferta hídrica superficial. A demanda foi estimada em 1,41 m³/s, sendo 62% proveniente da irrigação e 22% do abastecimento humano, indicando um superávit hídrico de 1,00 m³/s. Contudo, avaliando o balanço hídrico por município, sem considerar as estruturas de distribuição, Ararendá é o único município que apresenta déficit hídrico.\nCENÁRIO FUTURO\nA disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos MRI-ESM2, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Na RHSC, todos os cenários prospectivos indicam saldo positivo no balanço hídrico, mesmo em cenário de mudanças climáticas. Esse saldo é proveniente majoritariamente da implantação do açude Fronteiras, que tem grande potencial para reduzir a variabilidade hídrica da região frente às secas. O saldo do balanço hídrico futuro foi de 1,15 m³/s para o Cenário I (MIROC6), 0,86 m³/s para o Cenário II (FGOALS-g3) e 1,30 m³/s para o Cenário III (MRI-ESM2-0).",
     "level": 3
   },
   {
@@ -159,7 +161,8 @@
     "number": "3.1",
     "title": "Reservatórios e Açudes",
     "content": "A região possui 10 açudes públicos de características plurianuais gerenciados pela COGERH, totalizando capacidade de acumulação de 436.038.000 m³. Destes, 3 são classificados como de grande porte (Barra Velha, Flor do Campo e Jaburu II), 2 de médio porte com capacidade entre 10 e 75 milhões de m³ (Carnaubal e Realejo), e os demais de pequeno porte (inferior a 10 milhões de m³). Além disso, a região conta com o reservatório Fronteiras em construção, cuja capacidade de acumulação será de 488.140.000 m³.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/infraestrutura/reservatorios_e_acudes.png"
   },
   {
     "number": "3.2",
@@ -171,19 +174,22 @@
     "number": "3.3",
     "title": "Clima e Recursos Hídricos",
     "content": "O clima é predominantemente semiárido quente, variando para tropical de savana nas proximidades da Serra Grande. A temperatura média anual é de 27,4°C, com máximas de 36,0°C e mínimas de 20,6°C. A umidade relativa média anual é de 59,5% e a evaporação média atinge 3.552 mm. A precipitação média anual apresenta variabilidade espacial, oscilando entre 600 mm ao sul da região e 1.300 mm nas proximidades da Serra Grande.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/infraestrutura/clima_e_recursos_hidricos.png"
   },
   {
     "number": "3.4",
     "title": "Desafios Ambientais",
     "content": "A região enfrenta degradação severa em diversos domínios: na Depressão Sertaneja, a biodiversidade encontra-se comprometida com alta expansão da desertificação; nos Maciços Residuais, há escassez de cobertura vegetal primária e exploração agrícola incompatível; no Planalto Sedimentar, observa-se degradação das nascentes; e nas Planícies Fluviais, ocorre a destruição de matas ciliares, erosão, assoreamento e agravamento de inundações. Somam-se a isso problemas com incêndios florestais, destinação inadequada de resíduos sólidos em todos os municípios e precariedade nos sistemas de esgotamento sanitário.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/infraestrutura/desafios_ambientais.png"
   },
   {
     "number": "3.5",
     "title": "Áreas protegidas",
     "content": "A RHSC possui 6 Unidades de Conservação Municipais do tipo Reserva Particular do Patrimônio Natural (RPPN) — sendo 5 em Crateús e 1 em Novo Oriente — e 1 Área de Relevante Interesse Ecológico (ARIE) em Independência. Há previsão para implementação de duas novas unidades de conservação abrangendo os municípios de Quiterianópolis, Novo Oriente, Crateús, Poranga, Ipaporanga, Ararendá e Ipueiras.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/infraestrutura/areas_protegidas.png"
   },
   {
     "number": "3.6",
@@ -213,31 +219,36 @@
     "number": "4",
     "title": "Demandas hídricas, atual e futura",
     "content": "",
-    "level": 1
+    "level": 1,
+    "image": "/assets/reservatorios/crateus/demanda/demanda_hidrica_atual.png"
   },
   {
     "number": "4.1",
     "title": "Atual",
     "content": "A estimativa das demandas hídricas da Região Hidrográfica dos Sertões de Crateús fundamenta-se em três vertentes principais: as demandas oriundas do cadastro de outorga vigente; as demandas calculadas pela Agência Nacional de Águas (ANA) conforme o Manual de Usos Consuntivos da Água; e as demandas calculadas com base em dados secundários, incluindo o Censo Populacional (2010), o Censo Agropecuário (2017), o mapeamento das áreas irrigadas da Funceme e a Pesquisa Agropecuária Municipal (2019). A partir da integração dessas informações, foram identificadas as demandas hídricas atualmente existentes na região.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/demanda/usos_e_distribuicao.png"
   },
   {
     "number": "4.1.1",
     "title": "Usos e Distribuição",
     "content": "A demanda hídrica total instalada na região é de 1.314,30 L/s. Na distribuição espacial, o município de Crateús concentra 60,4% da demanda total, seguido por Independência com 11,2%, sendo os 25% restantes partilhados pelos demais municípios. O abastecimento humano apresenta uma demanda estimada de 230,39 L/s, composta por 70% de população urbana e 30% de população rural. A demanda destinada à dessedentação animal totaliza 169 L/s, com o rebanho bovino representando 62% e os caprinos e ovinos 25%, sendo Independência e Crateús os municípios com maiores demandas. A irrigação representa o principal componente, com volume instalado de 915 L/s (lavouras permanentes e temporárias), com destaque para Independência, Ararendá e Crateús como os municípios de maior demanda instalada.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/demanda/usos_e_distribuicao.png"
   },
   {
     "number": "4.2",
     "title": "Futura",
     "content": "O prognóstico da demanda baseia-se em três cenários prospectivos, elaborados por meio de quatro oficinas realizadas de forma virtual. A primeira focou na definição de variáveis-chave do sistema de recursos hídricos do Ceará; a segunda, na definição das hipóteses de evolução dos parâmetros e na relação de causa e efeito dessas hipóteses; a terceira foi marcada pelo levantamento das sementes de futuro (tendências e incertezas) da região; e na quarta foi realizado o delineamento da história dos cenários da RHSC.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1",
     "title": "Demanda humana futura",
     "content": "A demanda humana futura foi obtida pelo produto da população projetada pelo consumo per capita, seguindo as situações prognósticas estabelecidas.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/demanda/demanda_humana_futura.png"
   },
   {
     "number": "4.2.1.1",
@@ -261,13 +272,15 @@
     "number": "4.2.2",
     "title": "Demanda instalada futura da irrigação",
     "content": "A demanda foi calculada por meio de equação utilizando dados da Funceme (2020), considerando a eficiência aplicada, a área irrigada, a evapotranspiração e o coeficiente de cultura. Com base nesses parâmetros e nos critérios definidos para cada cenário, a demanda futura da irrigação foi estimada em 2,60 m³/s no Cenário I, 2,99 m³/s no Cenário II e 3,86 m³/s no Cenário III.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/demanda/demanda_instalada_futura_da_irrigacao.png"
   },
   {
     "number": "4.2.3",
     "title": "Demanda instalada futura da pecuária",
     "content": "Para o cálculo da demanda da pecuária, foram utilizados dados da série histórica da Pesquisa de Pecuária Municipal (PPM) entre os anos de 2000 e 2020. Os resultados estimados indicam para os Cenários I e III uma demanda de 168,83 L/s, mantendo-se igual ao valor apresentado no diagnóstico atual. O Cenário II, que prevê uma redução dos rebanhos, apresenta uma estimativa de 155,07 L/s.",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/demanda/demanda_instalada_futura_da_pecuaria.png"
   },
   {
     "number": "5",
@@ -279,13 +292,15 @@
     "number": "5.1",
     "title": "Atual",
     "content": "A oferta hídrica considera as águas superficiais e subterrâneas quanto aos aspectos quantitativos e qualitativos.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/oferta/disponibilidade_hidrica_atual.png"
   },
   {
     "number": "5.1.1",
     "title": "Oferta hídrica superficial",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/oferta/oferta_hidrica_superficial.png"
   },
   {
     "number": "5.1.1.1",
@@ -303,7 +318,8 @@
     "number": "5.1.2",
     "title": "Oferta hídrica Subterrânea Atual",
     "content": "",
-    "level": 3
+    "level": 3,
+    "image": "/assets/reservatorios/crateus/oferta/oferta_hidrica_subterranea_atual.png"
   },
   {
     "number": "5.1.2.1",
@@ -321,7 +337,8 @@
     "number": "5.2",
     "title": "Futura",
     "content": "",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/oferta/futura_metodologia_e_projecoes.png"
   },
   {
     "number": "5.2.1",
@@ -339,12 +356,14 @@
     "number": "6.1",
     "title": "Atual",
     "content": "O balanço hídrico atual é representado pela vazão regularizada com garantia de 90%, ou seja, em 9 de cada 10 anos é possível retirar a vazão de 1,23 m³/s da oferta superficial. Somada à vazão estimada de águas subterrâneas de 1,177 m³/s, a oferta total da RHSC totaliza 2,42 m³/s. Os reservatórios seriam capazes de suprir, a longo prazo, cerca de 87% da demanda hídrica da região, destacando-se Jaburu II e Barra Velha, que juntos respondem por 52% da oferta hídrica superficial. A demanda foi estimada em 1,41 m³/s, sendo 62% proveniente da irrigação e 22% do abastecimento humano, indicando um superávit hídrico de 1,00 m³/s. Contudo, avaliando o balanço hídrico por município, sem considerar as estruturas de distribuição, Ararendá é o único município que apresenta déficit hídrico.",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/balanco/cenario_atual.png"
   },
   {
     "number": "6.2",
     "title": "Futura",
     "content": "A disponibilidade hídrica futura foi representada pela vazão regularizada com 90% de garantia (Q90), calculada com base nas vazões afluentes futuras dos modelos MRI-ESM2, FGOALS-g3 e MIROC6. A utilização dos modelos impôs, nos três cenários, que as mudanças climáticas podem ocorrer em qualquer futuro e gerarão efeitos sobre a severidade e duração dos eventos extremos. Na RHSC, todos os cenários prospectivos indicam saldo positivo no balanço hídrico, mesmo em cenário de mudanças climáticas. Esse saldo é proveniente majoritariamente da implantação do açude Fronteiras, que tem grande potencial para reduzir a variabilidade hídrica da região frente às secas. O saldo do balanço hídrico futuro foi de 1,15 m³/s para o Cenário I (MIROC6), 0,86 m³/s para o Cenário II (FGOALS-g3) e 1,30 m³/s para o Cenário III (MRI-ESM2-0).",
-    "level": 2
+    "level": 2,
+    "image": "/assets/reservatorios/crateus/balanco/cenario_futuro.png"
   }
 ]

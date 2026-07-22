@@ -1,0 +1,27 @@
+[
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"4","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 28.277.107 m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"1.505","unit":"","label":"Poços Cadastrados","sublabel":"Principal fonte de abastecimento","icon":"well","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"0","unit":"","label":"Adutoras Convencionais","sublabel":"Sistemas isolados por gravidade","icon":"pipe","severity":"warning"},
+
+  {"tab":"infraestrutura","view_mode":"futuro","order":1,"value":"2","unit":"","label":"Novos Reservatórios","sublabel":"São Miguel II (99,23M m³) · Jaburu III","icon":"construction","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"futuro","order":2,"value":"3","unit":"","label":"Sistemas Malha d'Água","sublabel":"São Miguel II · Carnaubal/São Benedito · Mucambinho","icon":"pipe","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"atual","order":1,"value":"6,26","unit":"hm³/ano","label":"Vazão Afluente (São Miguel)","sublabel":"24,57% regularizado · 38,97% evaporado","icon":"water","severity":"warning"},
+  {"tab":"oferta","view_mode":"atual","order":2,"value":"344","unit":"","label":"Medições de Qualidade","sublabel":"Predomínio mesotrófico","icon":"test-tube","severity":"positive"},
+  {"tab":"oferta","view_mode":"atual","order":3,"value":"58","unit":"%","label":"Poços com Água Doce","sublabel":"42% ligeiramente salobras","icon":"check","severity":"positive"},
+
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-43%/-63%","unit":"","label":"Redução Q90 São Miguel","sublabel":"Modelos CMIP6 (63% no pior cenário)","icon":"trending-down","severity":"critical"},
+
+  {"tab":"demanda","view_mode":"atual","order":1,"value":"355,16","unit":"L/s","label":"Demanda Outorgada Total","sublabel":"273,90 superficial + 81,26 subterrânea","icon":"droplets","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":2,"value":"252,79","unit":"L/s","label":"Abastecimento Humano","sublabel":"71% da demanda total","icon":"users","severity":"positive"},
+  {"tab":"demanda","view_mode":"atual","order":3,"value":"128,58","unit":"L/s","label":"Dessedentação Animal","sublabel":"Segundo maior uso","icon":"cow","severity":"positive"},
+
+  {"tab":"demanda","view_mode":"futuro","order":1,"value":"341","unit":"L/s","label":"Demanda Humana 2050 (Cen. II)","sublabel":"Crescimento de 20% em 30 anos","icon":"users","severity":"warning"},
+  {"tab":"demanda","view_mode":"futuro","order":2,"value":"290","unit":"L/s","label":"Demanda Humana 2050 (Cen. III)","sublabel":"Eficiência no consumo humano","icon":"users","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"atual","order":1,"value":"1.154","unit":"L/s","label":"Oferta Superficial (Q90)","sublabel":"+ 495 L/s subterrânea potável","icon":"water","severity":"positive"},
+  {"tab":"balanco","view_mode":"atual","order":2,"value":"Superávit","unit":"","label":"Situação Atual","sublabel":"Demanda abaixo da oferta regularizada","icon":"trending-up","severity":"positive"},
+
+  {"tab":"balanco","view_mode":"futuro","order":1,"value":"Superávit","unit":"","label":"Cenários I e III","sublabel":"Cenário I (desejável) e III (sustentável) com saldo positivo","icon":"trending-up","severity":"positive"},
+  {"tab":"balanco","view_mode":"futuro","order":2,"value":"Déficit","unit":"","label":"Cenário II (restritivo)","sublabel":"Menor disponibilidade hídrica futura","icon":"alert-triangle","severity":"critical"}
+]
