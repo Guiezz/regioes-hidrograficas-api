@@ -18,6 +18,7 @@ func RegisterRoutes(r *gin.Engine, db *gorm.DB) {
 	contentHandler := handler.NewContentHandler(db)
 	actionHandler := handler.NewActionHandler(db)
 	financeiroHandler := handler.NewFinanceiroHandler(db)
+	kpiHandler := handler.NewKPIHandler(db)
 
 	// Rota da Documentação
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
@@ -33,6 +34,7 @@ func RegisterRoutes(r *gin.Engine, db *gorm.DB) {
 		api.GET("/dashboard/consolidated", dashboardHandler.GetConsolidated)
 		api.GET("/actions", actionHandler.GetActions)
 		api.GET("/actions/filters", actionHandler.GetFilters)
+		api.GET("/kpis", kpiHandler.GetKPIs)
 		financeiro := api.Group("/financeiro")
 		{
 			financeiro.GET("/custos", financeiroHandler.GetCustos)

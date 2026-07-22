@@ -34,6 +34,7 @@ func Init(cfg config.Config) *gorm.DB {
 		&model.EixoAcao{},      // Nova tabela de eixos (substitui model.Cost antigo)
 		&model.PeriodoAcao{},   // Nova tabela de períodos (2021-2025, etc)
 		&model.CustoVariavel{}, // Nova tabela de métricas unitárias
+		&model.BasinKPI{},      // KPIs estruturados por bacia
 	)
 	if err != nil {
 		log.Fatalf("❌ Falha ao realizar migração automática: %v", err)

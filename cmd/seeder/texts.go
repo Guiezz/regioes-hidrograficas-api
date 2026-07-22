@@ -46,6 +46,7 @@ func seedSections(db *gorm.DB, basin model.Basin, folderPath string) {
 			exists.Title = s.Title
 			exists.Content = s.Content
 			exists.Level = s.Level
+			exists.Image = s.Image
 			db.Save(&exists)
 		} else {
 			db.Create(&s)

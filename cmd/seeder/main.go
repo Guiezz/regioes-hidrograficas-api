@@ -52,6 +52,7 @@ func main() {
 		&model.EixoAcao{},
 		&model.PeriodoAcao{},
 		&model.CustoVariavel{},
+		&model.BasinKPI{},
 	)
 	if err != nil {
 		log.Printf("⚠️ (Info) Drop Table: %v", err)
@@ -72,6 +73,7 @@ func main() {
 		&model.EixoAcao{},
 		&model.PeriodoAcao{},
 		&model.CustoVariavel{},
+		&model.BasinKPI{},
 	)
 	if err != nil {
 		log.Fatalf("❌ Erro no AutoMigrate: %v", err)
@@ -93,6 +95,7 @@ func main() {
 		seedSections(database, bacia, folderPath)
 		seedMonitoring(database, bacia, folderPath)
 		seedPlanoFinanceiro(database, bacia, folderPath)
+		seedKPIs(database, bacia, folderPath)
 	}
 	fmt.Println("\n🚀 SEED COMPLETO PARA TODAS AS BACIAS!")
 }
