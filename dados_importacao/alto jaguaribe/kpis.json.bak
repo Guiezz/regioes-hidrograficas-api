@@ -1,5 +1,5 @@
 [
-  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"25","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de ~2,77 bilhões m³","icon":"dam","severity":"positive"},
+  {"tab":"infraestrutura","view_mode":"atual","order":1,"value":"25","unit":"","label":"Açudes Públicos","sublabel":"Capacidade de 2.765.668.616 m³","icon":"dam","severity":"positive"},
   {"tab":"infraestrutura","view_mode":"atual","order":2,"value":"3.471","unit":"","label":"Poços Cadastrados","sublabel":"10,91% do total estadual","icon":"well","severity":"positive"},
   {"tab":"infraestrutura","view_mode":"atual","order":3,"value":"8","unit":"","label":"Adutoras Convencionais","sublabel":"Destaque: Campos Sales-Salitre-Araripe (103 km)","icon":"pipe","severity":"positive"},
   {"tab":"infraestrutura","view_mode":"atual","order":4,"value":"800","unit":"mm","label":"Precipitação Média Anual","sublabel":"Evaporação: ~2.000 mm/ano","icon":"droplets","severity":"positive"},
@@ -11,8 +11,8 @@
   {"tab":"oferta","view_mode":"atual","order":2,"value":"57","unit":"%","label":"Poços com Água Doce","sublabel":"42% ligeiramente salobras","icon":"check","severity":"positive"},
   {"tab":"oferta","view_mode":"atual","order":3,"value":"198","unit":"","label":"Medições de Qualidade","sublabel":"58% eutrófico · 16% mesotrófico","icon":"test-tube","severity":"warning"},
 
-  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-69","unit":"%","label":"Redução Orós (pior modelo)","sublabel":"CanESM5, SSP5-8.5 — cenário mais severo","icon":"trending-down","severity":"critical"},
-  {"tab":"oferta","view_mode":"futuro","order":2,"value":"-55","unit":"%","label":"Redução Orós (melhor modelo)","sublabel":"IPSL-CM6A-LR, SSP2-4.5 — cenário menos agressivo","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":1,"value":"-55","unit":"%","label":"Redução Orós (pior modelo)","sublabel":"Vazões afluentes futuras: 55% a 69%","icon":"trending-down","severity":"critical"},
+  {"tab":"oferta","view_mode":"futuro","order":2,"value":"-69","unit":"%","label":"Redução Orós (melhor modelo)","sublabel":"Todos os modelos projetam aumento de temperatura","icon":"trending-down","severity":"critical"},
 
   {"tab":"demanda","view_mode":"atual","order":1,"value":"2.529","unit":"L/s","label":"Irrigação","sublabel":"Maior consumo da região","icon":"sprout","severity":"warning"},
   {"tab":"demanda","view_mode":"atual","order":2,"value":"590","unit":"L/s","label":"Abastecimento Humano","sublabel":"População urbana e rural","icon":"users","severity":"positive"},
