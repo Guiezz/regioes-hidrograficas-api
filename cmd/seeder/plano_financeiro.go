@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"path/filepath"
+	"strings"
 
 	"github.com/guiezz/regioes-hidrograficas-api/internal/domain/model"
 	"gorm.io/gorm"
@@ -82,17 +83,30 @@ func importarMatrizJSON(db *gorm.DB, basinID uint, folderPath string) {
 		return
 	}
 
+	// Reimportação idempotente: limpa a matriz da bacia antes de inserir.
+	db.Where("basin_id = ?", basinID).Delete(&model.ActionMatrix{})
+
+	importadas, ignoradas := 0, 0
 	for _, item := range rawData {
-		m := model.ActionMatrix{
-			BasinID:          basinID,
-			TipoMatriz:       item.Matriz,
-			SolicitacoesCBH:  item.Solicitacao,
-			AcoesEspecificas: item.AcoesEspecificas,
-			Programa:         item.Programa,
-			Instituicoes:     item.Instituicoes,
-			Prioridade:       item.Prioridade,
+		if strings.TrimSpace(item.AcoesEspecificas) == "" {
+			ignoradas++
+			continue
 		}
-		db.Where("programa = ? AND acoes_especificas = ? AND basin_id = ?", m.Programa, m.AcoesEspecificas, basinID).FirstOrCreate(&m)
+		m := model.ActionMatrix{
+			BasinID:            basinID,
+			TipoMatriz:         normalizeEixoMatriz(item.Matriz),
+			TipoMatrizOriginal: item.Matriz,
+			SolicitacoesCBH:    item.Solicitacao,
+			AcoesEspecificas:   item.AcoesEspecificas,
+			Programa:           item.Programa,
+			Instituicoes:       item.Instituicoes,
+			Prioridade:         normalizePrioridade(item.Prioridade),
+		}
+		if err := db.Create(&m).Error; err != nil {
+			log.Printf("❌ Erro ao salvar linha da matriz: %v", err)
+			continue
+		}
+		importadas++
 	}
-	fmt.Printf("✅ [Financeiro] %d ações da matriz processadas.\n", len(rawData))
+	fmt.Printf("✅ [Financeiro] %d de %d linhas da matriz importadas (%d sem ação específica ignoradas)\n", importadas, len(rawData), ignoradas)
 }
