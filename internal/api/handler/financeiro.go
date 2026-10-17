@@ -72,7 +72,7 @@ func (h *FinanceiroHandler) GetMatriz(c *gin.Context) {
 		query = query.Where("basin_id = ?", basinID)
 	}
 
-	if err := query.Find(&matriz).Error; err != nil {
+	if err := query.Order("id ASC").Find(&matriz).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Erro ao buscar matriz de ações"})
 		return
 	}

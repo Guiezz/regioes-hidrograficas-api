@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"path/filepath"
+	"strings"
 
 	"github.com/guiezz/regioes-hidrograficas-api/internal/domain/model"
 	"gorm.io/gorm"
@@ -82,17 +83,39 @@ func importarMatrizJSON(db *gorm.DB, basinID uint, folderPath string) {
 		return
 	}
 
-	for _, item := range rawData {
-		m := model.ActionMatrix{
-			BasinID:          basinID,
-			TipoMatriz:       item.Matriz,
-			SolicitacoesCBH:  item.Solicitacao,
-			AcoesEspecificas: item.AcoesEspecificas,
-			Programa:         item.Programa,
-			Instituicoes:     item.Instituicoes,
-			Prioridade:       item.Prioridade,
+	importadas, ignoradas := 0, 0
+	// Delete + inserts na mesma transação: reimportação idempotente e atômica.
+	// Em Postgres um erro de linha aborta a transação, então ele também faz rollback.
+	err = db.Transaction(func(tx *gorm.DB) error {
+		importadas, ignoradas = 0, 0
+		if err := tx.Where("basin_id = ?", basinID).Delete(&model.ActionMatrix{}).Error; err != nil {
+			return err
 		}
-		db.Where("programa = ? AND acoes_especificas = ? AND basin_id = ?", m.Programa, m.AcoesEspecificas, basinID).FirstOrCreate(&m)
+		for _, item := range rawData {
+			if strings.TrimSpace(item.AcoesEspecificas) == "" {
+				ignoradas++
+				continue
+			}
+			m := model.ActionMatrix{
+				BasinID:            basinID,
+				TipoMatriz:         normalizeEixoMatriz(item.Matriz),
+				TipoMatrizOriginal: item.Matriz,
+				SolicitacoesCBH:    item.Solicitacao,
+				AcoesEspecificas:   item.AcoesEspecificas,
+				Programa:           item.Programa,
+				Instituicoes:       item.Instituicoes,
+				Prioridade:         normalizePrioridade(item.Prioridade),
+			}
+			if err := tx.Create(&m).Error; err != nil {
+				return err
+			}
+			importadas++
+		}
+		return nil
+	})
+	if err != nil {
+		log.Printf("❌ Erro ao importar matriz (nada foi alterado para a bacia %d): %v", basinID, err)
+		return
 	}
-	fmt.Printf("✅ [Financeiro] %d ações da matriz processadas.\n", len(rawData))
+	fmt.Printf("✅ [Financeiro] %d de %d linhas da matriz importadas (%d sem ação específica ignoradas)\n", importadas, len(rawData), ignoradas)
 }

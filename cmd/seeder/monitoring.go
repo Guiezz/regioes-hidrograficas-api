@@ -72,7 +72,8 @@ func seedMonitoring(db *gorm.DB, basin model.Basin, folderPath string) {
 		colFonte := safeGet(row, 5)
 		colOrcamento := safeGet(row, 6)
 		colCronograma := safeGet(row, 7)
-		colMetrica := parseFloat(safeGet(row, 8))
+		rawMetrica := safeGet(row, 8)
+		colMetrica := parseFloat(rawMetrica)
 
 		// Tratamento
 		tipologiaNormalizada := normalizeTipologia(colTipologia)
@@ -129,6 +130,11 @@ func seedMonitoring(db *gorm.DB, basin model.Basin, folderPath string) {
 			} else {
 				typologyMap[tipologiaNormalizada] = &statsTemp{Count: 1, SumPotential: ieaPotencial}
 			}
+		}
+
+		// Sem métrica na planilha, não há medição (evita Monitoramento com falsa aparência de medido)
+		if !hasMetric(rawMetrica) {
+			continue
 		}
 
 		// Cria a Medição (Sem IEARelativo por enquanto)
