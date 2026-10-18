@@ -39,6 +39,9 @@ jobs:
       - name: Testes do script de deploy
         run: .github/scripts/render-deploy.test.sh
 
+      - name: Testes do guard do seed
+        run: .github/scripts/seed-guard.test.sh
+
   docker:
     name: Docker build
     runs-on: ubuntu-latest
