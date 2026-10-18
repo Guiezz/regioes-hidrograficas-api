@@ -15,8 +15,9 @@ cleanup() {
 trap cleanup EXIT
 
 TEST_KEY="rnd_chave-de-teste-nao-pode-vazar"
-TEST_SERVICE="srv-test"
-TEST_SHA="abc123def456"
+# Sem "abc" no SHA: o cenário service_id_invalido exige que "abc" não apareça no stderr.
+TEST_SERVICE="srv-abc123"
+TEST_SHA="0123456789def"
 
 cat > "$TMP/mock.py" <<'PY'
 import json, os, sys
@@ -66,7 +67,11 @@ class H(BaseHTTPRequestHandler):
         if self.path == f"/services/{service}/deploys/dep-test":
             if not self.authorized():
                 return self.send(401, {"message": "unauthorized"})
-            return self.send(200, {"id": "dep-test", "status": next_of(statuses)})
+            st = next_of(statuses)
+            # Um item [código, corpo] simula uma resposta transitória do Render.
+            if isinstance(st, list):
+                return self.send(st[0], st[1])
+            return self.send(200, {"id": "dep-test", "status": st})
         self.send(404, {"message": "not found"})
 
 srv = HTTPServer(("127.0.0.1", 0), H)
@@ -96,6 +101,7 @@ stop_mock() {
 FAILED=0
 
 # run_case <nome> <config-json> <exit esperado> <texto esperado no stderr ou ""> [VAR=valor ...]
+# FORBID_ERR=<texto> antes da chamada exige que o texto NÃO apareça no stderr.
 run_case() {
   local name="$1" config="$2" want_exit="$3" want_err="$4"
   shift 4
@@ -115,6 +121,12 @@ run_case() {
   fi
   if grep -q -- "$TEST_KEY" "$TMP/out" "$TMP/err" "$TMP/summary"; then
     why="${why:+$why; }a chave da API vazou na saída"
+  fi
+  if grep -q -- "$TEST_SERVICE" "$TMP/out" "$TMP/err" "$TMP/summary"; then
+    why="${why:+$why; }o service ID vazou na saída"
+  fi
+  if [[ -n "${FORBID_ERR:-}" ]] && grep -q -- "$FORBID_ERR" "$TMP/err"; then
+    why="${why:+$why; }stderr contém '$FORBID_ERR'"
   fi
   if [[ "$got_exit" == 0 ]] && ! grep -q "dep-test" "$TMP/summary"; then
     why="${why:+$why; }GITHUB_STEP_SUMMARY sem o id do deploy"
@@ -152,5 +164,26 @@ run_case fumaca_vazia \
 run_case timeout \
   '{"statuses":["build_in_progress"]}' \
   1 "timeout" DEPLOY_TIMEOUT=1
+
+run_case service_id_url \
+  '{"statuses":["live"]}' \
+  0 "" RENDER_SERVICE_ID="https://dashboard.render.com/web/srv-abc123/settings"
+
+run_case service_id_espacos \
+  '{"statuses":["live"]}' \
+  0 "" RENDER_SERVICE_ID=" srv-abc123
+"
+
+FORBID_ERR=abc run_case service_id_invalido \
+  '{"statuses":["live"]}' \
+  1 "RENDER_SERVICE_ID inválido" RENDER_SERVICE_ID="abc"
+
+run_case poll_transitorio \
+  '{"statuses":[[502,"bad gateway"],[502,"bad gateway"],"build_in_progress","live"]}' \
+  0 ""
+
+run_case poll_persistente \
+  '{"statuses":[[502,"bad gateway"],[502,"bad gateway"],[502,"bad gateway"],[502,"bad gateway"],"live"]}' \
+  1 "HTTP 502"
 
 exit "$FAILED"

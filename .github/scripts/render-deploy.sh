@@ -3,6 +3,8 @@
 # roda o teste de fumaça em SMOKE_URL.
 #
 # Obrigatórias: RENDER_API_KEY, RENDER_SERVICE_ID, COMMIT_SHA, SMOKE_URL.
+# RENDER_SERVICE_ID aceita espaços/quebras de linha e a URL do painel do
+# Render: vale o primeiro trecho srv-... encontrado.
 # Opcionais: RENDER_API_BASE (https://api.render.com/v1), POLL_INTERVAL (15),
 #            DEPLOY_TIMEOUT (1200), SMOKE_TIMEOUT (300), GITHUB_STEP_SUMMARY.
 # Exit 0 = deploy live + fumaça ok; exit 1 = qualquer falha.
@@ -47,6 +49,16 @@ finish() {
 }
 trap finish EXIT
 
+# Normaliza o service ID sem nunca imprimir o valor nem o ID extraído.
+service_id_raw="${RENDER_SERVICE_ID//[[:space:]]/}"
+if [[ "$service_id_raw" =~ srv-[a-z0-9]+ ]]; then
+  RENDER_SERVICE_ID="${BASH_REMATCH[0]}"
+else
+  DEPLOY_STATUS="RENDER_SERVICE_ID inválido"
+  err "RENDER_SERVICE_ID inválido: esperado srv-... (valor com ${#RENDER_SERVICE_ID} caracteres)"
+  exit 1
+fi
+
 # render_api <método> <caminho> [corpo]: grava o corpo da resposta em
 # $TMP/body e imprime o código HTTP. A chave só vai no header, nunca na saída.
 render_api() {
@@ -73,33 +85,43 @@ if ! DEPLOY_ID="$(jq -er '.id' "$TMP/body" 2>/dev/null)"; then
 fi
 info "Deploy criado: $DEPLOY_ID"
 
-# 2. Acompanha até live, falha ou timeout.
+# 2. Acompanha até live, falha ou timeout. Até MAX_TRANSIENT respostas
+# transitórias seguidas (curl falhou, 429/5xx, corpo sem .status) são toleradas;
+# o contador zera a cada resposta válida.
+MAX_TRANSIENT=3
 start=$SECONDS
 last=""
+transient=0
 while true; do
   code="$(render_api GET "/services/$RENDER_SERVICE_ID/deploys/$DEPLOY_ID")"
-  if ! status="$(jq -er '.status' "$TMP/body" 2>/dev/null)"; then
-    DEPLOY_STATUS="resposta inesperada (HTTP $code)"
-    err "resposta inesperada do Render ao consultar o deploy $DEPLOY_ID (HTTP $code):"
-    cat "$TMP/body" >&2 2>/dev/null || true
-    echo >&2
-    exit 1
-  fi
-  DEPLOY_STATUS="$status"
-  if [[ "$status" != "$last" ]]; then
-    info "Status do deploy: $status"
-    last="$status"
-  fi
-  case "$status" in
-    live) break ;;
-    build_failed | update_failed | canceled | deactivated | pre_deploy_failed)
-      err "deploy $DEPLOY_ID terminou com status $status"
+  if [[ "$code" == "200" ]] && status="$(jq -er '.status' "$TMP/body" 2>/dev/null)"; then
+    transient=0
+    DEPLOY_STATUS="$status"
+    if [[ "$status" != "$last" ]]; then
+      info "Status do deploy: $status"
+      last="$status"
+    fi
+    case "$status" in
+      live) break ;;
+      build_failed | update_failed | canceled | deactivated | pre_deploy_failed)
+        err "deploy $DEPLOY_ID terminou com status $status"
+        exit 1
+        ;;
+    esac
+  else
+    transient=$((transient + 1))
+    if (( transient > MAX_TRANSIENT )); then
+      DEPLOY_STATUS="resposta inesperada (HTTP $code)"
+      err "resposta inesperada do Render ao consultar o deploy $DEPLOY_ID (HTTP $code), $transient vezes seguidas:"
+      cat "$TMP/body" >&2 2>/dev/null || true
+      echo >&2
       exit 1
-      ;;
-  esac
+    fi
+    info "Resposta transitória do Render (HTTP $code), tolerada $transient de $MAX_TRANSIENT; tentando de novo..."
+  fi
   if (( SECONDS - start >= DEPLOY_TIMEOUT )); then
-    DEPLOY_STATUS="timeout ($status)"
-    err "timeout: deploy $DEPLOY_ID não ficou live em ${DEPLOY_TIMEOUT}s (último status: $status)"
+    DEPLOY_STATUS="timeout (${last:-sem status})"
+    err "timeout: deploy $DEPLOY_ID não ficou live em ${DEPLOY_TIMEOUT}s (último status: ${last:-sem status})"
     exit 1
   fi
   sleep "$POLL_INTERVAL"
