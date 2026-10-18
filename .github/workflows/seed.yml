@@ -1,0 +1,75 @@
+name: Seed (produção)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmacao:
+        description: Digite SEED para APAGAR e recriar todas as tabelas do banco de produção
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  seed:
+    name: Seed do banco de produção (Neon)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+    concurrency:
+      group: seed-production
+      cancel-in-progress: false
+    steps:
+      # O guard está no repositório, então o checkout vem antes; nenhum passo
+      # toca no banco até a confirmação passar.
+      - uses: actions/checkout@v4
+
+      - name: Confirmação
+        env:
+          CONFIRMACAO: ${{ inputs.confirmacao }}
+        run: .github/scripts/seed-guard.sh confirm "$CONFIRMACAO"
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Rodar o seeder
+        id: seeder
+        env:
+          DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          set -o pipefail
+          go run ./cmd/seeder 2>&1 | tee seed.log
+
+      - name: Checar erros no log do seeder
+        run: .github/scripts/seed-guard.sh check-log seed.log
+
+      # Roda mesmo se o seeder falhar, mas nunca se ele não chegou a rodar
+      # (ex.: confirmação inválida), para não acessar o banco à toa.
+      - name: Contagem de linhas por tabela
+        if: always() && steps.seeder.outcome != 'skipped'
+        env:
+          DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          set -o pipefail
+          if ! command -v psql >/dev/null; then
+            sudo apt-get update -q && sudo apt-get install -y -q postgresql-client
+          fi
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -At -F '|' > counts.txt <<'SQL'
+          SELECT format('SELECT %L, count(*) FROM public.%I', table_name, table_name)
+          FROM information_schema.tables
+          WHERE table_schema = 'public' AND table_type = 'BASE TABLE'
+          ORDER BY table_name
+          \gexec
+          SQL
+          {
+            echo "### Banco de produção após o seed"
+            echo ""
+            echo "| Tabela | Linhas |"
+            echo "|---|---|"
+            while IFS='|' read -r tabela linhas; do
+              echo "| $tabela | $linhas |"
+            done < counts.txt
+          } >> "$GITHUB_STEP_SUMMARY"
