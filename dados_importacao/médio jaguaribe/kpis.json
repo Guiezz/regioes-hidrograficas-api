@@ -6,7 +6,7 @@
     "value": "11",
     "unit": "",
     "label": "Açudes Públicos",
-    "sublabel": "Capacidade de 435.089.786 m³",
+    "sublabel": "Capacidade de 7.373.990.000 m³",
     "icon": "dam",
     "severity": "positive"
   },
@@ -25,7 +25,7 @@
     "tab": "infraestrutura",
     "view_mode": "atual",
     "order": 3,
-    "value": "9",
+    "value": "10",
     "unit": "",
     "label": "Adutoras Convencionais",
     "sublabel": "104,6 km de extensão",
