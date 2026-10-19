@@ -35,10 +35,20 @@ jobs:
           go-version-file: go.mod
           cache: true
 
+      # O secret pode vir com quebra de linha, espaços ou aspas nas pontas.
+      # O valor limpo é mascarado antes de ir para o GITHUB_ENV, e o seeder e
+      # a contagem usam esse DATABASE_URL.
+      - name: Normalizar a URL do banco
+        env:
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          url="$(printf '%s' "$NEON_DATABASE_URL" | .github/scripts/seed-guard.sh clean-url)"
+          echo "::add-mask::$url"
+          echo "DATABASE_URL=$url" >> "$GITHUB_ENV"
+
       - name: Rodar o seeder
         id: seeder
-        env:
-          DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
         run: |
           set -o pipefail
           go run ./cmd/seeder 2>&1 | tee seed.log
@@ -50,8 +60,6 @@ jobs:
       # (ex.: confirmação inválida), para não acessar o banco à toa.
       - name: Contagem de linhas por tabela
         if: always() && steps.seeder.outcome != 'skipped'
-        env:
-          DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
         run: |
           set -o pipefail
           if ! command -v psql >/dev/null; then
